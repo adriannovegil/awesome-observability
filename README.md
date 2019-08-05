@@ -123,7 +123,11 @@ Tools for databases
  * [LibreNMS](https://github.com/librenms/librenms/) - fork of Observium.
  * [Munin](http://munin-monitoring.org/) - Networked resource monitoring tool.
 
-# Operating System
+## Operating System
 
  * [Dash](https://github.com/afaqurk/linux-dash) - A low-overhead monitoring web dashboard for a GNU/Linux machine.
  * [Monit](http://mmonit.com/monit/#home) - Small Open Source utility for managing and monitoring Unix systems.
+
+## References
+ * https://github.com/crazy-canux/awesome-monitoring
+ * https://github.com/Enapiuz/awesome-monitoring
