@@ -17,7 +17,6 @@ A list of awesome tools, services and other shiny things for monitoring and anal
  * [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring
  * [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system.
  * [PinPoint](https://github.com/naver/pinpoint) - Open source APM tool for large-scale distributed systems written in java.
- * [inspectIT](https://www.inspectit.rocks/) - A zero-configuration Java agent for collecting performance, tracing and business data from your application.
 
 ### Combined Solutions
 
@@ -27,16 +26,18 @@ Modern Monitoring tools for devops, container, serverless
 
 Collect and transport, metrics and events.
 
+* [OpenCensus](https://opencensus.io/) - OpenCensus is a set of libraries for various languages that allow you to collect application metrics and distributed traces, then transfer the data to a backend of your choice in real time.
+* [Opentracing](https://opentracing.io/) - Vendor-neutral APIs and instrumentation for distributed tracing
+* [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
+* [Micrometer](https://micrometer.io/) - Micrometer provides a simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.
+* [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
 * [telegraf github](https://github.com/influxdata/telegraf) - TICK stack, The plugin-driven server agent for collecting & reporting metrics.
 * [node-exporter github](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
 * [beats github](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack
 * [logstash github](https://github.com/elastic/logstash) - Transport and process your logs, events, or other data, Elastic stack.
 * [collectd](http://collectd.org/) - The system statistics collection daemon.
-* [collectd github](https://github.com/collectd/collectd) - collectd written in C.
 * [tcollector github](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB
 * [falcon-plus github](https://github.com/open-falcon/falcon-plus) - An open-source and enterprise-level monitoring system.
-* [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
-* [inspectIT Ocelot github](https://github.com/inspectIT/inspectit-ocelot) - inspectIT Ocelot source code.
 
 #### Storage
 
