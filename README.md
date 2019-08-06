@@ -84,6 +84,8 @@ Collect and transport, metrics and events.
 ## Logging
 
  * [Brubeck](https://github.com/github/brubeck) - Statsd-compatible stats aggregator written in C
+ * [Loki](https://grafana.com/oss/loki) - Prometheus-inspired logging for cloud natives
+ * [Graylog](https://www.graylog.org/) - Simply great centralized log management
 
 ## Uptime
 
