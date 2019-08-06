@@ -42,6 +42,8 @@ Collect and transport, metrics and events.
 #### Processing
 
  * [Logstash](https://www.elastic.co/es/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash."
+ * [Fluentd](https://www.fluentd.org/) - Fluentd is an open source data collector for unified logging layer.
+
 
 #### Storage
 
