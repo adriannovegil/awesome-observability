@@ -39,6 +39,30 @@ Collect and transport, metrics and events.
 * [tcollector github](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB
 * [falcon-plus github](https://github.com/open-falcon/falcon-plus) - An open-source and enterprise-level monitoring system.
 
+#### Messaging
+
+* [ØMQ](http://zeromq.org/) - Brokerless intelligent transport layer.
+* [ActiveMQ](http://activemq.apache.org/) - Powerful open source messaging and integration patterns server.
+* [Aeron](https://github.com/real-logic/Aeron) - Efficient reliable UDP unicast, UDP multicast, and IPC message transport.
+* [Apollo](http://activemq.apache.org/apollo/) - Faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ.
+* [Ascoltatori](https://github.com/mcollina/ascoltatori) - Pub/sub library for Node.
+* [Beanstalk](http://kr.github.io/beanstalkd/) - Simple, fast work queue.
+* [Disque](https://github.com/antirez/disque) - Distributed message broker.
+* [Eventuate](http://eventuate.io/) - A platform for developing asynchronous microservices solving the distributed data management problems.
+* [Kafka](http://kafka.apache.org/) - Publish-subscribe messaging rethought as a distributed commit log.
+* [Malamute](https://github.com/zeromq/malamute) - ZeroMQ enterprise messaging broker.
+* [Mist](https://github.com/nanopack/mist) - A distributed, tag-based pub/sub service.
+* [Mosca](http://www.mosca.io/) - MQTT broker as a module.
+* [Mosquitto](http://mosquitto.org/) - Open source message broker that implements the MQTT protocol.
+* [Nanomsg](http://nanomsg.org/) - Socket library that provides several common communication patterns for building distributed systems.
+* [NATS](https://nats.io/) - Open source, high-performance, lightweight cloud messaging system.
+* [NSQ](http://nsq.io/) - A realtime distributed messaging platform.
+* [Pulsar](https://pulsar.apache.org/) - Distributed pub-sub messaging system.
+* [Qpid](https://qpid.apache.org/) - Cross-platform messaging components built on AMQP.
+* [RabbitMQ](https://www.rabbitmq.com/) - Open source Erlang-based message broker that just works.
+* [RocketMQ](https://github.com/apache/incubator-rocketmq) - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.
+* [VerneMQ](https://verne.mq) - Open source, scalable, Erlang-based MQTT broker.
+
 #### Processing
 
  * [Logstash](https://www.elastic.co/es/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash."
