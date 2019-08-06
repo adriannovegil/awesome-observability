@@ -1,11 +1,109 @@
-# Awesome Monitoring
+# Awesome Observability
 
-A list of awesome tools, services and other shiny things for monitoring and analyze everything in your app.
+This repo is not only for monitoring. As said Adrian Cole’s in the talk about "[Observability 3 Ways](https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing)" we are going to focus on the three types of systems necessaries to understand how your applications behave: Logging, Metrics & Tracing.
 
-## Application Performance monitoring (APM)
+## Accumulate
 
-### Products
+### Metrics
 
+ * [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
+ * [OpenCensus](https://opencensus.io/) - OpenCensus is a set of libraries for various languages that allow you to collect application metrics and distributed traces, then transfer the data to a backend of your choice in real time.
+ * [Opentracing](https://opentracing.io/) - Vendor-neutral APIs and instrumentation for distributed tracing
+ * [Micrometer](https://micrometer.io/) - Micrometer provides a simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.
+ * [telegraf](https://github.com/influxdata/telegraf) - TICK stack, The plugin-driven server agent for collecting & reporting metrics.
+ * [node-exporter](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
+ * [beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack
+ * [collectd](http://collectd.org/) - The system statistics collection daemon.
+ * [tcollector](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB
+
+### Tracing
+
+ * [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system.
+ * [Jaeger](https://www.jaegertracing.io/) - Monitor and troubleshoot transactions in complex distributed systems
+
+### Logging
+
+ * [Graylog](https://www.graylog.org/) - Simply great centralized log management
+ * [Brubeck](https://github.com/github/brubeck) - Statsd-compatible stats aggregator written in C
+ * [Loki](https://grafana.com/oss/loki) - Prometheus-inspired logging for cloud natives
+
+## Processing & Analyze
+
+### Storage
+
+ * [influxdata](https://influxdata.com) - influxdb, written in go.
+ * [prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
+ * [elasticsearch](https://www.elastic.co/cn/products/elasticsearch) - Open Source, Distributed, RESTful Search Engine, written in java.
+ * [OpenTSDB](http://opentsdb.net/) - OpenTSDB, written in java.
+ * [kairosDB](http://kairosdb.github.io/) - KairosDB.
+ * [Graphite](https://graphiteapp.org) - More, than a time series database. And so awesome using with Grafana.
+
+### Messaging
+
+ * [ØMQ](http://zeromq.org/) - Brokerless intelligent transport layer.
+ * [ActiveMQ](http://activemq.apache.org/) - Powerful open source messaging and integration patterns server.
+ * [Aeron](https://github.com/real-logic/Aeron) - Efficient reliable UDP unicast, UDP multicast, and IPC message transport.
+ * [Apollo](http://activemq.apache.org/apollo/) - Faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ.
+ * [Ascoltatori](https://github.com/mcollina/ascoltatori) - Pub/sub library for Node.
+ * [Beanstalk](http://kr.github.io/beanstalkd/) - Simple, fast work queue.
+ * [Disque](https://github.com/antirez/disque) - Distributed message broker.
+ * [Eventuate](http://eventuate.io/) - A platform for developing asynchronous microservices solving the distributed data management problems.
+ * [Kafka](http://kafka.apache.org/) - Publish-subscribe messaging rethought as a distributed commit log.
+ * [Malamute](https://github.com/zeromq/malamute) - ZeroMQ enterprise messaging broker.
+ * [Mist](https://github.com/nanopack/mist) - A distributed, tag-based pub/sub service.
+ * [Mosca](http://www.mosca.io/) - MQTT broker as a module.
+ * [Mosquitto](http://mosquitto.org/) - Open source message broker that implements the MQTT protocol.
+ * [Nanomsg](http://nanomsg.org/) - Socket library that provides several common communication patterns for building distributed systems.
+ * [NATS](https://nats.io/) - Open source, high-performance, lightweight cloud messaging system.
+ * [NSQ](http://nsq.io/) - A realtime distributed messaging platform.
+ * [Pulsar](https://pulsar.apache.org/) - Distributed pub-sub messaging system.
+ * [Qpid](https://qpid.apache.org/) - Cross-platform messaging components built on AMQP.
+ * [RabbitMQ](https://www.rabbitmq.com/) - Open source Erlang-based message broker that just works.
+ * [RocketMQ](https://github.com/apache/incubator-rocketmq) - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.
+ * [VerneMQ](https://verne.mq) - Open source, scalable, Erlang-based MQTT broker.
+
+### Processing
+
+ * [Logstash](https://www.elastic.co/es/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash."
+ * [Fluentd](https://www.fluentd.org/) - Fluentd is an open source data collector for unified logging layer.
+
+## Uptime
+
+ * [Monitive](http://monitive.com) - free for 1 service, checked every 10 minutes with unlimited email & twitter alerts
+ * [UptimeRobot](https://uptimerobot.com) - free for 50 monitors, checked every 5 minutes
+
+## Anomalies
+
+ * [Banshee](https://github.com/eleme/banshee) - real-time anomalies(outliers) detection system for periodic metrics
+
+## Act
+
+### Visualization
+
+ * [Grafana](https://grafana.com) - the first really good dashboard for displaying metrics. code.
+ * [Kibana](https://github.com/elastic/kibana) - Elastic stack
+ * [Chronograf](https://github.com/influxdata/chronograf) - TICK stack
+ * [Vizceral](https://github.com/netflix/vizceral) - vizceral is a component for displaying traffic data on a webgl canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes.
+
+### Alerts
+
+ * [Kapacitor github](https://github.com/influxdata/kapacitor) - TICK stack, written in go.
+ * [Alertmanager github](https://github.com/prometheus/alertmanager) - Prometheus stack, Prometheus Alertmanager, written in go.
+ * [X-Pack](https://www.elastic.co/cn/products/x-pack) - Elastic stack.
+ * [Bosun](http://bosun.org/) - Time Series Alerting Framework.
+ * [Moira](https://github.com/moira-alert) - Most powerful alerting system, backed by Graphite.
+ * [Alerta](https://github.com/guardian/alerta) - Distributed, scaleable and flexible monitoring system.
+ * [Flapjack](http://flapjack.io/) - Monitoring notification routing & event processing system.
+ * [Seyren](https://github.com/scobal/seyren) - An alerting dashboard for Graphite.
+
+### Triggers
+
+## Products
+
+ * [PinPoint](https://github.com/naver/pinpoint) - Open source APM tool for large-scale distributed systems written in java.
+ * [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
+ * [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.
+ * [falcon-plus](https://github.com/open-falcon/falcon-plus) - An open-source and enterprise-level monitoring system.
  * [NewRelic](https://newrelic.com) - complex service for both application and infrastructure monitoring
  * [DataDog](https://www.datadoghq.com) - complex service for both application and infrastructure monitoring
  * [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
@@ -15,82 +113,6 @@ A list of awesome tools, services and other shiny things for monitoring and anal
  * [SPM](https://sematext.com/spm/) - solutions for performance monitoring.
  * [OverOps](https://www.overops.com/) - Know when and why code breaks in production.
  * [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring
- * [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system.
- * [PinPoint](https://github.com/naver/pinpoint) - Open source APM tool for large-scale distributed systems written in java.
-
-### Combined Solutions
-
-Modern Monitoring tools for devops, container, serverless
-
-#### Collect
-
-Collect and transport, metrics and events.
-
-* [OpenCensus](https://opencensus.io/) - OpenCensus is a set of libraries for various languages that allow you to collect application metrics and distributed traces, then transfer the data to a backend of your choice in real time.
-* [Opentracing](https://opentracing.io/) - Vendor-neutral APIs and instrumentation for distributed tracing
-* [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
-* [Micrometer](https://micrometer.io/) - Micrometer provides a simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.
-* [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
-* [telegraf github](https://github.com/influxdata/telegraf) - TICK stack, The plugin-driven server agent for collecting & reporting metrics.
-* [node-exporter github](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
-* [beats github](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack
-* [logstash github](https://github.com/elastic/logstash) - Transport and process your logs, events, or other data, Elastic stack.
-* [collectd](http://collectd.org/) - The system statistics collection daemon.
-* [tcollector github](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB
-* [falcon-plus github](https://github.com/open-falcon/falcon-plus) - An open-source and enterprise-level monitoring system.
-
-#### Messaging
-
-* [ØMQ](http://zeromq.org/) - Brokerless intelligent transport layer.
-* [ActiveMQ](http://activemq.apache.org/) - Powerful open source messaging and integration patterns server.
-* [Aeron](https://github.com/real-logic/Aeron) - Efficient reliable UDP unicast, UDP multicast, and IPC message transport.
-* [Apollo](http://activemq.apache.org/apollo/) - Faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ.
-* [Ascoltatori](https://github.com/mcollina/ascoltatori) - Pub/sub library for Node.
-* [Beanstalk](http://kr.github.io/beanstalkd/) - Simple, fast work queue.
-* [Disque](https://github.com/antirez/disque) - Distributed message broker.
-* [Eventuate](http://eventuate.io/) - A platform for developing asynchronous microservices solving the distributed data management problems.
-* [Kafka](http://kafka.apache.org/) - Publish-subscribe messaging rethought as a distributed commit log.
-* [Malamute](https://github.com/zeromq/malamute) - ZeroMQ enterprise messaging broker.
-* [Mist](https://github.com/nanopack/mist) - A distributed, tag-based pub/sub service.
-* [Mosca](http://www.mosca.io/) - MQTT broker as a module.
-* [Mosquitto](http://mosquitto.org/) - Open source message broker that implements the MQTT protocol.
-* [Nanomsg](http://nanomsg.org/) - Socket library that provides several common communication patterns for building distributed systems.
-* [NATS](https://nats.io/) - Open source, high-performance, lightweight cloud messaging system.
-* [NSQ](http://nsq.io/) - A realtime distributed messaging platform.
-* [Pulsar](https://pulsar.apache.org/) - Distributed pub-sub messaging system.
-* [Qpid](https://qpid.apache.org/) - Cross-platform messaging components built on AMQP.
-* [RabbitMQ](https://www.rabbitmq.com/) - Open source Erlang-based message broker that just works.
-* [RocketMQ](https://github.com/apache/incubator-rocketmq) - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.
-* [VerneMQ](https://verne.mq) - Open source, scalable, Erlang-based MQTT broker.
-
-#### Processing
-
- * [Logstash](https://www.elastic.co/es/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash."
- * [Fluentd](https://www.fluentd.org/) - Fluentd is an open source data collector for unified logging layer.
-
-
-#### Storage
-
-* [influxdata](https://influxdata.com) - influxdb, written in go.
-* [prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
-* [elasticsearch](https://www.elastic.co/cn/products/elasticsearch) - Open Source, Distributed, RESTful Search Engine, written in java.
-* [OpenTSDB](http://opentsdb.net/) - OpenTSDB, written in java.
-* [kairosDB](http://kairosdb.github.io/) - KairosDB.
-* [Graphite](https://graphiteapp.org) - More, than a time series database. And so awesome using with Grafana.
-
-#### Graphing
-
-* [Grafana](https://grafana.com) - the first really good dashboard for displaying metrics. code.
-* [Kibana github](https://github.com/elastic/kibana) - Elastic stack
-* [Chronograf github](https://github.com/influxdata/chronograf) - TICK stack
-* [Vizceral](https://github.com/netflix/vizceral) - vizceral is a component for displaying traffic data on a webgl canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes.
-
-#### Alerting
-
-* [Kapacitor github](https://github.com/influxdata/kapacitor) - TICK stack, written in go.
-* [Alertmanager github](https://github.com/prometheus/alertmanager) - Prometheus stack, Prometheus Alertmanager, written in go.
-* [X-Pack](https://www.elastic.co/cn/products/x-pack) - Elastic stack.
-* [Bosun](http://bosun.org/) - Time Series Alerting Framework.
 
 ## Tranditional Monitoring tools.
 
@@ -111,17 +133,6 @@ Collect and transport, metrics and events.
  * [server density](https://www.serverdensity.com/) - Server monitoring.
  * [pagerduty](https://www.pagerduty.com/) - Digital Operations Management.
 
-## Logging
-
- * [Brubeck](https://github.com/github/brubeck) - Statsd-compatible stats aggregator written in C
- * [Loki](https://grafana.com/oss/loki) - Prometheus-inspired logging for cloud natives
- * [Graylog](https://www.graylog.org/) - Simply great centralized log management
-
-## Uptime
-
- * [Monitive](http://monitive.com) - free for 1 service, checked every 10 minutes with unlimited email & twitter alerts
- * [UptimeRobot](https://uptimerobot.com) - free for 50 monitors, checked every 5 minutes
-
 ## Web Analytics
 
  * [Piwik](https://piwik.org) - open source alternative to Google Analytics
@@ -131,20 +142,7 @@ Collect and transport, metrics and events.
 
  * [Sentry](https://getsentry.com/) - Application monitoring, event logging and aggregation.
 
-## Anomalies
-
- * [Banshee](https://github.com/eleme/banshee) - real-time anomalies(outliers) detection system for periodic metrics
-
-## Alerting
-
- * [Moira](https://github.com/moira-alert) - Most powerful alerting system, backed by Graphite.
- * [Alerta](https://github.com/guardian/alerta) - Distributed, scaleable and flexible monitoring system.
- * [Flapjack](http://flapjack.io/) - Monitoring notification routing & event processing system.
- * [Seyren](https://github.com/scobal/seyren) - An alerting dashboard for Graphite.
-
-## Database
-
-Tools for databases
+## Database (Tools for monitoring databases)
 
  * [Anemometer](https://github.com/box/Anemometer) - MySQL Slow Query Monitor
 
@@ -161,6 +159,8 @@ Tools for databases
  * [Monit](http://mmonit.com/monit/#home) - Small Open Source utility for managing and monitoring Unix systems.
 
 ## References
+
  * https://github.com/crazy-canux/awesome-monitoring
  * https://github.com/Enapiuz/awesome-monitoring
  * http://www.devopsbookmarks.com/
+ * https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing
