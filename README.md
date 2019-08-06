@@ -1,6 +1,6 @@
 # Awesome Observability
 
-__Metrics__, __Logs__ and __Traces__: The Golden Triangle of Observability in Monitoring
+> __Metrics__, __Logs__ and __Traces__: The Golden Triangle of Observability in Monitoring
 
 This repo is not only for monitoring. As said Adrian Cole’s in the talk about "[Observability 3 Ways](https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing)" we are going to focus on the three types of systems necessaries to understand how your applications behave: Logging, Metrics & Tracing.
 
@@ -17,6 +17,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack
  * [collectd](http://collectd.org/) - The system statistics collection daemon.
  * [tcollector](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB
+ * [Java Melody](https://github.com/javamelody/javamelody/wiki) - Monitoring of JavaEE applications.
 
 ### Tracing
 
@@ -80,6 +81,8 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 
 ## Act
 
+ * WIP
+
 ### Visualization
 
  * [Grafana](https://grafana.com) - the first really good dashboard for displaying metrics. code.
@@ -100,6 +103,8 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 
 ### Triggers
 
+ * WIP
+
 ## Products
 
  * [PinPoint](https://github.com/naver/pinpoint) - Open source APM tool for large-scale distributed systems written in java.
@@ -110,7 +115,6 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [DataDog](https://www.datadoghq.com) - complex service for both application and infrastructure monitoring
  * [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
  * [AppDynamics](https://www.appdynamics.com/) - Business and application performance monitoring.
- * [Java Melody](https://github.com/javamelody/javamelody/wiki) - Monitoring of JavaEE applications.
  * [Kamon](http://www.kamon.io/) - Monitoring applications running on the JVM.
  * [SPM](https://sematext.com/spm/) - solutions for performance monitoring.
  * [OverOps](https://www.overops.com/) - Know when and why code breaks in production.
@@ -166,3 +170,15 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * https://github.com/Enapiuz/awesome-monitoring
  * http://www.devopsbookmarks.com/
  * https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing
+
+## License
+
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
+
+## Contributing
+
+ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+
+ Feel free to [open an issue](https://github.com/adriannovegil/awesome-observability/issues) or [create a pull request](https://github.com/adriannovegil/awesome-observability/pulls) with your additions.
+
+ Thank you!
