@@ -11,6 +11,8 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
  * [OpenCensus](https://opencensus.io/) - OpenCensus is a set of libraries for various languages that allow you to collect application metrics and distributed traces, then transfer the data to a backend of your choice in real time.
  * [Opentracing](https://opentracing.io/) - Vendor-neutral APIs and instrumentation for distributed tracing
+ * [Openmetrics](https://openmetrics.io/) - An effort to create an open standard for transmitting metrics at scale, with support for both text representation and Protocol Buffers.
+
  * [Micrometer](https://micrometer.io/) - Micrometer provides a simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.
  * [telegraf](https://github.com/influxdata/telegraf) - TICK stack, The plugin-driven server agent for collecting & reporting metrics.
  * [node-exporter](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
@@ -22,6 +24,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 ### Tracing
 
  * [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system.
+ * [Sleuth](https://spring.io/projects/spring-cloud-sleuth) - Spring Cloud Sleuth implements a distributed tracing solution for Spring Cloud, borrowing heavily from Dapper, Zipkin and HTrace.
  * [Jaeger](https://www.jaegertracing.io/) - Monitor and troubleshoot transactions in complex distributed systems
 
 ### Logging
@@ -36,6 +39,10 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 
  * [influxdata](https://influxdata.com) - influxdb, written in go.
  * [prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
+ * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities.
+ * [Trickster](https://github.com/Comcast/trickster) - Trickster is a reverse proxy cache for the Prometheus HTTP APIv1 that dramatically accelerates dashboard rendering times for any series queried from Prometheus.
+
+
  * [elasticsearch](https://www.elastic.co/cn/products/elasticsearch) - Open Source, Distributed, RESTful Search Engine, written in java.
  * [OpenTSDB](http://opentsdb.net/) - OpenTSDB, written in java.
  * [kairosDB](http://kairosdb.github.io/) - KairosDB.
@@ -69,15 +76,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 
  * [Logstash](https://www.elastic.co/es/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash."
  * [Fluentd](https://www.fluentd.org/) - Fluentd is an open source data collector for unified logging layer.
-
-## Uptime
-
- * [Monitive](http://monitive.com) - free for 1 service, checked every 10 minutes with unlimited email & twitter alerts
- * [UptimeRobot](https://uptimerobot.com) - free for 50 monitors, checked every 5 minutes
-
-## Anomalies
-
- * [Banshee](https://github.com/eleme/banshee) - real-time anomalies(outliers) detection system for periodic metrics
+ * [Vector](https://github.com/timberio/vector) - Vector is a high-performance observability data router. It makes collecting, transforming, and sending logs, metrics, and events easy. It decouples data collection & routing from your services, giving you control and data ownership, among many other benefits.
 
 ## Act
 
@@ -110,6 +109,9 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [PinPoint](https://github.com/naver/pinpoint) - Open source APM tool for large-scale distributed systems written in java.
  * [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
  * [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.
+ * [Kiali](https://www.kiali.io/) - Observability console for Istio with service mesh configuration capabilities. It helps you to understand the structure of your service mesh by inferring the topology, and also provides the health of your mesh.
+ * [NexClipper](https://www.nexclipper.io/) - NexClipper is Open Source software for Cloud Native monitoring and operation , especailly for Kubernetes, to support enterprise environments and integrate with Prometheus
+ * [Sysdig](https://sysdig.com/) - A data-first approach to delivering reliable, secure containerized applications.
  * [falcon-plus](https://github.com/open-falcon/falcon-plus) - An open-source and enterprise-level monitoring system.
  * [NewRelic](https://newrelic.com) - complex service for both application and infrastructure monitoring
  * [DataDog](https://www.datadoghq.com) - complex service for both application and infrastructure monitoring
@@ -119,6 +121,22 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [SPM](https://sematext.com/spm/) - solutions for performance monitoring.
  * [OverOps](https://www.overops.com/) - Know when and why code breaks in production.
  * [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring
+
+## Uptime
+
+  * [Monitive](http://monitive.com) - free for 1 service, checked every 10 minutes with unlimited email & twitter alerts
+  * [UptimeRobot](https://uptimerobot.com) - free for 50 monitors, checked every 5 minutes
+
+## Chaos
+
+  * [ChaosBlade](https://github.com/chaosblade-io/chaosblade) - Chaosblade is an experimental tool that follows the principles of Chaos Engineering and is used to simulate common fault scenarios, helping to improve the recoverability of faulty systems and the fault tolerance of faults.
+  * [Powerful Seal](https://github.com/bloomberg/powerfulseal) - PowerfulSeal adds chaos to your Kubernetes clusters, so that you can detect problems in your systems as early as possible. It kills targeted pods and takes VMs up and down.
+  * [ChaosToolkit](https://chaostoolkit.org/) - Chaos Engineering Experiment Automation
+  * [Litmus](https://www.openebs.io/litmus) - An open source framework for chaos engineering based qualification of Kubernetes environments running stateful applications
+
+## Anomalies
+
+  * [Banshee](https://github.com/eleme/banshee) - real-time anomalies(outliers) detection system for periodic metrics
 
 ## Tranditional Monitoring tools.
 
@@ -170,6 +188,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * https://github.com/Enapiuz/awesome-monitoring
  * http://www.devopsbookmarks.com/
  * https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing
+ * https://landscape.cncf.io/
 
 ## License
 
