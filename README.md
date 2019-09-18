@@ -85,6 +85,10 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [Kibana](https://github.com/elastic/kibana) - Elastic stack
  * [Chronograf](https://github.com/influxdata/chronograf) - TICK stack
  * [Vizceral](https://github.com/netflix/vizceral) - vizceral is a component for displaying traffic data on a webgl canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes.
+ * [Flame Graphs]()
+ * [Netflix Vector]()
+ * [Flame Scope]()
+ * [Java Flame Graph](https://github.com/saquibkhan/javaFlameGraph)
 
 ### Alerts
 
@@ -184,6 +188,11 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 
  * [Dash](https://github.com/afaqurk/linux-dash) - A low-overhead monitoring web dashboard for a GNU/Linux machine.
  * [Monit](http://mmonit.com/monit/#home) - Small Open Source utility for managing and monitoring Unix systems.
+ * [Perf]()
+ * [CoPilot]()
+ * [BPF]()
+ * [eBPF]()
+ * [bcc]()
 
 ## References
 
