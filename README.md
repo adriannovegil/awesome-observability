@@ -19,6 +19,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [collectd](http://collectd.org/) - The system statistics collection daemon.
  * [tcollector](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB.
  * [Java Melody](https://github.com/javamelody/javamelody/wiki) - Monitoring of JavaEE applications.
+ * [GoAccess](https://goaccess.io/) - GoAccess is an open source real-time web log analyzer and interactive viewer that runs in a terminal in \*nix systems or through your browser. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly.
 
 ### Tracing
 
