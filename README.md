@@ -6,6 +6,8 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 
 ## Accumulate
 
+Get any data – metrics, events, logs, traces – from everywhere – systems, sensors, queues, databases and networks – and store in a server capable of ingesting millions of data points per second.
+
 ### Metrics
 
  * [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
@@ -34,6 +36,8 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [Loki](https://grafana.com/oss/loki) - Prometheus-inspired logging for cloud natives
 
 ## Processing & Analyze
+
+Perform analytics across all data sets.
 
 ### Storage
 
@@ -78,7 +82,11 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 
 ## Act
 
- * WIP
+St up alerts with a simple click or perform complex anomaly detection based on machine learning algorithms.
+
+Send alerts to popular services like Slack, SMS and PagerDuty.
+
+Create custom triggers to perform any action.
 
 ### Visualization
 
@@ -177,6 +185,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 ## Database (Tools for monitoring databases)
 
  * [Anemometer](https://github.com/box/Anemometer) - MySQL Slow Query Monitor
+ * [mytop](https://linux.die.net/man/1/mytop) - Display MySQL server performance info like 'top'
 
 ## Network
 
@@ -189,11 +198,11 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 
  * [Dash](https://github.com/afaqurk/linux-dash) - A low-overhead monitoring web dashboard for a GNU/Linux machine.
  * [Monit](http://mmonit.com/monit/#home) - Small Open Source utility for managing and monitoring Unix systems.
- * [Perf]()
- * [CoPilot]()
- * [BPF]()
- * [eBPF]()
- * [bcc]()
+ * [Perf](http://www.brendangregg.com/perf.html) - Performance analyzing tool in Linux
+ * [BPF](http://www.brendangregg.com/bpf-performance-tools-book.html) - Technology used in certain computer operating systems for programs that need to, among other things, analyze network traffic
+ * [eBPF](http://www.brendangregg.com/ebpf.html) - extended BPF (eBPF) variant has become a universal in-kernel virtual machine, that has hooks all over the kernel
+ * [bcc](https://github.com/iovisor/bcc) - Tools for BPF-based Linux IO analysis, networking, monitoring, and more
+  * [CoPilot]()
 
 ## References
 
@@ -202,6 +211,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * http://www.devopsbookmarks.com/
  * https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing
  * https://landscape.cncf.io/
+ * https://www.influxdata.com/products/
 
 ## License
 
