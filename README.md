@@ -4,6 +4,12 @@
 
 This repo is not only for monitoring. As said Adrian Cole’s in the talk about "[Observability 3 Ways](https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing)" we are going to focus on the three types of systems necessaries to understand how your applications behave: Logging, Metrics & Tracing.
 
+## Best Practices
+
+ * [Best practices for monitoring cloud applications
+](https://docs.microsoft.com/en-us/azure/architecture/best-practices/monitoring)
+* [The Three Pillars of Observability](https://learning.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html)
+
 ## Accumulate
 
 Get any data – metrics, events, logs, traces – from everywhere – systems, sensors, queues, databases and networks – and store in a server capable of ingesting millions of data points per second.
@@ -137,8 +143,9 @@ Create custom triggers to perform any action.
   * [Monitive](http://monitive.com) - free for 1 service, checked every 10 minutes with unlimited email & twitter alerts
   * [UptimeRobot](https://uptimerobot.com) - free for 50 monitors, checked every 5 minutes
 
-## Chaos
+## Chaos Engineer
 
+  * [PRINCIPLES OF CHAOS ENGINEERING](https://principlesofchaos.org/?lang=ENcontent)
   * [ChaosBlade](https://github.com/chaosblade-io/chaosblade) - Chaosblade is an experimental tool that follows the principles of Chaos Engineering and is used to simulate common fault scenarios, helping to improve the recoverability of faulty systems and the fault tolerance of faults.
   * [Powerful Seal](https://github.com/bloomberg/powerfulseal) - PowerfulSeal adds chaos to your Kubernetes clusters, so that you can detect problems in your systems as early as possible. It kills targeted pods and takes VMs up and down.
   * [ChaosToolkit](https://chaostoolkit.org/) - Chaos Engineering Experiment Automation
@@ -199,6 +206,7 @@ Create custom triggers to perform any action.
  * [Dash](https://github.com/afaqurk/linux-dash) - A low-overhead monitoring web dashboard for a GNU/Linux machine.
  * [Monit](http://mmonit.com/monit/#home) - Small Open Source utility for managing and monitoring Unix systems.
  * [Perf](http://www.brendangregg.com/perf.html) - Performance analyzing tool in Linux
+ * [Hotspot](https://github.com/KDAB/hotspot) - The Linux perf GUI for performance analysis.
  * [BPF](http://www.brendangregg.com/bpf-performance-tools-book.html) - Technology used in certain computer operating systems for programs that need to, among other things, analyze network traffic
  * [eBPF](http://www.brendangregg.com/ebpf.html) - extended BPF (eBPF) variant has become a universal in-kernel virtual machine, that has hooks all over the kernel
  * [bcc](https://github.com/iovisor/bcc) - Tools for BPF-based Linux IO analysis, networking, monitoring, and more
