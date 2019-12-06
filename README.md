@@ -8,7 +8,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 
  * [Best practices for monitoring cloud applications
 ](https://docs.microsoft.com/en-us/azure/architecture/best-practices/monitoring)
-* [The Three Pillars of Observability](https://learning.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html)
+ * [The Three Pillars of Observability](https://learning.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html)
 
 ## Accumulate
 
@@ -140,16 +140,12 @@ Create custom triggers to perform any action.
 
 ## Uptime
 
-  * [Monitive](http://monitive.com) - free for 1 service, checked every 10 minutes with unlimited email & twitter alerts
-  * [UptimeRobot](https://uptimerobot.com) - free for 50 monitors, checked every 5 minutes
+ * [Monitive](http://monitive.com) - free for 1 service, checked every 10 minutes with unlimited email & twitter alerts
+ * [UptimeRobot](https://uptimerobot.com) - free for 50 monitors, checked every 5 minutes
 
 ## Chaos Engineer
 
-  * [PRINCIPLES OF CHAOS ENGINEERING](https://principlesofchaos.org/?lang=ENcontent)
-  * [ChaosBlade](https://github.com/chaosblade-io/chaosblade) - Chaosblade is an experimental tool that follows the principles of Chaos Engineering and is used to simulate common fault scenarios, helping to improve the recoverability of faulty systems and the fault tolerance of faults.
-  * [Powerful Seal](https://github.com/bloomberg/powerfulseal) - PowerfulSeal adds chaos to your Kubernetes clusters, so that you can detect problems in your systems as early as possible. It kills targeted pods and takes VMs up and down.
-  * [ChaosToolkit](https://chaostoolkit.org/) - Chaos Engineering Experiment Automation
-  * [Litmus](https://www.openebs.io/litmus) - An open source framework for chaos engineering based qualification of Kubernetes environments running stateful applications
+ * [My Awesome Chaos Engineering Repo ;-)](https://github.com/adriannovegil/awesome-chaos-engineering)
 
 ## Load Generators
 
@@ -159,7 +155,7 @@ Create custom triggers to perform any action.
 
 ## Anomalies
 
-  * [Banshee](https://github.com/eleme/banshee) - real-time anomalies(outliers) detection system for periodic metrics
+ * [Banshee](https://github.com/eleme/banshee) - real-time anomalies(outliers) detection system for periodic metrics
 
 ## Tranditional Monitoring tools.
 
@@ -210,7 +206,7 @@ Create custom triggers to perform any action.
  * [BPF](http://www.brendangregg.com/bpf-performance-tools-book.html) - Technology used in certain computer operating systems for programs that need to, among other things, analyze network traffic
  * [eBPF](http://www.brendangregg.com/ebpf.html) - extended BPF (eBPF) variant has become a universal in-kernel virtual machine, that has hooks all over the kernel
  * [bcc](https://github.com/iovisor/bcc) - Tools for BPF-based Linux IO analysis, networking, monitoring, and more
-  * [CoPilot]()
+ * [CoPilot]()
 
 ## References
 
