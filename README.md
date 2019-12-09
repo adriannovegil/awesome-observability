@@ -97,6 +97,7 @@ Create custom triggers to perform any action.
 ### Visualization
 
  * [Grafana](https://grafana.com) - the first really good dashboard for displaying metrics. code.
+ * [PromViz](https://github.com/nghialv/promviz) - Promviz is an application that helps you visualize the traffic of your cluster from Prometheus data
  * [Kibana](https://github.com/elastic/kibana) - Elastic stack
  * [Chronograf](https://github.com/influxdata/chronograf) - TICK stack
  * [Vizceral](https://github.com/netflix/vizceral) - vizceral is a component for displaying traffic data on a webgl canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes.
