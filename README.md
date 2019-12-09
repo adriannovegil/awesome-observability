@@ -1,5 +1,21 @@
 # Awesome Observability
 
+Monitoring as defined by the Oxford dictionary is to "Observe and check the progress or quality of (something) over a period of time; keep under systematic review".
+
+For systems monitoring that means being able to give an overview over the state of a system by exposing key metrics about the systems. The monitoring can be implemented in different ways:
+
+ * one can push metrics from a service,
+ * pull metrics from it or
+ * use a combined hybrid approach
+
+Furthermore, the concept of __observability__ can be seen a superset of monitoring where it is a part of giving visibility into the system. Providing the  ability to reason about the system health in a better way.
+
+It can be said to  consist of three parts:
+
+ * __event logs__ (can be in different forms, plain text, structured or binary and is in general about having a log about what happened at a certain time),
+ * __metrics__ (measurement over time, for example number of failed requests) and
+ * __tracing__ (represent related and distributed events together as a request flows through a system)
+
 > __Metrics__, __Logs__ and __Traces__: The Golden Triangle of Observability in Monitoring
 
 This repo is not only for monitoring. As said Adrian Cole’s in the talk about "[Observability 3 Ways](https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing)" we are going to focus on the three types of systems necessaries to understand how your applications behave: Logging, Metrics & Tracing.
