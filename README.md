@@ -164,17 +164,18 @@ Create custom triggers to perform any action.
 
  * [My Awesome Chaos Engineering Repo ;-)](https://github.com/adriannovegil/awesome-chaos-engineering)
 
-## Load Generators
+## Anomalies Detection
+
+  * [Banshee](https://github.com/bbotte/banshee-detection_system) - real-time anomalies(outliers) detection system for periodic metrics
+
+## Load Generators & Synthetic Traffic
 
  * [JMeter](https://jmeter.apache.org/) - Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
  * [Gatling](https://gatling.io/) - Load test as code
  * [Vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool built out of a need to drill HTTP services with a constant request rate. It can be used both as a command line utility and a library.
+ * [GoReplay](https://goreplay.org/) - Open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data.
 
-## Anomalies
-
- * [Banshee](https://github.com/eleme/banshee) - real-time anomalies(outliers) detection system for periodic metrics
-
-## Tranditional Monitoring tools.
+## Tranditional Monitoring Tools.
 
  * [Nagios](http://www.nagios.org/) - Computer system, network and infrastructure monitoring software application.
  * [Zabbix](http://www.zabbix.com) - real-time monitoring of millions of metrics collected from tens of thousands of servers, virtual machines and network devices
@@ -202,7 +203,7 @@ Create custom triggers to perform any action.
 
  * [Sentry](https://getsentry.com/) - Application monitoring, event logging and aggregation.
 
-## Database (Tools for monitoring databases)
+## Database (Tools for Monitoring Databases)
 
  * [Anemometer](https://github.com/box/Anemometer) - MySQL Slow Query Monitor
  * [mytop](https://linux.die.net/man/1/mytop) - Display MySQL server performance info like 'top'
