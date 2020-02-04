@@ -37,11 +37,11 @@ Get any data – metrics, events, logs, traces – from everywhere – systems, 
  * [Opentracing](https://opentracing.io/) - Vendor-neutral APIs and instrumentation for distributed tracing.
  * [Openmetrics](https://openmetrics.io/) - An effort to create an open standard for transmitting metrics at scale, with support for both text representation and Protocol Buffers.
  * [Micrometer](https://micrometer.io/) - Micrometer provides a simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.
- * [telegraf](https://github.com/influxdata/telegraf) - TICK stack, The plugin-driven server agent for collecting & reporting metrics.
- * [node-exporter](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
- * [beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack
- * [collectd](http://collectd.org/) - The system statistics collection daemon.
- * [tcollector](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB.
+ * [Telegraf](https://github.com/influxdata/telegraf) - TICK stack, The plugin-driven server agent for collecting & reporting metrics.
+ * [Node-exporter](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
+ * [Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack
+ * [Collectd](http://collectd.org/) - The system statistics collection daemon.
+ * [Tcollector](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB.
  * [Java Melody](https://github.com/javamelody/javamelody/wiki) - Monitoring of JavaEE applications.
  * [GoAccess](https://goaccess.io/) - GoAccess is an open source real-time web log analyzer and interactive viewer that runs in a terminal in \*nix systems or through your browser. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly.
 
@@ -60,17 +60,6 @@ Get any data – metrics, events, logs, traces – from everywhere – systems, 
 ## Processing & Analyze
 
 Perform analytics across all data sets.
-
-### Storage
-
- * [influxdata](https://influxdata.com) - influxdb, written in go.
- * [prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
- * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities.
- * [Trickster](https://github.com/Comcast/trickster) - Trickster is a reverse proxy cache for the Prometheus HTTP APIv1 that dramatically accelerates dashboard rendering times for any series queried from Prometheus.
- * [elasticsearch](https://www.elastic.co/cn/products/elasticsearch) - Open Source, Distributed, RESTful Search Engine, written in java.
- * [OpenTSDB](http://opentsdb.net/) - OpenTSDB, written in java.
- * [kairosDB](http://kairosdb.github.io/) - KairosDB.
- * [Graphite](https://graphiteapp.org) - More, than a time series database. And so awesome using with Grafana.
 
 ### Messaging
 
@@ -96,6 +85,17 @@ Perform analytics across all data sets.
  * [RocketMQ](https://github.com/apache/incubator-rocketmq) - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.
  * [VerneMQ](https://verne.mq) - Open source, scalable, Erlang-based MQTT broker.
 
+### Storage
+
+ * [Influx Data](https://influxdata.com) - influxdb, written in go.
+ * [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
+ * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities.
+ * [Trickster](https://github.com/Comcast/trickster) - Trickster is a reverse proxy cache for the Prometheus HTTP APIv1 that dramatically accelerates dashboard rendering times for any series queried from Prometheus.
+ * [Elastic Search](https://www.elastic.co/cn/products/elasticsearch) - Open Source, Distributed, RESTful Search Engine, written in java.
+ * [OpenTSDB](http://opentsdb.net/) - OpenTSDB, written in java.
+ * [kairosDB](http://kairosdb.github.io/) - KairosDB.
+ * [Graphite](https://graphiteapp.org) - More, than a time series database. And so awesome using with Grafana.
+
 ### Processing
 
  * [Logstash](https://www.elastic.co/es/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash."
@@ -104,9 +104,9 @@ Perform analytics across all data sets.
 
 ## Act
 
-St up alerts with a simple click or perform complex anomaly detection based on machine learning algorithms.
+Setup alerts with a simple click or perform complex anomaly detection based on machine learning algorithms.
 
-Send alerts to popular services like Slack, SMS and PagerDuty.
+Send alerts to popular services like Slack, SMS or PagerDuty.
 
 Create custom triggers to perform any action.
 
@@ -137,24 +137,6 @@ Create custom triggers to perform any action.
 
  * WIP
 
-## Products
-
- * [PinPoint](https://github.com/naver/pinpoint) - Open source APM tool for large-scale distributed systems written in java.
- * [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
- * [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.
- * [Kiali](https://www.kiali.io/) - Observability console for Istio with service mesh configuration capabilities. It helps you to understand the structure of your service mesh by inferring the topology, and also provides the health of your mesh.
- * [NexClipper](https://www.nexclipper.io/) - NexClipper is Open Source software for Cloud Native monitoring and operation , especailly for Kubernetes, to support enterprise environments and integrate with Prometheus
- * [Sysdig](https://sysdig.com/) - A data-first approach to delivering reliable, secure containerized applications.
- * [falcon-plus](https://github.com/open-falcon/falcon-plus) - An open-source and enterprise-level monitoring system.
- * [NewRelic](https://newrelic.com) - complex service for both application and infrastructure monitoring
- * [DataDog](https://www.datadoghq.com) - complex service for both application and infrastructure monitoring
- * [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
- * [AppDynamics](https://www.appdynamics.com/) - Business and application performance monitoring.
- * [Kamon](http://www.kamon.io/) - Monitoring applications running on the JVM.
- * [SPM](https://sematext.com/spm/) - solutions for performance monitoring.
- * [OverOps](https://www.overops.com/) - Know when and why code breaks in production.
- * [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring
-
 ## Uptime
 
  * [Monitive](http://monitive.com) - free for 1 service, checked every 10 minutes with unlimited email & twitter alerts
@@ -174,25 +156,6 @@ Create custom triggers to perform any action.
  * [Gatling](https://gatling.io/) - Load test as code
  * [Vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool built out of a need to drill HTTP services with a constant request rate. It can be used both as a command line utility and a library.
  * [GoReplay](https://goreplay.org/) - Open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data.
-
-## Tranditional Monitoring Tools.
-
- * [Nagios](http://www.nagios.org/) - Computer system, network and infrastructure monitoring software application.
- * [Zabbix](http://www.zabbix.com) - real-time monitoring of millions of metrics collected from tens of thousands of servers, virtual machines and network devices
- * [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.
- * [Zenoss](https://www.zenoss.org/) - Zenoss works with the world's largest companies to ensure their IT services and applications are always on. As the global leader in hybrid IT monitoring and analytics software, Zenoss provides complete visibility for cloud, virtual and physical IT environments.
- * [Opserver](http://opserver.org/) - Stack Exchange's monitoring system.
- * [netdata](http://my-netdata.io/) - netdata is a system for distributed real-time performance and health monitoring. It provides unparalleled insights, in real-time, of everything happening on the system it runs (including applications such as web and database servers), using modern interactive web dashboards.
- * [Icinga](https://www.icinga.org/) - Monitoring core with features and REST API. Fork of Nagios.
- * [Naemon](http://www.naemon.org/) - Network monitoring tool based on the Nagios 4 core with performance enhancements and new features.
- * [Shinken](http://www.shinken-monitoring.org/) - Shinken is a monitoring framework. It's a Python Nagios® Core total rewrite enhancing flexibility and large environment management.
- * [Centreon](http://www.centreon.com) - IT infrastructure and application monitoring for service performance.
- * [Opsview](https://www.opsview.com/products/opsview-atom) - Based on Nagios 4, Opsview Core is ideal for small IT and test environments.
- * [Check_mk](http://mathias-kettner.de/check_mk.html) - Check_MK is comprehensive IT monitoring solution in the tradition of Nagios. Collection of extensions for Nagios.
- * [Sensu](http://sensuapp.org/) - Open source monitoring framework.
- * [cabot github](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service.
- * [server density](https://www.serverdensity.com/) - Server monitoring.
- * [pagerduty](https://www.pagerduty.com/) - Digital Operations Management.
 
 ## Web Analytics
 
@@ -226,6 +189,43 @@ Create custom triggers to perform any action.
  * [bcc](https://github.com/iovisor/bcc) - Tools for BPF-based Linux IO analysis, networking, monitoring, and more
  * [CoPilot]()
 
+## Products
+
+ * [PinPoint](https://github.com/naver/pinpoint) - Open source APM tool for large-scale distributed systems written in java.
+ * [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
+ * [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.
+ * [Kiali](https://www.kiali.io/) - Observability console for Istio with service mesh configuration capabilities. It helps you to understand the structure of your service mesh by inferring the topology, and also provides the health of your mesh.
+ * [NexClipper](https://www.nexclipper.io/) - NexClipper is Open Source software for Cloud Native monitoring and operation , especailly for Kubernetes, to support enterprise environments and integrate with Prometheus
+ * [Sysdig](https://sysdig.com/) - A data-first approach to delivering reliable, secure containerized applications.
+ * [Falcon Plus](https://github.com/open-falcon/falcon-plus) - An open-source and enterprise-level monitoring system.
+ * [NewRelic](https://newrelic.com) - complex service for both application and infrastructure monitoring
+ * [DataDog](https://www.datadoghq.com) - complex service for both application and infrastructure monitoring
+ * [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
+ * [AppDynamics](https://www.appdynamics.com/) - Business and application performance monitoring.
+ * [Kamon](http://www.kamon.io/) - Monitoring applications running on the JVM.
+ * [SPM](https://sematext.com/spm/) - solutions for performance monitoring.
+ * [OverOps](https://www.overops.com/) - Know when and why code breaks in production.
+ * [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring
+
+## Tranditional Monitoring Tools.
+
+ * [Nagios](http://www.nagios.org/) - Computer system, network and infrastructure monitoring software application.
+ * [Zabbix](http://www.zabbix.com) - real-time monitoring of millions of metrics collected from tens of thousands of servers, virtual machines and network devices
+ * [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.
+ * [Zenoss](https://www.zenoss.org/) - Zenoss works with the world's largest companies to ensure their IT services and applications are always on. As the global leader in hybrid IT monitoring and analytics software, Zenoss provides complete visibility for cloud, virtual and physical IT environments.
+ * [Opserver](http://opserver.org/) - Stack Exchange's monitoring system.
+ * [Netdata](http://my-netdata.io/) - netdata is a system for distributed real-time performance and health monitoring. It provides unparalleled insights, in real-time, of everything happening on the system it runs (including applications such as web and database servers), using modern interactive web dashboards.
+ * [Icinga](https://www.icinga.org/) - Monitoring core with features and REST API. Fork of Nagios.
+ * [Naemon](http://www.naemon.org/) - Network monitoring tool based on the Nagios 4 core with performance enhancements and new features.
+ * [Shinken](http://www.shinken-monitoring.org/) - Shinken is a monitoring framework. It's a Python Nagios® Core total rewrite enhancing flexibility and large environment management.
+ * [Centreon](http://www.centreon.com) - IT infrastructure and application monitoring for service performance.
+ * [Opsview](https://www.opsview.com/products/opsview-atom) - Based on Nagios 4, Opsview Core is ideal for small IT and test environments.
+ * [Check_mk](http://mathias-kettner.de/check_mk.html) - Check_MK is comprehensive IT monitoring solution in the tradition of Nagios. Collection of extensions for Nagios.
+ * [Sensu](http://sensuapp.org/) - Open source monitoring framework.
+ * [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service.
+ * [Server density](https://www.serverdensity.com/) - Server monitoring.
+ * [PagerDuty](https://www.pagerduty.com/) - Digital Operations Management.
+
 ## References
 
  * https://github.com/crazy-canux/awesome-monitoring
@@ -241,8 +241,8 @@ Create custom triggers to perform any action.
 
 ## Contributing
 
- Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
- Feel free to [open an issue](https://github.com/adriannovegil/awesome-observability/issues) or [create a pull request](https://github.com/adriannovegil/awesome-observability/pulls) with your additions.
+Feel free to [open an issue](https://github.com/adriannovegil/awesome-observability/issues) or [create a pull request](https://github.com/adriannovegil/awesome-observability/pulls) with your additions.
 
- Thank you!
+Thank you!
