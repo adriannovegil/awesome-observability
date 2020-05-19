@@ -25,7 +25,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [Best practices for monitoring cloud applications](https://docs.microsoft.com/en-us/azure/architecture/best-practices/monitoring)
  * [The Three Pillars of Observability](https://learning.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html)
 
-## 2. Collect or Generate
+## 2. Collect
 
  Get any data – metrics, events, logs, traces – from everywhere – systems, sensors, queues, databases and networks.
 
@@ -59,9 +59,16 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 ## 3. Load Generators & Synthetic Traffic
 
  * [JMeter](https://jmeter.apache.org/) - Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
+ * [Yandex Tank](https://github.com/yandex/yandex-tank) - Yandex.Tank is an extensible open source load testing tool for advanced linux users which is especially good as a part of an automated load testing suite
+ * [ghz](https://github.com/bojand/ghz) - Simple gRPC benchmarking and load testing tool inspired by hey and grpcurl.
+ * [Taurus](https://github.com/Blazemeter/taurus) - Taurus relies on JMeter, Gatling, Locust.io, Grinder and Selenium WebDriver as its underlying tools. Free and open source under Apache 2.0 License.
+ * [Locust](https://github.com/locustio/locust) - Locust is an easy-to-use, distributed, user load testing tool. It is intended for load-testing web sites (or other systems) and figuring out how many concurrent users a system can handle.
+ * [Pandora](https://github.com/yandex/pandora) - Pandora is a high-performance load generator in Go language. It has built-in HTTP(S) and HTTP/2 support and you can write your own load scenarios in Go, compiling them just before your test.
  * [Gatling](https://gatling.io/) - Load test as code
  * [Vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool built out of a need to drill HTTP services with a constant request rate. It can be used both as a command line utility and a library.
  * [GoReplay](https://goreplay.org/) - Open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data.
+ * [phantom](https://github.com/yandex-load/phantom/tree/master/examples) - Evgeniy Mamchits' phantom is a very fast (100 000+ RPS) shooter written in C++ (default)
+ * [BFG](https://github.com/yandex-load/bfg) - A modular tool and framework for load generation that supports HTTP/2
 
 ## 4. Transport
 
@@ -277,6 +284,8 @@ Tools for rocessing the system data.
  * https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing
  * https://landscape.cncf.io/
  * https://www.influxdata.com/products/
+
+## 11.
 
 ## 11. License
 
