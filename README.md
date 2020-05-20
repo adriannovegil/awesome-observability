@@ -69,6 +69,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [GoReplay](https://goreplay.org/) - Open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data.
  * [phantom](https://github.com/yandex-load/phantom/tree/master/examples) - Evgeniy Mamchits' phantom is a very fast (100 000+ RPS) shooter written in C++ (default)
  * [BFG](https://github.com/yandex-load/bfg) - A modular tool and framework for load generation that supports HTTP/2
+ * [Bender](https://github.com/pinterest/bender) - Bender makes it easy to build load testing applications for services using protocols like HTTP, Thrift, Protocol Buffers and many more. Bender provides a library of flexible, powerful primitives that can be combined (with plain Go code) to build load testers customized to any use case and that evolve with your service over time.
 
 ## 4. Transport
 
