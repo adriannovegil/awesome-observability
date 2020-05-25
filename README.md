@@ -76,8 +76,8 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 The transport tools simply serve as transport pipelines for data. This includes messaging systems, proprietary protocols and exchange formats.
 
  * [Apache Kafka](http://kafka.apache.org/) - Publish-subscribe messaging rethought as a distributed commit log.
- * [Redis]() -
- * [Rsyslog]() -
+ * [Redis](https://redis.io/) - Redis is an open source, in-memory data structure store, used as a database, cache and message broker. It supports many different data structures such as stringes, hashes, list, etc.
+ * [Rsyslog](https://www.rsyslog.com/) - RSYSLOG is the rocket-fast system for log processing
  * [ØMQ](http://zeromq.org/) - Brokerless intelligent transport layer.
  * [ActiveMQ](http://activemq.apache.org/) - Powerful open source messaging and integration patterns server.
  * [Aeron](https://github.com/real-logic/Aeron) - Efficient reliable UDP unicast, UDP multicast, and IPC message transport.
@@ -285,8 +285,6 @@ Tools for rocessing the system data.
  * https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing
  * https://landscape.cncf.io/
  * https://www.influxdata.com/products/
-
-## 11.
 
 ## 11. License
 
