@@ -33,9 +33,12 @@ Additional to this, start with tools to get information about your system to det
 
 Following you can see an interesting post from Netflix writteb by Brendan Gregg that show this very clear. https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55. In the article you can see how with a few tools and in a short time, you can get a lot of information about your system ;-)
 
-  * [top](https://www.booleanworld.com/guide-linux-top-command/) - allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin’s toolbox, and it comes pre-installed on every distribution. 
+  * [top](https://www.booleanworld.com/guide-linux-top-command/) - allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin’s toolbox, and it comes pre-installed on every distribution.
   * [htop](https://support.cloudways.com/system-monitoring-using-htop-command/) - command line utility that allows you to interactively monitor your system’s vital resources or server’s processes in real time.
   * [ctop](https://github.com/bcicen/ctop) - Top-like interface for container metrics
+  * [Alibaba](https://github.com/alibaba/arthas) - Alibaba Java Diagnostic Tool Arthas/Alibaba Java
+  * [Bistoury](https://github.com/qunarcorp/bistoury) - A project that integrates Arthas and extends it with additional tools.
+  * [VJTools](https://github.com/vipshop/vjtools) - The vip.com's java coding standard, libraries and tools
 
 ## 3. Collect
 
