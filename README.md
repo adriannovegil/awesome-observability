@@ -25,7 +25,19 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [Best practices for monitoring cloud applications](https://docs.microsoft.com/en-us/azure/architecture/best-practices/monitoring)
  * [The Three Pillars of Observability](https://learning.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html)
 
-## 2. Collect
+## 2. General Tools
+
+Before to start with huge observability solution. If you just need to control some application aspects, visualize how is working your system, or just identify a problem, may be usefull start with one, or a collection application, that help you to get this information in a easy and cheap way.
+
+Additional to this, start with tools to get information about your system to determine if it's working well, can help you to define the final stack if you want to install a corporative solution to any project. I know some stories abot people that install, configure and even evolution some monitoring tools as a corporative solution, an when the solution is in production, they realize that the tools dont cover all the necesiers to control their applications :-D
+
+Following you can see an interesting post from Netflix writteb by Brendan Gregg that show this very clear. https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55. In the article you can see how with a few tools and in a short time, you can get a lot of information about your system ;-)
+
+  * [top](https://www.booleanworld.com/guide-linux-top-command/) - allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin’s toolbox, and it comes pre-installed on every distribution. 
+  * [htop](https://support.cloudways.com/system-monitoring-using-htop-command/) - command line utility that allows you to interactively monitor your system’s vital resources or server’s processes in real time.
+  * [ctop](https://github.com/bcicen/ctop) - Top-like interface for container metrics
+
+## 3. Collect
 
  Get any data – metrics, events, logs, traces – from everywhere – systems, sensors, queues, databases and networks.
 
@@ -56,7 +68,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 
  * Nothing for the moment :-P
 
-## 3. Load Generators & Synthetic Traffic
+## 4. Load Generators & Synthetic Traffic
 
  * [JMeter](https://jmeter.apache.org/) - Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
  * [Yandex Tank](https://github.com/yandex/yandex-tank) - Yandex.Tank is an extensible open source load testing tool for advanced linux users which is especially good as a part of an automated load testing suite
@@ -71,7 +83,7 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
  * [BFG](https://github.com/yandex-load/bfg) - A modular tool and framework for load generation that supports HTTP/2
  * [Bender](https://github.com/pinterest/bender) - Bender makes it easy to build load testing applications for services using protocols like HTTP, Thrift, Protocol Buffers and many more. Bender provides a library of flexible, powerful primitives that can be combined (with plain Go code) to build load testers customized to any use case and that evolve with your service over time.
 
-## 4. Transport
+## 5. Transport
 
 The transport tools simply serve as transport pipelines for data. This includes messaging systems, proprietary protocols and exchange formats.
 
@@ -99,7 +111,7 @@ The transport tools simply serve as transport pipelines for data. This includes 
  * [RocketMQ](https://github.com/apache/incubator-rocketmq) - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.
  * [VerneMQ](https://vernemq.com/) - Open source software, extendable, and enterprise support is available.
 
-## 5. Collector
+## 6. Collector
 
 Receive data from the agents or instrumentation frameworks. The received data is usually persisted to some kind of storage or piped to another tool.
 
@@ -125,14 +137,14 @@ In addition, collectors can have other responsibilities. For example, some expos
 
  * Nothing for the moment :-P
 
-## 6. Storage
+## 7. Storage
 
  * [Apache Cassandra]() -
  * [Checkmk]() -
  * [Cortex]() -
  * [HBase]() -  
  * [Kieker Monitoring]() -
- * [InfluxDB](https://influxdata.com) - influxdb, written in go.
+ * [InfluxDB](https://influxdata.com) - InfluxDB is an open-source time series database developed by InfluxData.
  * [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
  * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities.
  * [Elastic Search](https://www.elastic.co/cn/products/elasticsearch) - Open Source, Distributed, RESTful Search Engine, written in java.
@@ -150,7 +162,7 @@ In addition, collectors can have other responsibilities. For example, some expos
  * [Netflix Atlas]() -
  * [Open TSDB]() -
 
-## 7. Visualization
+## 8. Visualization
 
 ### General
 
@@ -199,7 +211,7 @@ In addition, collectors can have other responsibilities. For example, some expos
  * [Monitive](http://monitive.com) - free for 1 service, checked every 10 minutes with unlimited email & twitter alerts
  * [UptimeRobot](https://uptimerobot.com) - free for 50 monitors, checked every 5 minutes
 
-## 8. Processing & Analyze & Act
+## 9. Processing & Analyze & Act
 
 Tools for rocessing the system data.
 
@@ -258,7 +270,7 @@ Tools for rocessing the system data.
 
  * [Banshee](https://github.com/bbotte/banshee-detection_system) - real-time anomalies(outliers) detection system for periodic metrics
 
-## 9. Observability as a Service
+## 10. Observability as a Service
 
   * [PinPoint](https://github.com/naver/pinpoint) - Open source APM tool for large-scale distributed systems written in java.
   * [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
@@ -276,7 +288,7 @@ Tools for rocessing the system data.
   * [OverOps](https://www.overops.com/) - Know when and why code breaks in production.
   * [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring
 
-## 10. References
+## 11. References
 
  * https://openapm.io/landscape
  * https://github.com/crazy-canux/awesome-monitoring
@@ -286,11 +298,11 @@ Tools for rocessing the system data.
  * https://landscape.cncf.io/
  * https://www.influxdata.com/products/
 
-## 11. License
+## 12. License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
-## 12. Contributing
+## 13. Contributing
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
