@@ -27,18 +27,30 @@ This repo is not only for monitoring. As said Adrian Cole’s in the talk about 
 
 ## 2. General Tools
 
-Before to start with huge observability solution. If you just need to control some application aspects, visualize how is working your system, or just identify a problem, may be usefull start with one, or a collection application, that help you to get this information in a easy and cheap way.
+Before to start with huge observability solution. If you just need to control some application aspects, visualize how is working your system, or just identify a problem, may be usefull start with one, or a collection application, that help you to get this information in a __easy__ and __cheap__ way.
 
-Additional to this, start with tools to get information about your system to determine if it's working well, can help you to define the final stack if you want to install a corporative solution to any project. I know some stories abot people that install, configure and even evolution some monitoring tools as a corporative solution, an when the solution is in production, they realize that the tools dont cover all the necesiers to control their applications :-D
+Additional to this, start with tools to get information about your system to determine if it's working well, can help you to define the final stack if you want to install a corporative solution to any project. I know some stories abot people that install, configure and even evolution some monitoring tools as a corporative solution, an when the solution is in production, they realize that the tools don't cover all the necessaries to control their applications :-D
 
-Following you can see an interesting post from Netflix writteb by Brendan Gregg that show this very clear. https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55. In the article you can see how with a few tools and in a short time, you can get a lot of information about your system ;-)
+Following you can see an interesting post from Netflix writteb by [Brendan Gregg](http://www.brendangregg.com/) that show this very clear.
 
-  * [top](https://www.booleanworld.com/guide-linux-top-command/) - allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin’s toolbox, and it comes pre-installed on every distribution.
-  * [htop](https://support.cloudways.com/system-monitoring-using-htop-command/) - command line utility that allows you to interactively monitor your system’s vital resources or server’s processes in real time.
-  * [ctop](https://github.com/bcicen/ctop) - Top-like interface for container metrics
-  * [Alibaba](https://github.com/alibaba/arthas) - Alibaba Java Diagnostic Tool Arthas/Alibaba Java
-  * [Bistoury](https://github.com/qunarcorp/bistoury) - A project that integrates Arthas and extends it with additional tools.
-  * [VJTools](https://github.com/vipshop/vjtools) - The vip.com's java coding standard, libraries and tools
+https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55
+
+In the article you can see how with a few tools and in a short time, you can get a lot of information about your system ;-)
+
+```
+ $ uptime
+ $ dmesg | tail
+ $ vmstat 1
+ $ mpstat -P ALL 1
+ $ pidstat 1
+ $ iostat -xz 1
+ $ free -m
+ $ sar -n DEV 1
+ $ sar -n TCP,ETCP 1
+ $ top
+```
+
+There are many more commands and methodologies you can apply to drill deeper.
 
 ## 3. Collect
 
@@ -46,11 +58,15 @@ Following you can see an interesting post from Netflix writteb by Brendan Gregg 
 
 ### Metrics
 
+ * [top](https://www.booleanworld.com/guide-linux-top-command/) - allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin’s toolbox, and it comes pre-installed on every distribution.
+ * [htop](https://support.cloudways.com/system-monitoring-using-htop-command/) - command line utility that allows you to interactively monitor your system’s vital resources or server’s processes in real time.
+ * [ctop](https://github.com/bcicen/ctop) - Top-like interface for container metrics
  * [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
  * [OpenCensus](https://opencensus.io/) - OpenCensus is a set of libraries for various languages that allow you to collect application metrics and distributed traces, then transfer the data to a backend of your choice in real time.
  * [Opentracing](https://opentracing.io/) - Vendor-neutral APIs and instrumentation for distributed tracing.
  * [Openmetrics](https://openmetrics.io/) - An effort to create an open standard for transmitting metrics at scale, with support for both text representation and Protocol Buffers.
  * [Micrometer](https://micrometer.io/) - Micrometer provides a simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.
+ * [cAdvisor](https://github.com/google/cadvisor) - cAdvisor (Container Advisor) provides container users an understanding of the resource usage and performance characteristics of their running containers.
  * [Node-exporter](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
  * [Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack
  * [Collectd](http://collectd.org/) - The system statistics collection daemon.
@@ -125,14 +141,17 @@ In addition, collectors can have other responsibilities. For example, some expos
 ### Metrics
 
  * [Telegraf](https://github.com/influxdata/telegraf) - TICK stack, The plugin-driven server agent for collecting & reporting metrics.
+ * [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
 
 ### Tracing
 
  * [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system.
+ * [Jaeger](https://www.jaegertracing.io/) - Monitor and troubleshoot transactions in complex distributed systems
 
 ### Logging
 
  * [Graylog](https://www.graylog.org/) - Simply great centralized log management
+ * [Loki](https://github.com/grafana/loki) - horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
  * [Brubeck](https://github.com/github/brubeck) - Statsd-compatible stats aggregator written in C
  * [GoAccess](https://goaccess.io/) - GoAccess is an open source real-time web log analyzer and interactive viewer that runs in a terminal in \*nix systems or through your browser. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly.
 
@@ -142,28 +161,38 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ## 7. Storage
 
- * [Apache Cassandra]() -
- * [Checkmk]() -
- * [Cortex]() -
- * [HBase]() -  
- * [Kieker Monitoring]() -
+### Data storage
+
+ * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities.
+ * [Cortex](https://github.com/cortexproject/cortex) - horizontally scalable, highly available, multi-tenant, long term storage for Prometheus.
+ * [Apache HBase](https://hbase.apache.org/) - Apache HBase is the Hadoop database, a distributed, scalable, big data store.
+
+### Time Series Database
+
  * [InfluxDB](https://influxdata.com) - InfluxDB is an open-source time series database developed by InfluxData.
  * [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
- * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities.
- * [Elastic Search](https://www.elastic.co/cn/products/elasticsearch) - Open Source, Distributed, RESTful Search Engine, written in java.
  * [OpenTSDB](http://opentsdb.net/) - OpenTSDB, written in java.
- * [kairosDB](http://kairosdb.github.io/) - KairosDB.
- * [Graphite](https://graphiteapp.org) - More, than a time series database. And so awesome using with Grafana.
- * [Loki]() -
- * [M3DB]() -
- * [MongoDB]() -
- * [MySQL]() -
- * [Redis]() -
- * [TimescaleDB]() -
- * [PostgreSQL]() -
- * [Nagios Core]() -
- * [Netflix Atlas]() -
- * [Open TSDB]() -
+ * [kairosDB](http://kairosdb.github.io/) - Fast Time Series Database on Cassandra.
+ * [Graphite](https://graphiteapp.org) - Store numeric time-series data and render graphs of this data on demand
+ * [M3DB](https://www.m3db.io/) - Fully open source metrics platform built on M3DB, a distributed timeseries database
+ * [Netflix Atlas](https://github.com/Netflix/atlas) - Atlas features in-memory data storage, allowing it to gather and report very large numbers of metrics, very quickly
+ * [TimescaleDB](https://www.timescale.com/) - PostgreSQL for time‑series
+
+### Search Engine
+
+### Graph Database
+
+### SQL Database
+
+ * [MySQL](https://www.mysql.com/) - Relational database management system
+ * [MariaDB](https://mariadb.org/) - Open source relational database
+ * [PostgreSQL](https://www.postgresql.org/) - Open source relational database
+
+### NoSQL Database
+
+* [Apache Cassandra](https://cassandra.apache.org/) - Scalability and high availability with linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure
+* [MongoDB](https://www.mongodb.com/) - MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need
+* [Redis](https://redislabs.com/) - Multi-model NoSQL database server enables search, messaging, streaming, graph, and other capabilities
 
 ## 8. Visualization
 
