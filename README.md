@@ -216,8 +216,6 @@ In addition, collectors can have other responsibilities. For example, some expos
  * [PromViz](https://github.com/nghialv/promviz) - Promviz is an application that helps you visualize the traffic of your cluster from Prometheus data
  * [Vizceral](https://github.com/netflix/vizceral) - vizceral is a component for displaying traffic data on a webgl canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes
  * [Trickster](https://github.com/Comcast/trickster) - Trickster is a reverse proxy cache for the Prometheus HTTP APIv1 that dramatically accelerates dashboard rendering times for any series queried from Prometheus
-
-
  * [Stagemonitor]() -
  * [Scouter]() -
  * [Uchiwa]() -
@@ -226,7 +224,6 @@ In addition, collectors can have other responsibilities. For example, some expos
  * [Netflix Vector]()
  * [Netflix Atlas]() -
  * [Pinpoint Web]() -
-
  * [Java Flame Graph](https://github.com/saquibkhan/javaFlameGraph)
  * [Nagios Core](http://www.nagios.org/) - Computer system, network and infrastructure monitoring software application
 
