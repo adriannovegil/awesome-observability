@@ -303,6 +303,7 @@ Tools for rocessing the system data.
  * [Project Scorpio](https://github.com/AICoE/log-anomaly-detector) - Log Anomaly Detector
  * [Anomaly Detection in Prometheus Metrics](https://github.com/AICoE/prometheus-anomaly-detector) - Prototype for a Prometheus Anomaly Detector (PAD) which can be deployed on OpenShift. The PAD is a framework to deploy a metric prediction model to detect anomalies in prometheus metrics.
  * [Prophet](https://facebook.github.io/prophet/) - Prophet is a forecasting procedure implemented in  R and Python.  It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts.
+ * [Anomaly Detection Toolkit (ADTK)](https://adtk.readthedocs.io/en/stable/) - Python package for unsupervised / rule-based time series anomaly detection.
 
 ## 10. Application performance monitoring (APM)
 
