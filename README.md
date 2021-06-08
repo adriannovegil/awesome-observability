@@ -164,22 +164,23 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ## 7. Storage
 
-### Data storage
-
- * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities
- * [Cortex](https://github.com/cortexproject/cortex) - Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus
- * [Apache HBase](https://hbase.apache.org/) - Apache HBase is the Hadoop database, a distributed, scalable, big data store
-
 ### Time Series Database
 
- * [InfluxDB](https://influxdata.com) - InfluxDB is an open-source time series database developed by InfluxData
  * [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database
+ * [VictoriaMetrics](https://victoriametrics.com/) - VictoriaMetrics is a fast, cost-effective and scalable monitoring solution and time series database
+ * [InfluxDB](https://influxdata.com) - InfluxDB is an open-source time series database developed by InfluxData
  * [OpenTSDB](http://opentsdb.net/) - OpenTSDB, written in java
  * [kairosDB](http://kairosdb.github.io/) - Fast Time Series Database on Cassandra
  * [Graphite](https://graphiteapp.org) - Store numeric time-series data and render graphs of this data on demand
  * [M3DB](https://www.m3db.io/) - Fully open source metrics platform built on M3DB, a distributed timeseries database
  * [Netflix Atlas](https://github.com/Netflix/atlas) - Atlas features in-memory data storage, allowing it to gather and report very large numbers of metrics, very quickly
  * [TimescaleDB](https://www.timescale.com/) - PostgreSQL for time‑series
+
+### Data storage
+
+ * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities
+ * [Cortex](https://github.com/cortexproject/cortex) - Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus
+ * [Apache HBase](https://hbase.apache.org/) - Apache HBase is the Hadoop database, a distributed, scalable, big data store
 
 ### Search Engine
 
