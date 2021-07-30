@@ -58,10 +58,10 @@ There are many more commands and methodologies you can apply to drill deeper.
 
 ### Metrics
 
+ * [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector
  * [top](https://www.booleanworld.com/guide-linux-top-command/) - Allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin’s toolbox, and it comes pre-installed on every distribution
  * [htop](https://support.cloudways.com/system-monitoring-using-htop-command/) - Command line utility that allows you to interactively monitor your system’s vital resources or server’s processes in real time
  * [ctop](https://github.com/bcicen/ctop) - Top-like interface for container metrics
- * [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector
  * [OpenCensus](https://opencensus.io/) - OpenCensus is a set of libraries for various languages that allow you to collect application metrics and distributed traces, then transfer the data to a backend of your choice in real time
  * [Opentracing](https://opentracing.io/) - Vendor-neutral APIs and instrumentation for distributed tracing
  * [Openmetrics](https://openmetrics.io/) - An effort to create an open standard for transmitting metrics at scale, with support for both text representation and Protocol Buffers
@@ -71,9 +71,9 @@ There are many more commands and methodologies you can apply to drill deeper.
  * [Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack
  * [Collectd](http://collectd.org/) - The system statistics collection daemon
  * [Tcollector](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB
- * [Performance Co-Pilot]() -
+ * [Performance Co-Pilot](https://pcp.io/) - Performance Co-Pilot is a system performance analysis toolkit.
  * [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data
- * [Kamon](http://www.kamon.io/) - Monitoring applications running on the JVM
+ * [Kamon](https://kamon.io/) - Monitoring applications running on the JVM
 
 ### Tracing
 
@@ -171,12 +171,17 @@ In addition, collectors can have other responsibilities. For example, some expos
  * [InfluxDB](https://influxdata.com) - InfluxDB is an open-source time series database developed by InfluxData
  * [OpenTSDB](http://opentsdb.net/) - OpenTSDB, written in java
  * [kairosDB](http://kairosdb.github.io/) - Fast Time Series Database on Cassandra
- * [Graphite](https://graphiteapp.org) - Store numeric time-series data and render graphs of this data on demand
+ * [Graphite](https://graphiteapp.org/) - Store numeric time-series data and render graphs of this data on demand
  * [M3DB](https://www.m3db.io/) - Fully open source metrics platform built on M3DB, a distributed timeseries database
  * [Netflix Atlas](https://github.com/Netflix/atlas) - Atlas features in-memory data storage, allowing it to gather and report very large numbers of metrics, very quickly
  * [TimescaleDB](https://www.timescale.com/) - PostgreSQL for time‑series
+ * [QuestDB](https://questdb.io/) - QuestDB is the fastest open source time series database
 
-### Data storage
+### Time Series Cache
+
+ * [Trickster](https://github.com/Comcast/trickster) - Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator
+
+### Data Storage
 
  * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities
  * [Cortex](https://github.com/cortexproject/cortex) - Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus
@@ -184,25 +189,36 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Search Engine
 
+ * [Apache Lucene](https://lucene.apache.org/) - Java library providing powerful indexing and search features
+ * [Apache Solr](https://solr.apache.org/) - Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene
+ * [Elasticsearch](https://www.elastic.co/es/enterprise-search) - Free and Open, Distributed, RESTful Search Engine
+
 ### Graph Database
+
+ * [neo4j](https://github.com/neo4j/neo4j) - Graphs for Everyone
+ * [ArangoDB](https://www.arangodb.com/) - Natively store data for graph, document and search needs.
 
 ### SQL Database
 
  * [MySQL](https://www.mysql.com/) - Relational database management system
  * [MariaDB](https://mariadb.org/) - Open source relational database
  * [PostgreSQL](https://www.postgresql.org/) - Open source relational database
+ * [CockroachDB](https://www.cockroachlabs.com/) - CockroachDB delivers Distributed SQL, combining the familiarity of relational data with limitless, elastic cloud scale, bulletproof resilience… and more.
+ * [ClickHouse](https://clickhouse.tech/) - ClickHouse is a fast open-source OLAP database management system
 
-### NoSQL Database
+### NoSQL Database (The Others :-P)
 
-* [Apache Cassandra](https://cassandra.apache.org/) - Scalability and high availability with linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure
-* [MongoDB](https://www.mongodb.com/) - MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need
-* [Redis](https://redislabs.com/) - Multi-model NoSQL database server enables search, messaging, streaming, graph, and other capabilities
+ * [Apache Cassandra](https://cassandra.apache.org/) - Scalability and high availability with linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure
+ * [MongoDB](https://www.mongodb.com/) - MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need
+ * [Redis](https://redislabs.com/) - Multi-model NoSQL database server enables search, messaging, streaming, graph, and other capabilities
+ * [RethinkDB](https://rethinkdb.com/) - RethinkDB pushes JSON to your apps in realtime.
+ * [SQLite](https://www.sqlite.org/index.html) - C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine
+ * [CouchDB](https://couchdb.apache.org/) - Seamless multi-master sync, that scales from Big Data to Mobile, with an Intuitive HTTP/JSON API and designed for Reliability
 
 ## 8. Visualization
 
 ### General
 
- * [Checkmk Server]() -
  * [ExplorViz]() -
  * [HAystack UI]() -
  * [Icinga Web 2]() -
@@ -218,7 +234,6 @@ In addition, collectors can have other responsibilities. For example, some expos
  * [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database
  * [PromViz](https://github.com/nghialv/promviz) - Promviz is an application that helps you visualize the traffic of your cluster from Prometheus data
  * [Vizceral](https://github.com/netflix/vizceral) - vizceral is a component for displaying traffic data on a webgl canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes
- * [Trickster](https://github.com/Comcast/trickster) - Trickster is a reverse proxy cache for the Prometheus HTTP APIv1 that dramatically accelerates dashboard rendering times for any series queried from Prometheus
  * [Stagemonitor]() -
  * [Scouter]() -
  * [Uchiwa]() -
@@ -232,8 +247,8 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Trazing
 
-* [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system
-* [Jaeger](https://www.jaegertracing.io/) - Monitor and troubleshoot transactions in complex distributed systems
+ * [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system
+ * [Jaeger](https://www.jaegertracing.io/) - Monitor and troubleshoot transactions in complex distributed systems
  * [Kieker Trace Analysis](http://kieker-monitoring.net/features/toolintegration/kieker-trace-analysis-tool-with-gui/) - Reconstruct and visualize architectural representations of the monitored systems from trace information collected at runtime. Currently supported architectural representations include
 
 ### Uptime
@@ -270,21 +285,15 @@ Tools for rocessing the system data.
 
 ### Alerts
 
- * [Bosun]()
- * [Checkmk Server]()
- * [ElastAlert]()
+ * [Bosun](https://bosun.org/) - Is an open-source, MIT licensed, monitoring and alerting system
+ * [ElastAlert]() - Easy & Flexible Alerting With Elasticsearch
  * [Grafana]()
  * [HayStack]()
  * [Icinga 2 server]()
  * [Kapacitor](https://github.com/influxdata/kapacitor) - TICK stack, written in go
  * [Nagios Core](http://www.nagios.org/) - Computer system, network and infrastructure monitoring software application
- * [Pinpoint Web]()
  * [Prometheus Alertmanager](https://github.com/prometheus/alertmanager) - Prometheus stack, Prometheus Alertmanager, written in go
- * [Scouter Collector]()
  * [Sensu]()
- * [Collectd]()
- * [Netdata]()
- * [Stagemonitor Alerter]()
  * [X-Pack](https://www.elastic.co/cn/products/x-pack) - Elastic stack
  * [Bosun](http://bosun.org/) - Time Series Alerting Framework
  * [Moira](https://github.com/moira-alert) - Most powerful alerting system, backed by Graphite
@@ -305,7 +314,7 @@ Tools for rocessing the system data.
  * [Prophet](https://facebook.github.io/prophet/) - Prophet is a forecasting procedure implemented in  R and Python.  It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts.
  * [Anomaly Detection Toolkit (ADTK)](https://adtk.readthedocs.io/en/stable/) - Python package for unsupervised / rule-based time series anomaly detection.
 
-## 10. Application performance monitoring (APM)
+## 10. Application Performance Monitoring Solutions (APM)
 
  * [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures
  * [PinPoint](https://github.com/naver/pinpoint) - Open source APM tool for large-scale distributed systems written in java
@@ -317,12 +326,18 @@ Tools for rocessing the system data.
  * [AppDynamics](https://www.appdynamics.com/) - Business and application performance monitoring
  * [SPM](https://sematext.com/spm/) - solutions for performance monitoring.
  * [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring
+ * [Kamon apm](https://kamon.io/apm/) - Point and click to find the endpoints, database queries, and API calls that affect your user’s experience
+ * [Scouter Collector](https://github.com/scouter-project/scouter#application-performance-monitoring-for-open-source-sws) - Application Performance Monitoring for Open Source S/Ws
+ * [Netdata](https://www.netdata.cloud/) - Troubleshoot slowdowns and anomalies in your infrastructure with thousands of per-second metrics, meaningful visualizations, and insightful health alarms with zero configuration.
+ * [Stagemonitor Alerter](https://www.stagemonitor.org/) - an open source solution to application performance monitoring for java server applications
+ * [Pinpoint](https://github.com/pinpoint-apm/pinpoint) - Pinpoint is an APM (Application Performance Management) tool for large-scale distributed systems written in Java / PHP/PYTHON.
+ * [Checkmk Server](https://checkmk.com/) - Monitor your entire hybrid IT infrastructure
 
 ## 11. Observability as a Service
 
-  * [Kiali](https://www.kiali.io/) - Observability console for Istio with service mesh configuration capabilities. It helps you to understand the structure of your service mesh by inferring the topology, and also provides the health of your mesh
-  * [NexClipper](https://www.nexclipper.io/) - NexClipper is Open Source software for Cloud Native monitoring and operation , especailly for Kubernetes, to support enterprise environments and integrate with Prometheus
-  * [Sysdig Prometheus](https://sysdig.com/products/monitor/) - Cloud scale monitoring solution with full Prometheus compatibility
+ * [Kiali](https://www.kiali.io/) - Observability console for Istio with service mesh configuration capabilities. It helps you to understand the structure of your service mesh by inferring the topology, and also provides the health of your mesh
+ * [NexClipper](https://www.nexclipper.io/) - NexClipper is Open Source software for Cloud Native monitoring and operation , especailly for Kubernetes, to support enterprise environments and integrate with Prometheus
+ * [Sysdig Prometheus](https://sysdig.com/products/monitor/) - Cloud scale monitoring solution with full Prometheus compatibility
 
 ## 12. References
 
@@ -338,7 +353,7 @@ Tools for rocessing the system data.
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
-## 13. Contributing
+## 14. Contributing
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
