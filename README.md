@@ -278,7 +278,7 @@ Tools for rocessing the system data.
 
  * [Bosun](https://bosun.org/) - Is an open-source, MIT licensed, monitoring and alerting system
  * [ElastAlert]() - Easy & Flexible Alerting With Elasticsearch
- * [HayStack]()
+ * [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system
  * [Kapacitor](https://github.com/influxdata/kapacitor) - TICK stack, written in go
  * [Prometheus Alertmanager](https://github.com/prometheus/alertmanager) - Prometheus stack, Prometheus Alertmanager, written in go
  * [X-Pack](https://www.elastic.co/cn/products/x-pack) - Elastic stack
