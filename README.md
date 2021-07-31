@@ -74,15 +74,17 @@ There are many more commands and methodologies you can apply to drill deeper.
  * [Performance Co-Pilot](https://pcp.io/) - Performance Co-Pilot is a system performance analysis toolkit.
  * [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data
  * [Kamon](https://kamon.io/) - Monitoring applications running on the JVM
+ * [Netflix Vector](http://getvector.io/) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser
 
 ### Tracing
 
  * [Sleuth](https://spring.io/projects/spring-cloud-sleuth) - Spring Cloud Sleuth implements a distributed tracing solution for Spring Cloud, borrowing heavily from Dapper, Zipkin and HTrace
- * [Jaeger](https://www.jaegertracing.io/) - Monitor and troubleshoot transactions in complex distributed systems
+ * [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data
 
 ### Logging
 
  * [Loki](https://grafana.com/oss/loki) - Prometheus-inspired logging for cloud natives
+ * [Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack
 
 ### Events
 
@@ -145,11 +147,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
  * [Telegraf](https://github.com/influxdata/telegraf) - TICK stack, The plugin-driven server agent for collecting & reporting metrics
  * [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database
-
-### Tracing
-
- * [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system
- * [Jaeger](https://www.jaegertracing.io/) - Monitor and troubleshoot transactions in complex distributed systems
+ * [statsd](https://github.com/statsd/statsd) - A network daemon that runs on the Node.js platform and listens for statistics, like counters and timers, sent over UDP or TCP and sends aggregates to one or more pluggable backend services
 
 ### Logging
 
@@ -176,6 +174,7 @@ In addition, collectors can have other responsibilities. For example, some expos
  * [Netflix Atlas](https://github.com/Netflix/atlas) - Atlas features in-memory data storage, allowing it to gather and report very large numbers of metrics, very quickly
  * [TimescaleDB](https://www.timescale.com/) - PostgreSQL for time‑series
  * [QuestDB](https://questdb.io/) - QuestDB is the fastest open source time series database
+ * [Metric Tank](https://grafana.com/oss/metrictank/) - Provides high availability and efficient long-term storage, retrieval, and processing for large-scale environments
 
 ### Time Series Cache
 
@@ -186,6 +185,13 @@ In addition, collectors can have other responsibilities. For example, some expos
  * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities
  * [Cortex](https://github.com/cortexproject/cortex) - Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus
  * [Apache HBase](https://hbase.apache.org/) - Apache HBase is the Hadoop database, a distributed, scalable, big data store
+
+### Tracing
+
+ * [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system
+ * [Jaeger](https://www.jaegertracing.io/) - Monitor and troubleshoot transactions in complex distributed systems
+ * [Grafana Tempo](https://github.com/grafana/tempo) - Open source, easy-to-use and high-scale distributed tracing backend
+ * [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system
 
 ### Search Engine
 
@@ -217,39 +223,32 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ## 8. Visualization
 
-### General
+### General & Tools
 
- * [ExplorViz]() -
- * [HAystack UI]() -
- * [Icinga Web 2]() -
- * [Sentry Server]() -
- * [Flame Graph]() -
- * [Flame Scope]() -
+ * [ExplorViz](https://github.com/ExplorViz) - Live trace visualization for large software landscapes
+ * [Flame Graph](https://www.brendangregg.com/flamegraphs.html) - Visualization of profiled software, allowing the most frequent code-paths to be identified quickly and accurately
+ * [Flame Scope](https://github.com/Netflix/flamescope) - FlameScope is a visualization tool for exploring different time ranges as Flame Graphs
 
 ### Dashboarding
 
- * [Grafana](https://grafana.com) - The first really good dashboard for displaying metrics
+ * [Grafana](https://grafana.com/oss/grafana/) - The first really good dashboard for displaying metrics
  * [Chronograf](https://github.com/influxdata/chronograf) - Chronograf is the user interface and administrative component of the InfluxDB platform
  * [Kibana](https://github.com/elastic/kibana) - Elastic stack
  * [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database
  * [PromViz](https://github.com/nghialv/promviz) - Promviz is an application that helps you visualize the traffic of your cluster from Prometheus data
- * [Vizceral](https://github.com/netflix/vizceral) - vizceral is a component for displaying traffic data on a webgl canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes
- * [Stagemonitor]() -
- * [Scouter]() -
- * [Uchiwa]() -
- * [Alerta web UI]() -
- * [netdata]() -
- * [Netflix Vector]()
- * [Netflix Atlas]() -
- * [Pinpoint Web]() -
- * [Java Flame Graph](https://github.com/saquibkhan/javaFlameGraph)
- * [Nagios Core](http://www.nagios.org/) - Computer system, network and infrastructure monitoring software application
+ * [Uchiwa](https://uchiwa.io/#/) - Uchiwa is a simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.    
 
-### Trazing
+### Tracing
 
  * [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system
  * [Jaeger](https://www.jaegertracing.io/) - Monitor and troubleshoot transactions in complex distributed systems
- * [Kieker Trace Analysis](http://kieker-monitoring.net/features/toolintegration/kieker-trace-analysis-tool-with-gui/) - Reconstruct and visualize architectural representations of the monitored systems from trace information collected at runtime. Currently supported architectural representations include
+ * [Grafana Tempo](https://github.com/grafana/tempo) - Open source, easy-to-use and high-scale distributed tracing backend
+ * [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system
+
+### Graph of Nodes
+
+ * [Vizceral](https://github.com/netflix/vizceral) - vizceral is a component for displaying traffic data on a webgl canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes
+ * [Novatec Service Dependency Graph Panel](https://github.com/NovatecConsulting/novatec-service-dependency-graph-panel) - A Grafana panel for visualizing a Service Dependency Graph.
 
 ### Uptime
 
@@ -272,32 +271,20 @@ Tools for rocessing the system data.
  * [Logstash](https://www.elastic.co/es/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash."
  * [Fluentd](https://www.fluentd.org/) - Fluentd is an open source data collector for unified logging layer
  * [Vector](https://github.com/timberio/vector) - Vector is a high-performance observability data router. It makes collecting, transforming, and sending logs, metrics, and events easy. It decouples data collection & routing from your services, giving you control and data ownership, among many other benefits
- * [Haystack]() -
- * [icingabeat]() -
- * [Kapacitor]() -
- * [Kieker]() -
- * [Metric Tank]() -
- * [Nagios Remote Data Processor]() -
- * [OpenCensus Collector]() -
- * [Scouter]() -
- * [Sensu]() -
- * [statsd]() -
+ * [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system
+ * [Kapacitor](https://www.influxdata.com/time-series-platform/kapacitor/) - Kapacitor is a real-time streaming data processing engine
 
 ### Alerts
 
  * [Bosun](https://bosun.org/) - Is an open-source, MIT licensed, monitoring and alerting system
  * [ElastAlert]() - Easy & Flexible Alerting With Elasticsearch
- * [Grafana]()
  * [HayStack]()
- * [Icinga 2 server]()
  * [Kapacitor](https://github.com/influxdata/kapacitor) - TICK stack, written in go
- * [Nagios Core](http://www.nagios.org/) - Computer system, network and infrastructure monitoring software application
  * [Prometheus Alertmanager](https://github.com/prometheus/alertmanager) - Prometheus stack, Prometheus Alertmanager, written in go
- * [Sensu]()
  * [X-Pack](https://www.elastic.co/cn/products/x-pack) - Elastic stack
  * [Bosun](http://bosun.org/) - Time Series Alerting Framework
  * [Moira](https://github.com/moira-alert) - Most powerful alerting system, backed by Graphite
- * [Alerta](https://github.com/guardian/alerta) - Distributed, scaleable and flexible monitoring system
+ * [Alerta](https://alerta.io/) - Tool used to consolidate and de-duplicate alerts from multiple sources for quick ‘at-a-glance’ visualisation
  * [Flapjack](http://flapjack.io/) - Monitoring notification routing & event processing system
  * [Seyren](https://github.com/scobal/seyren) - An alerting dashboard for Graphite
 
@@ -317,7 +304,7 @@ Tools for rocessing the system data.
 ## 10. Application Performance Monitoring Solutions (APM)
 
  * [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures
- * [PinPoint](https://github.com/naver/pinpoint) - Open source APM tool for large-scale distributed systems written in java
+ * [Pinpoint](https://github.com/pinpoint-apm/pinpoint) - Pinpoint is an APM (Application Performance Management) tool for large-scale distributed systems written in Java / PHP/PYTHON.
  * [Falcon Plus](https://github.com/open-falcon/falcon-plus) - An open-source and enterprise-level monitoring system
  * [dynatrace APM](https://www.dynatrace.com/platform/application-performance-monitoring/) - Best-in-class APM from the category leader. Ensure application performance, innovate faster, collaborate efficiently, and deliver more value with dramatically less effort
  * [Elastic APM](https://www.elastic.co/es/apm) - Application performance monitoring system built on the Elastic Stack
@@ -327,19 +314,31 @@ Tools for rocessing the system data.
  * [SPM](https://sematext.com/spm/) - solutions for performance monitoring.
  * [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring
  * [Kamon apm](https://kamon.io/apm/) - Point and click to find the endpoints, database queries, and API calls that affect your user’s experience
- * [Scouter Collector](https://github.com/scouter-project/scouter#application-performance-monitoring-for-open-source-sws) - Application Performance Monitoring for Open Source S/Ws
+ * [Scouter](https://github.com/scouter-project/scouter) - Scouter is an open source APM (Application Performance Management) tool.
  * [Netdata](https://www.netdata.cloud/) - Troubleshoot slowdowns and anomalies in your infrastructure with thousands of per-second metrics, meaningful visualizations, and insightful health alarms with zero configuration.
- * [Stagemonitor Alerter](https://www.stagemonitor.org/) - an open source solution to application performance monitoring for java server applications
- * [Pinpoint](https://github.com/pinpoint-apm/pinpoint) - Pinpoint is an APM (Application Performance Management) tool for large-scale distributed systems written in Java / PHP/PYTHON.
+ * [Stagemonitor](https://www.stagemonitor.org/) - an open source solution to application performance monitoring for java server applications
  * [Checkmk Server](https://checkmk.com/) - Monitor your entire hybrid IT infrastructure
+ * [Icinga](https://icinga.com/) - The Icinga stack spans six core strengths that cover all aspects of monitoring
+ * [Sentry](https://sentry.io/welcome/) - From error tracking to performance monitoring, developers can see what actually matters, solve quicker, and learn continuously about their applications - from the frontend to the backend.
+ * [Nagios](https://www.nagios.com/) - Computer system, network and infrastructure monitoring software application
+ * [Sensu](https://sensu.io/) - The Observability Pipeline that delivers monitoring as code on
+any cloud
+ * [Kieker](https://kieker-monitoring.net/) - Monitoring, analysis and tool integration
 
-## 11. Observability as a Service
+## 11. Service Mesh
 
+ * [Istio](https://istio.io/latest/docs/concepts/observability/) - stio generates detailed telemetry for all service communications within a mesh
  * [Kiali](https://www.kiali.io/) - Observability console for Istio with service mesh configuration capabilities. It helps you to understand the structure of your service mesh by inferring the topology, and also provides the health of your mesh
+
+## 12. Observability as a Service
+
  * [NexClipper](https://www.nexclipper.io/) - NexClipper is Open Source software for Cloud Native monitoring and operation , especailly for Kubernetes, to support enterprise environments and integrate with Prometheus
  * [Sysdig Prometheus](https://sysdig.com/products/monitor/) - Cloud scale monitoring solution with full Prometheus compatibility
+ * [CloudWatch](https://aws.amazon.com/es/cloudwatch/) - Observability of your AWS resources and applications on AWS and on-premises
+ * [Google Cloud Monitoring](https://cloud.google.com/monitoring) - Gain visibility into the performance, availability, and health of your applications and infrastructure.
+ * [Azure Monitor](https://azure.microsoft.com/en-us/services/monitor/#overview) - Full observability into your applications, infrastructure, and network
 
-## 12. References
+## 13. References
 
  * https://openapm.io/landscape
  * https://github.com/crazy-canux/awesome-monitoring
@@ -349,11 +348,11 @@ Tools for rocessing the system data.
  * https://landscape.cncf.io/
  * https://www.influxdata.com/products/
 
-## 13. License
+## 14. License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
-## 14. Contributing
+## 15. Contributing
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
