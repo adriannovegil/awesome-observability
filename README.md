@@ -180,10 +180,11 @@ In addition, collectors can have other responsibilities. For example, some expos
 
  * [Trickster](https://github.com/Comcast/trickster) - Open Source HTTP Reverse Proxy Cache and Time Series Dashboard Accelerator
 
-### Data Storage
+### "Meta Projects" (data storage, multi-tenant, aggregation, high availability, etc)
 
  * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities
  * [Cortex](https://github.com/cortexproject/cortex) - Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus
+ * [Observatorium](https://github.com/observatorium/observatorium) - This system will allow you to ingest, store and use common observability signals like metrics, logging and tracing
  * [Apache HBase](https://hbase.apache.org/) - Apache HBase is the Hadoop database, a distributed, scalable, big data store
 
 ### Tracing
