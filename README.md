@@ -62,6 +62,7 @@ There are many more commands and methodologies you can apply to drill deeper.
  * [top](https://www.booleanworld.com/guide-linux-top-command/) - Allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin’s toolbox, and it comes pre-installed on every distribution
  * [htop](https://support.cloudways.com/system-monitoring-using-htop-command/) - Command line utility that allows you to interactively monitor your system’s vital resources or server’s processes in real time
  * [ctop](https://github.com/bcicen/ctop) - Top-like interface for container metrics
+ * [sls-dev-tools](https://github.com/Theodo-UK/sls-dev-tools) - The Developer Tools for the Serverless World - think Chrome Dev Tools but for Serverless
  * [OpenCensus](https://opencensus.io/) - OpenCensus is a set of libraries for various languages that allow you to collect application metrics and distributed traces, then transfer the data to a backend of your choice in real time
  * [Opentracing](https://opentracing.io/) - Vendor-neutral APIs and instrumentation for distributed tracing
  * [Openmetrics](https://openmetrics.io/) - An effort to create an open standard for transmitting metrics at scale, with support for both text representation and Protocol Buffers
