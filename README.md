@@ -160,6 +160,7 @@ In addition, collectors can have other responsibilities. For example, some expos
  * [Loki](https://github.com/grafana/loki) - Horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus
  * [Brubeck](https://github.com/github/brubeck) - Statsd-compatible stats aggregator written in C
  * [GoAccess](https://goaccess.io/) - GoAccess is an open source real-time web log analyzer and interactive viewer that runs in a terminal in \*nix systems or through your browser. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly
+ * [Logbook](https://github.com/zalando/logbook) - Extensible Java library to enable complete request and response logging for different client- and server-side technologies
 
 ### Events
 
