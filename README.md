@@ -342,6 +342,7 @@ Tools for rocessing the system data.
  * [Sensu](https://sensu.io/) - The Observability Pipeline that delivers monitoring as code on
 any cloud
  * [Kieker](https://kieker-monitoring.net/) - Monitoring, analysis and tool integration
+ * [Soda Sql](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
 
 ## 11. Service Mesh
 
