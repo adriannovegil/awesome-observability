@@ -313,6 +313,7 @@ Tools for rocessing the system data.
 
 ## 10. Application Performance Monitoring Solutions (APM)
 
+ * [swagger-stats](https://swaggerstats.io/) - API Telemetry and APM
  * [Cloudprober](https://github.com/google/cloudprober) - An active monitoring software to detect failures before your customers do
  * [Hubble](https://github.com/cilium/hubble) - Network, Service & Security Observability for Kubernetes
  * [Datav](https://github.com/datav-io/datav) - A modern apm solution for enterprise, an open-source alternative to DataDog, New Relic, etc.
