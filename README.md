@@ -245,7 +245,8 @@ In addition, collectors can have other responsibilities. For example, some expos
  * [Kibana](https://github.com/elastic/kibana) - Elastic stack
  * [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database
  * [PromViz](https://github.com/nghialv/promviz) - Promviz is an application that helps you visualize the traffic of your cluster from Prometheus data
- * [Uchiwa](https://uchiwa.io/#/) - Uchiwa is a simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.    
+ * [Uchiwa](https://uchiwa.io/#/) - Uchiwa is a simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.
+ * [Grafterm](https://github.com/slok/grafterm) - Visualize metrics dashboards on the terminal, like a simplified and minimalist version of Grafana for terminal
 
 ### Tracing
 
