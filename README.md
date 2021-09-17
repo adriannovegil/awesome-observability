@@ -285,6 +285,7 @@ Tools for rocessing the system data.
 
 ### Alerts
 
+ * [Sloth](https://github.com/slok/sloth) - Easy and simple Prometheus SLO (service level objectives) generator
  * [Bosun](https://bosun.org/) - Is an open-source, MIT licensed, monitoring and alerting system
  * [ElastAlert]() - Easy & Flexible Alerting With Elasticsearch
  * [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system
