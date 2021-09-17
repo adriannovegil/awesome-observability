@@ -302,7 +302,7 @@ Tools for rocessing the system data.
 
 ### Triggers
 
- * WIP
+ * [Odin](https://github.com/theycallmemac/odin) - A programmable, observable and distributed job orchestration system
 
 ### Anomalies Detection
 
