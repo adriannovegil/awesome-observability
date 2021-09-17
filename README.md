@@ -92,9 +92,11 @@ There are many more commands and methodologies you can apply to drill deeper.
  * [Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack
  * [mTAIL](http://ophilipp.free.fr/op_tail.htm) - Windows program that extract internal monitoring data from application logs for collection in a timeseries database
 
-### Events
+### Events & Problems
 
- * Nothing for the moment :-P
+ * [kubernetes-event-exporter](https://github.com/opsgenie/kubernetes-event-exporter) - This tool allows exporting the often missed Kubernetes events to various outputs so that they can be used for observability or alerting purposes
+ * [kspan](https://github.com/weaveworks-experiments/kspan) - Turning Kubernetes Events into spans
+ * [KubeEye](https://github.com/kubesphere/kubeeye) - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration(using Polaris), cluster components unhealthy and node problems(using Node-Problem-Detector)
 
 ## 4. Load Generators & Synthetic Traffic
 
@@ -165,8 +167,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Events
 
- * [kubernetes-event-exporter](https://github.com/opsgenie/kubernetes-event-exporter) - This tool allows exporting the often missed Kubernetes events to various outputs so that they can be used for observability or alerting purposes
- * [kspan](https://github.com/weaveworks-experiments/kspan) - Turning Kubernetes Events into spans
+ * Nothing for the moment :-P
 
 ## 7. Storage
 
