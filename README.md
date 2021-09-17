@@ -75,6 +75,7 @@ There are many more commands and methodologies you can apply to drill deeper.
  * [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data
  * [Kamon](https://kamon.io/) - Monitoring applications running on the JVM
  * [Netflix Vector](http://getvector.io/) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser
+ * [express-status-monitor](https://github.com/RafalWilinski/express-status-monitor) - Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers
 
 ### Tracing
 
