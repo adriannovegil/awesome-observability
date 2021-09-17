@@ -190,6 +190,7 @@ In addition, collectors can have other responsibilities. For example, some expos
  * [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities
  * [Cortex](https://github.com/cortexproject/cortex) - Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus
  * [Observatorium](https://github.com/observatorium/observatorium) - This system will allow you to ingest, store and use common observability signals like metrics, logging and tracing
+ * [Opstrace](https://opstrace.com/) - The Opstrace Distribution is a secure, horizontally-scalable, open source observability platform that you can install in your cloud account
  * [Apache HBase](https://hbase.apache.org/) - Apache HBase is the Hadoop database, a distributed, scalable, big data store
 
 ### Tracing
