@@ -77,6 +77,7 @@ There are many more commands and methodologies you can apply to drill deeper.
  * [Netflix Vector](http://getvector.io/) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser
  * [Express State Metrics](https://github.com/RafalWilinski/express-status-monitor) - Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers
  * [Kube State Metrics](https://github.com/kubernetes/kube-state-metrics) - kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects
+ * [MyPerf4J](https://github.com/LinShunKang/MyPerf4J) - High performance Java APM. Powered by ASM. Try it. Test it. If you feel its better, use it.
 
 ### Tracing
 
@@ -307,6 +308,7 @@ Tools for rocessing the system data.
 
 ## 10. Application Performance Monitoring Solutions (APM)
 
+ * [Hubble](https://github.com/cilium/hubble) - Network, Service & Security Observability for Kubernetes
  * [Datav](https://github.com/datav-io/datav) - A modern apm solution for enterprise, an open-source alternative to DataDog, New Relic, etc.
  * [SigNoz](https://github.com/SigNoz/signoz) - Monitor your applications and troubleshoot problems in your deployed applications, an open-source alternative to DataDog, New Relic, etc.
  * [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures
