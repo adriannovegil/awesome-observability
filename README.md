@@ -165,7 +165,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Events
 
- * Nothing for the moment :-P
+ * [kubernetes-event-exporter](https://github.com/opsgenie/kubernetes-event-exporter) - This tool allows exporting the often missed Kubernetes events to various outputs so that they can be used for observability or alerting purposes
 
 ## 7. Storage
 
