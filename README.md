@@ -75,8 +75,8 @@ There are many more commands and methodologies you can apply to drill deeper.
  * [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data
  * [Kamon](https://kamon.io/) - Monitoring applications running on the JVM
  * [Netflix Vector](http://getvector.io/) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser
- * [express-status-monitor](https://github.com/RafalWilinski/express-status-monitor) - Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers
- * [kube-state-metrics](https://github.com/kubernetes/kube-state-metrics) - kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects
+ * [Express State Metrics](https://github.com/RafalWilinski/express-status-monitor) - Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers
+ * [Kube State Metrics](https://github.com/kubernetes/kube-state-metrics) - kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects
 
 ### Tracing
 
@@ -87,6 +87,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 
  * [Loki](https://grafana.com/oss/loki) - Prometheus-inspired logging for cloud natives
  * [Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack
+ * [mTAIL](http://ophilipp.free.fr/op_tail.htm) - Windows program that extract internal monitoring data from application logs for collection in a timeseries database
 
 ### Events
 
