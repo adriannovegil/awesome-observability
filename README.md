@@ -143,6 +143,7 @@ The transport tools simply serve as transport pipelines for data. This includes 
  * [RabbitMQ](https://www.rabbitmq.com/) - Open source Erlang-based message broker that just works
  * [RocketMQ](https://github.com/apache/incubator-rocketmq) - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business
  * [VerneMQ](https://vernemq.com/) - Open source software, extendable, and enterprise support is available
+ * [Zenoh](https://zenoh.io/) - A low overhead, low latency, high throughput open-source protocol that blends traditional pub/sub with geo distributed storage, queries and computations for unifying data in motion, data at rest and computations.
 
 ## 6. Collector
 
