@@ -362,7 +362,8 @@ any cloud
 
 ## 13. Examples and Sandbox's
 
-  * https://github.com/adriannovegil/observability-sandbox
+  * [Node.js boilerplate app (Javascript)](https://github.com/Olivr/app-node-js) - Docker and Kubernetes ready. Observability (logs, metrics, traces) included.
+  * [Observability Sandbox](https://github.com/adriannovegil/observability-sandbox) - Get up and running with Prometheus, Thanos, Grafana, and more using Docker and Docker Compose
 
 ## 14. References
 
