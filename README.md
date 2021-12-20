@@ -246,6 +246,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 ### Dashboarding
 
  * [Grafana](https://grafana.com/oss/grafana/) - The first really good dashboard for displaying metrics
+ * [SLO-Tracker](https://github.com/roshan8/slo-tracker) - A simple but effective way to track SLO's and Error budgets. SLO-tracker can be integrated with few alerting tools via webhook integration to receive SLO voilating incidents.
  * [Chronograf](https://github.com/influxdata/chronograf) - Chronograf is the user interface and administrative component of the InfluxDB platform
  * [Kibana](https://github.com/elastic/kibana) - Elastic stack
  * [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database
@@ -365,6 +366,8 @@ any cloud
 
   * [Node.js boilerplate app (Javascript)](https://github.com/Olivr/app-node-js) - Docker and Kubernetes ready. Observability (logs, metrics, traces) included.
   * [Observability Sandbox](https://github.com/adriannovegil/observability-sandbox) - Get up and running with Prometheus, Thanos, Grafana, and more using Docker and Docker Compose
+  * [Spring PetClinic Sample Application](https://github.com/spring-petclinic/spring-petclinic-microservices) - Distributed version of the Spring PetClinic Sample Application built with Spring Cloud
+  * [My Spring PetClinic Sample Application](https://github.com/adriannovegil/spring-petclinic-microservices-sre) - My fork of the official repository
 
 ## 14. References
 
