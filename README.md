@@ -361,7 +361,8 @@ any cloud
  * [CloudWatch](https://aws.amazon.com/es/cloudwatch/) - Observability of your AWS resources and applications on AWS and on-premises
  * [Google Cloud Monitoring](https://cloud.google.com/monitoring) - Gain visibility into the performance, availability, and health of your applications and infrastructure.
  * [Azure Monitor](https://azure.microsoft.com/en-us/services/monitor/#overview) - Full observability into your applications, infrastructure, and network
-
+ * [Guance](https://www.guance.com) - China local "All in one" observability platform, it can integrate any open source collecting method.
+ 
 ## 13. Examples and Sandbox's
 
   * [Node.js boilerplate app (Javascript)](https://github.com/Olivr/app-node-js) - Docker and Kubernetes ready. Observability (logs, metrics, traces) included.
