@@ -1,4 +1,4 @@
-# Awesome Observability
+# Awesome Observability [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Monitoring as defined by the Oxford dictionary is to "Observe and check the progress or quality of (something) over a period of time; keep under systematic review".
 
