@@ -12,13 +12,13 @@ Furthermore, the concept of __observability__ can be seen a superset of monitori
 
 It can be said to  consist of three parts:
 
-- __event logs__ (can be in different forms, plain text, structured or binary and is in general about having a log about what happened at a certain time),
-- __metrics__ (measurement over time, for example number of failed requests) and
-- __tracing__ (represent related and distributed events together as a request flows through a system)
+- The __event logs__ (can be in different forms, plain text, structured or binary and is in general about having a log about what happened at a certain time),
+- The __metrics__ (measurement over time, for example number of failed requests) and
+- The __tracing__ (represent related and distributed events together as a request flows through a system)
 
 > __Metrics__, __Logs__ and __Traces__: The Golden Triangle of Observability in Monitoring
 
-This repo is not only for monitoring. As said Adrian Cole’s in the talk about "[Observability 3 Ways](https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing)" we are going to focus on the three types of systems necessaries to understand how your applications behave: Logging, Metrics & Tracing.
+This repo is not only for monitoring. As said Adrian Cole's in the talk about "[Observability 3 Ways](https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing)" we are going to focus on the three types of systems necessaries to understand how your applications behave: Logging, Metrics & Tracing.
 
 ## 1. Best Practices
 
@@ -59,8 +59,8 @@ There are many more commands and methodologies you can apply to drill deeper.
 ### Metrics
 
 - [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
-- [top](https://www.booleanworld.com/guide-linux-top-command/) - Allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin’s toolbox, and it comes pre-installed on every distribution.
-- [htop](https://support.cloudways.com/system-monitoring-using-htop-command/) - Command line utility that allows you to interactively monitor your system’s vital resources or server’s processes in real time.
+- [top](https://www.booleanworld.com/guide-linux-top-command/) - Allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin's toolbox, and it comes pre-installed on every distribution.
+- [htop](https://support.cloudways.com/system-monitoring-using-htop-command/) - Command line utility that allows you to interactively monitor your system's vital resources or server's processes in real time.
 - [ctop](https://github.com/bcicen/ctop) - Top-like interface for container metrics.
 - [sls-dev-tools](https://github.com/Theodo-UK/sls-dev-tools) - The Developer Tools for the Serverless World - think Chrome Dev Tools but for Serverless.
 - [OpenCensus](https://opencensus.io/) - OpenCensus is a set of libraries for various languages that allow you to collect application metrics and distributed traces, then transfer the data to a backend of your choice in real time.
@@ -75,7 +75,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [Performance Co-Pilot](https://pcp.io/) - Performance Co-Pilot is a system performance analysis toolkit.
 - [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
 - [Kamon](https://kamon.io/) - Monitoring applications running on the JVM.
-- [Netflix Vector](http://getvector.io/) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser.
+- [Netflix Vector](http://getvector.io/) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer's browser.
 - [Express State Metrics](https://github.com/RafalWilinski/express-status-monitor) - Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers.
 - [Kube State Metrics](https://github.com/kubernetes/kube-state-metrics) - The kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.
 - [MyPerf4J](https://github.com/LinShunKang/MyPerf4J) - High performance Java APM. Powered by ASM. Try it. Test it. If you feel its better, use it.
@@ -336,7 +336,7 @@ Tools for rocessing the system data.
 - [AppDynamics](https://www.appdynamics.com/) - Business and application performance monitoring.
 - [SPM](https://sematext.com/spm/) - Solutions for performance monitoring.
 - [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring.
-- [Kamon apm](https://kamon.io/apm/) - Point and click to find the endpoints, database queries, and API calls that affect your user’s experience.
+- [Kamon apm](https://kamon.io/apm/) - Point and click to find the endpoints, database queries, and API calls that affect your user's experience.
 - [Scouter](https://github.com/scouter-project/scouter) - Scouter is an open source APM (Application Performance Management) tool.
 - [Netdata](https://www.netdata.cloud/) - Troubleshoot slowdowns and anomalies in your infrastructure with thousands of per-second metrics, meaningful visualizations, and insightful health alarms with zero configuration.
 - [Stagemonitor](https://www.stagemonitor.org/) - An open source solution to application performance monitoring for java server applications.
