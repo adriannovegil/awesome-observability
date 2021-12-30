@@ -20,6 +20,25 @@ It can be said to  consist of three parts:
 
 This repo is not only for monitoring. As said Adrian Cole's in the talk about "[Observability 3 Ways](https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing)" we are going to focus on the three types of systems necessaries to understand how your applications behave: Logging, Metrics & Tracing.
 
+## Contents
+
+- [1. Best Practices](#1-best-practices)
+- [2. General Tools](#2-general-tools)
+- [3. Collect](#3-collect)
+- [4. Load Generators and Synthetic Traffic](#4-load-generators-and-synthetic-traffic)
+- [5. Transport](#5-transport)
+- [6. Collector](#6-collector)
+- [7. Storage](#7-storage)
+- [8. Visualization](#8-visualization)
+- [9. Processing and Analyze and Act](#9-processing-and-analyze-and-act)
+- [10. Application Performance Monitoring Solutions (APM)](#10-application-performance-monitoring-solutions-apm)
+- [11. Service Mesh](#11-service-mesh)
+- [12. Observability as a Service](#12-observability-as-a-service)
+- [13. Examples and Sandbox's](#13-examples-and-sandboxs)
+- [14. References](#14-references)
+- [15. License](#15-license)
+- [16. Contributing](#16-contributing)
+
 ## 1. Best Practices
 
 - [Best practices for monitoring cloud applications](https://docs.microsoft.com/en-us/azure/architecture/best-practices/monitoring)
@@ -69,10 +88,12 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [Micrometer](https://micrometer.io/) - Micrometer provides a simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.
 - [cAdvisor](https://github.com/google/cadvisor) - cAdvisor (Container Advisor) provides container users an understanding of the resource usage and performance characteristics of their running containers.
 - [Node-exporter](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
+<!--lint ignore double-link-->
 - [Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack.
 - [Collectd](http://collectd.org/) - The system statistics collection daemon.
 - [Tcollector](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB.
 - [Performance Co-Pilot](https://pcp.io/) - Performance Co-Pilot is a system performance analysis toolkit.
+<!--lint ignore double-link-->
 - [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
 - [Kamon](https://kamon.io/) - Monitoring applications running on the JVM.
 - [Netflix Vector](http://getvector.io/) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer's browser.
@@ -85,11 +106,13 @@ There are many more commands and methodologies you can apply to drill deeper.
 ### Tracing
 
 - [Sleuth](https://spring.io/projects/spring-cloud-sleuth) - Spring Cloud Sleuth implements a distributed tracing solution for Spring Cloud, borrowing heavily from Dapper, Zipkin and HTrace.
+<!--lint ignore double-link-->
 - [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
 
 ### Logging
 
 - [Loki](https://grafana.com/oss/loki) - Prometheus-inspired logging for cloud natives.
+<!--lint ignore double-link-->
 - [Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack.
 - [mTAIL](http://ophilipp.free.fr/op_tail.htm) - Windows program that extract internal monitoring data from application logs for collection in a timeseries database.
 
@@ -99,7 +122,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [kspan](https://github.com/weaveworks-experiments/kspan) - Turning Kubernetes Events into spans.
 - [KubeEye](https://github.com/kubesphere/kubeeye) - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration(using Polaris), cluster components unhealthy and node problems(using Node-Problem-Detector).
 
-## 4. Load Generators & Synthetic Traffic
+## 4. Load Generators and Synthetic Traffic
 
 - [JMeter](https://jmeter.apache.org/) - Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
 - [Taurus](https://github.com/Blazemeter/taurus) - Taurus relies on JMeter, Gatling, Locust.io, Grinder and Selenium WebDriver as its underlying tools. Free and open source under Apache 2.0 License.
@@ -157,6 +180,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 ### Metrics
 
 - [Telegraf](https://github.com/influxdata/telegraf) - TICK stack, The plugin-driven server agent for collecting & reporting metrics.
+<!--lint ignore double-link-->
 - [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
 - [statsd](https://github.com/statsd/statsd) - A network daemon that runs on the Node.js platform and listens for statistics, like counters and timers, sent over UDP or TCP and sends aggregates to one or more pluggable backend services.
 
@@ -176,6 +200,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Time Series Database
 
+<!--lint ignore double-link-->
 - [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
 - [VictoriaMetrics](https://victoriametrics.com/) - VictoriaMetrics is a fast, cost-effective and scalable monitoring solution and time series database.
 - [InfluxDB](https://influxdata.com) - InfluxDB is an open-source time series database developed by InfluxData.
@@ -202,9 +227,11 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Tracing
 
+<!--lint ignore double-link-->
 - [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system.
 - [Jaeger](https://www.jaegertracing.io/) - Monitor and troubleshoot transactions in complex distributed systems.
 - [Grafana Tempo](https://github.com/grafana/tempo) - Open source, easy-to-use and high-scale distributed tracing backend.
+<!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
 
 ### Search Engine
@@ -249,6 +276,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [SLO-Tracker](https://github.com/roshan8/slo-tracker) - A simple but effective way to track SLO's and Error budgets. SLO-tracker can be integrated with few alerting tools via webhook integration to receive SLO voilating incidents.
 - [Chronograf](https://github.com/influxdata/chronograf) - Chronograf is the user interface and administrative component of the InfluxDB platform.
 - [Kibana](https://github.com/elastic/kibana) - Elastic stack.
+<!--lint ignore double-link-->
 - [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
 - [PromViz](https://github.com/nghialv/promviz) - Promviz is an application that helps you visualize the traffic of your cluster from Prometheus data.
 - [Uchiwa](https://uchiwa.io/#/) - Uchiwa is a simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.
@@ -256,9 +284,11 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Tracing
 
+<!--lint ignore double-link-->
 - [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system.
 - [Jaeger](https://www.jaegertracing.io/) - Monitor and troubleshoot transactions in complex distributed systems.
 - [Grafana Tempo](https://github.com/grafana/tempo) - Open source, easy-to-use and high-scale distributed tracing backend.
+<!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
 
 ### Graph of Nodes
@@ -272,7 +302,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [UptimeRobot](https://uptimerobot.com) - Free for 50 monitors, checked every 5 minutes.
 - [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
 
-## 9. Processing & Analyze & Act
+## 9. Processing and Analyze and Act
 
 Tools for rocessing the system data.
 
@@ -287,19 +317,23 @@ Tools for rocessing the system data.
 - [Logstash](https://www.elastic.co/es/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash".
 - [Fluentd](https://www.fluentd.org/) - Fluentd is an open source data collector for unified logging layer.
 - [Vector](https://github.com/timberio/vector) - Vector is a high-performance observability data router. It makes collecting, transforming, and sending logs, metrics, and events easy. It decouples data collection & routing from your services, giving you control and data ownership, among many other benefits.
+<!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
 - [Kapacitor](https://www.influxdata.com/time-series-platform/kapacitor/) - Kapacitor is a real-time streaming data processing engine.
 
 ### Alerts
 
 - [Sloth](https://github.com/slok/sloth) - Easy and simple Prometheus SLO (service level objectives) generator.
+<!--lint ignore double-link-->
 - [Bosun](https://bosun.org/) - Is an open-source, MIT licensed, monitoring and alerting system.
 - [ElastAlert](https://github.com/Yelp/elastalert) - Easy & Flexible Alerting With Elasticsearch.
+<!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
 - [Kapacitor](https://github.com/influxdata/kapacitor) - TICK stack, written in go.
 - [Prometheus Alertmanager](https://github.com/prometheus/alertmanager) - Prometheus stack, Prometheus Alertmanager, written in go.
 - [X-Pack](https://www.elastic.co/cn/products/x-pack) - Elastic stack.
-- [Bosun](http://bosun.org/) - Time Series Alerting Framework.
+<!--lint ignore double-link-->
+- [Bosun](https://bosun.org/) - Time Series Alerting Framework.
 - [Moira](https://github.com/moira-alert) - Most powerful alerting system, backed by Graphite.
 - [Alerta](https://alerta.io/) - Tool used to consolidate and de-duplicate alerts from multiple sources for quick ‘at-a-glance’ visualisation.
 - [Flapjack](http://flapjack.io/) - Monitoring notification routing & event processing system.
