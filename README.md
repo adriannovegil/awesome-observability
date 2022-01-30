@@ -300,6 +300,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 - [Monitive](http://monitive.com) - Free for 1 service, checked every 10 minutes with unlimited email & twitter alerts.
 - [UptimeRobot](https://uptimerobot.com) - Free for 50 monitors, checked every 5 minutes.
+- [Nodown](https://nodown.io) - Free up to 5 monitors, with email notifications
 - [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
 
 ## 9. Processing and Analyze and Act
