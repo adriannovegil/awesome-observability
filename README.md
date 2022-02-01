@@ -89,7 +89,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [cAdvisor](https://github.com/google/cadvisor) - cAdvisor (Container Advisor) provides container users an understanding of the resource usage and performance characteristics of their running containers.
 - [Node-exporter](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
 <!--lint ignore double-link-->
-- [Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack.
+- [Elastic Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack.
 - [Collectd](http://collectd.org/) - The system statistics collection daemon.
 - [Tcollector](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB.
 - [Performance Co-Pilot](https://pcp.io/) - Performance Co-Pilot is a system performance analysis toolkit.
@@ -111,9 +111,8 @@ There are many more commands and methodologies you can apply to drill deeper.
 
 ### Logging
 
-- [Loki](https://grafana.com/oss/loki) - Prometheus-inspired logging for cloud natives.
 <!--lint ignore double-link-->
-- [Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack.
+- [Elastic Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack.
 - [mTAIL](http://ophilipp.free.fr/op_tail.htm) - Windows program that extract internal monitoring data from application logs for collection in a timeseries database.
 
 ### Events & Problems
@@ -186,6 +185,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Logging
 
+<!--lint ignore double-link-->
 - [Graylog](https://www.graylog.org/) - Simply great centralized log management.
 - [Loki](https://github.com/grafana/loki) - Horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
 - [Brubeck](https://github.com/github/brubeck) - Statsd-compatible stats aggregator written in C.
@@ -300,7 +300,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 - [Monitive](http://monitive.com) - Free for 1 service, checked every 10 minutes with unlimited email & twitter alerts.
 - [UptimeRobot](https://uptimerobot.com) - Free for 50 monitors, checked every 5 minutes.
-- [Nodown](https://nodown.io) - Free up to 5 monitors, with email notifications
+- [Nodown](https://nodown.io) - Free up to 5 monitors, with email notifications.
 - [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
 
 ## 9. Processing and Analyze and Act
@@ -369,7 +369,7 @@ Tools for rocessing the system data.
 - [Honeycomb](https://www.honeycomb.io/) - Give all software engineering teams the observability they need to eliminate toil and delight their users.
 - [NewRelic](https://newrelic.com/) - Complete view of your applications and operating environment.
 - [AppDynamics](https://www.appdynamics.com/) - Business and application performance monitoring.
-- [SPM](https://sematext.com/spm/) - Solutions for performance monitoring.
+- [sematext](https://sematext.com/spm/) - Solutions for performance monitoring.
 - [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring.
 - [Kamon apm](https://kamon.io/apm/) - Point and click to find the endpoints, database queries, and API calls that affect your user's experience.
 - [Scouter](https://github.com/scouter-project/scouter) - Scouter is an open source APM (Application Performance Management) tool.
@@ -397,6 +397,18 @@ any cloud.
 - [Google Cloud Monitoring](https://cloud.google.com/monitoring) - Gain visibility into the performance, availability, and health of your applications and infrastructure.
 - [Azure Monitor](https://azure.microsoft.com/en-us/services/monitor/#overview) - Full observability into your applications, infrastructure, and network.
 - [Guance](https://www.guance.com) - China local "All in one" observability platform, it can integrate any open source collecting method.
+- [Alibaba Cloud Logs Service](https://www.alibabacloud.com/es/product/log-service) - Complete real-time data logging service that has been developed by Alibaba Group.
+<!--lint ignore double-link-->
+- [Graylog Cloud](https://www.graylog.org/) - Seamless log data collection, faster analysis, and the answers you need when you need them.
+- [humio](https://www.humio.com/) - Modern log management with streaming observability and affordable Unlimited Plans.
+- [logdna](https://www.logdna.com/) - A comprehensive log solution to control all of your log data.
+- [loggly](https://www.loggly.com/) - See it all in one place. Dozens of log sources, no proprietary agents.
+- [logiq.ai](https://www.logiq.ai/) - Platform to connect observability data from any source to any destination.
+- [SCALYR](https://www.scalyr.com/) - Log analytics - blazing fast at petabyte scale, feature rich at surprisingly low cost.
+- [splunk](https://www.splunk.com/) - Extensible data platform powers unified security, full-stack observability and limitless custom applications.
+- [sumo logic](https://www.sumologic.com/) - Reduce downtime with real-time alerting, dashboards, and machine-learning-powered analytics for all three types of telemetry — logs, metrics, and traces.
+- [Tencent Cloud Log Service](https://cloud.tencent.com/product/cls) - Tencent is an internet service portal offering value-added internet, mobile, telecom, and online advertising services.
+
 
 ## 13. Examples and Sandbox's
 
