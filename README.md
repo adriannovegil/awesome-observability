@@ -339,6 +339,7 @@ Tools for rocessing the system data.
 - [Alerta](https://alerta.io/) - Tool used to consolidate and de-duplicate alerts from multiple sources for quick ‘at-a-glance’ visualisation.
 - [Flapjack](http://flapjack.io/) - Monitoring notification routing & event processing system.
 - [Seyren](https://github.com/scobal/seyren) - An alerting dashboard for Graphite.
+- [Cabot](https://cabotapp.com/) - Get alerted when services go down or metrics go crazy.
 
 ### Triggers
 
@@ -379,8 +380,7 @@ Tools for rocessing the system data.
 - [Icinga](https://icinga.com/) - The Icinga stack spans six core strengths that cover all aspects of monitoring.
 - [Sentry](https://sentry.io/welcome/) - From error tracking to performance monitoring, developers can see what actually matters, solve quicker, and learn continuously about their applications - from the frontend to the backend.
 - [Nagios](https://www.nagios.com/) - Computer system, network and infrastructure monitoring software application.
-- [Sensu](https://sensu.io/) - The Observability Pipeline that delivers monitoring as code on.
-any cloud.
+- [Sensu](https://sensu.io/) - The Observability Pipeline that delivers monitoring as code on any cloud.
 - [Kieker](https://kieker-monitoring.net/) - Monitoring, analysis and tool integration.
 - [Soda Sql](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
 
@@ -410,7 +410,7 @@ any cloud.
 - [splunk](https://www.splunk.com/) - Extensible data platform powers unified security, full-stack observability and limitless custom applications.
 - [sumo logic](https://www.sumologic.com/) - Reduce downtime with real-time alerting, dashboards, and machine-learning-powered analytics for all three types of telemetry — logs, metrics, and traces.
 - [Tencent Cloud Log Service](https://cloud.tencent.com/product/cls) - Tencent is an internet service portal offering value-added internet, mobile, telecom, and online advertising services.
-
+- [Geneos](https://www.itrsgroup.com/products/geneos) - Real-time monitoring for all your environments in one platform.
 
 ## 13. Examples and Sandbox's
 
