@@ -7,7 +7,19 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  test:
+  awesome_bot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3.0.0
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - name: Install awesome_bot
+      run: gem install awesome_bot
+    - name: Run awesome_bot
+      run: awesome_bot README.md --allow-redirect --allow-dupe --set-timeout 60 --skip-save-results --allow 429
+      
+  awesome_lint:
     name: Run awesome linter
     runs-on: ubuntu-latest
     steps:
