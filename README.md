@@ -281,6 +281,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [PromViz](https://github.com/nghialv/promviz) - Promviz is an application that helps you visualize the traffic of your cluster from Prometheus data.
 - [Uchiwa](https://uchiwa.io/#/) - Uchiwa is a simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.
 - [Grafterm](https://github.com/slok/grafterm) - Visualize metrics dashboards on the terminal, like a simplified and minimalist version of Grafana for terminal.
+- [Grizzly](https://github.com/grafana/grizzly) - A utility for managing various observability resources with Jsonnet.
 
 ### Tracing
 
@@ -353,7 +354,7 @@ Tools for rocessing the system data.
 - [Anomaly Detection in Prometheus Metrics](https://github.com/AICoE/prometheus-anomaly-detector) - Prototype for a Prometheus Anomaly Detector (PAD) which can be deployed on OpenShift. The PAD is a framework to deploy a metric prediction model to detect anomalies in prometheus metrics.
 - [Prophet](https://facebook.github.io/prophet/) - Prophet is a forecasting procedure implemented in  R and Python.  It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts.
 - [Anomaly Detection Toolkit (ADTK)](https://adtk.readthedocs.io/en/stable/) - Python package for unsupervised / rule-based time series anomaly detection.
-- [Chaos Genius](https://github.com/chaos-genius/chaos_genius) - ML powered analytics engine for anomaly/outlier detection and root cause analysis. 
+- [Chaos Genius](https://github.com/chaos-genius/chaos_genius) - ML powered analytics engine for anomaly/outlier detection and root cause analysis.
 
 ## 10. Application Performance Monitoring Solutions (APM)
 
