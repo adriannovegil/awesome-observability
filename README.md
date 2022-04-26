@@ -358,6 +358,7 @@ Tools for rocessing the system data.
 
 ## 10. Application Performance Monitoring Solutions (APM)
 
+- [Pixie](https://docs.px.dev/) - Open source observability tool for Kubernetes applications. Pixie uses eBPF to automatically capture telemetry data without the need for manual instrumentation.
 - [swagger-stats](https://swaggerstats.io/) - API Telemetry and APM.
 - [Cloudprober](https://github.com/google/cloudprober) - An active monitoring software to detect failures before your customers do.
 - [Hubble](https://github.com/cilium/hubble) - Network, Service & Security Observability for Kubernetes.
