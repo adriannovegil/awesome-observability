@@ -96,7 +96,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 <!--lint ignore double-link-->
 - [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
 - [Kamon](https://kamon.io/) - Monitoring applications running on the JVM.
-- [Netflix Vector](http://getvector.io/) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer's browser.
+- [Netflix Vector](https://github.com/Netflix/vector) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer's browser.
 - [Express State Metrics](https://github.com/RafalWilinski/express-status-monitor) - Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers.
 - [Kube State Metrics](https://github.com/kubernetes/kube-state-metrics) - The kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.
 - [MyPerf4J](https://github.com/LinShunKang/MyPerf4J) - High performance Java APM. Powered by ASM. Try it. Test it. If you feel its better, use it.
@@ -301,7 +301,6 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 - [Monitive](http://monitive.com) - Free for 1 service, checked every 10 minutes with unlimited email & twitter alerts.
 - [UptimeRobot](https://uptimerobot.com) - Free for 50 monitors, checked every 5 minutes.
-- [Nodown](https://nodown.io) - Free up to 5 monitors, with email notifications.
 - [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
 
 ## 9. Processing and Analyze and Act
