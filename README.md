@@ -143,6 +143,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 The transport tools simply serve as transport pipelines for data. This includes messaging systems, proprietary protocols and exchange formats.
 
 - [Apache Kafka](http://kafka.apache.org/) - Publish-subscribe messaging rethought as a distributed commit log.
+- [Vector](https://vector.dev/) - Collect, transform, and route all your logs and metrics with one simple tool.
 - [Stanza](https://github.com/observIQ/stanza) - Fast and lightweight log transport and processing agent. It's designed as a modern replacement for Fluentd, Fluent Bit, and Logstash.
 - [Redis](https://redis.io/) - Redis is an open source, in-memory data structure store, used as a database, cache and message broker. It supports many different data structures such as stringes, hashes, list, etc.
 - [Rsyslog](https://www.rsyslog.com/) - RSYSLOG is the rocket-fast system for log processing.
