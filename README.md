@@ -278,6 +278,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 ### Dashboarding
 
 - [Grafana](https://grafana.com/oss/grafana/) - The first really good dashboard for displaying metrics.
+- [Skooner](https://github.com/skooner-k8s/skooner) - Simple Kubernetes real-time dashboard and management.
 - [SLO-Tracker](https://github.com/roshan8/slo-tracker) - A simple but effective way to track SLO's and Error budgets. SLO-tracker can be integrated with few alerting tools via webhook integration to receive SLO voilating incidents.
 - [Chronograf](https://github.com/influxdata/chronograf) - Chronograf is the user interface and administrative component of the InfluxDB platform.
 - [Kibana](https://github.com/elastic/kibana) - Elastic stack.
