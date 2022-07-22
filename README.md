@@ -359,6 +359,7 @@ Tools for rocessing the system data.
 
 ## 10. Application Performance Monitoring Solutions (APM)
 
+- [AppOptics](https://www.appoptics.com/) - Continuous monitoring built to scale with your applications for less downtime and lower resource usage.
 - [Pixie](https://docs.px.dev/) - Open source observability tool for Kubernetes applications. Pixie uses eBPF to automatically capture telemetry data without the need for manual instrumentation.
 - [swagger-stats](https://swaggerstats.io/) - API Telemetry and APM.
 - [Cloudprober](https://github.com/google/cloudprober) - An active monitoring software to detect failures before your customers do.
@@ -422,7 +423,7 @@ Tools for rocessing the system data.
 - [Observability Sandbox](https://github.com/adriannovegil/observability-sandbox) - Get up and running with Prometheus, Thanos, Grafana, and more using Docker and Docker Compose.
 - [Spring PetClinic Sample Application](https://github.com/spring-petclinic/spring-petclinic-microservices) - Distributed version of the Spring PetClinic Sample Application built with Spring Cloud.
 - [My Spring PetClinic Sample Application](https://github.com/adriannovegil/spring-petclinic-microservices-sre) - My fork of the official repository.
-- [FastAPI with Observability](https://github.com/Blueswen/fastapi-observability) - Docker ready. Telemetry FastAPI application with three pillars of observability: Traces (Tempo), Metrics (Prometheus), Logs (Loki) on Grafana through OpenTelemetry and OpenMetrics. Using examplar for cross querying between traces, metrics and logs. 
+- [FastAPI with Observability](https://github.com/Blueswen/fastapi-observability) - Docker ready. Telemetry FastAPI application with three pillars of observability: Traces (Tempo), Metrics (Prometheus), Logs (Loki) on Grafana through OpenTelemetry and OpenMetrics. Using examplar for cross querying between traces, metrics and logs.
 
 ## 14. References
 
