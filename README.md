@@ -203,6 +203,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Time Series Database
 
+- [Promscale](https://github.com/timescale/promscale) - Unified metric and trace observability backend for Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB.
 - [M3](https://github.com/m3db/m3) - Distributed TSDB and Query Engine, Prometheus Sidecar, Metrics Aggregator, and more such as Graphite storage and query engine.
 <!--lint ignore double-link-->
 - [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
