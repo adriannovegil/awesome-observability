@@ -359,6 +359,7 @@ Tools for rocessing the system data.
 
 ## 10. Application Performance Monitoring Solutions (APM)
 
+- [catchpoint](https://www.catchpoint.com/) - From the edge to the cloud, our proactive observability platform gives you the power to fix problems before your users notice.
 - [Blue Matador](https://www.bluematador.com/) - Easiest and fastest way to monitor your cloud environments on the market.
 Just provide your read-only credentials and start getting insights in minutes.
 - [Aternity](https://www.aternity.com/application-performance-monitoring/) - Simplified high-definition APM visibility leveraging Real User Monitoring, Synthetic Monitoring, and OpenTelemetry, that is scalable, easy to use and deploy, and unifies insights across end users, applications, networks, and the cloud-native ecosystem.
