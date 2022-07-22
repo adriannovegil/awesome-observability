@@ -203,8 +203,6 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Time Series Database
 
-- [Promscale](https://github.com/timescale/promscale) - Unified metric and trace observability backend for Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB.
-- [M3](https://github.com/m3db/m3) - Distributed TSDB and Query Engine, Prometheus Sidecar, Metrics Aggregator, and more such as Graphite storage and query engine.
 <!--lint ignore double-link-->
 - [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
 - [VictoriaMetrics](https://victoriametrics.com/) - VictoriaMetrics is a fast, cost-effective and scalable monitoring solution and time series database.
@@ -224,6 +222,8 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### "Meta Projects" (data storage, multi-tenant, aggregation, high availability, etc)
 
+- [Promscale](https://github.com/timescale/promscale) - Unified metric and trace observability backend for Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB.
+- [M3](https://github.com/m3db/m3) - Distributed TSDB and Query Engine, Prometheus Sidecar, Metrics Aggregator, and more such as Graphite storage and query engine.
 - [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities.
 - [Cortex](https://github.com/cortexproject/cortex) - Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus.
 - [Observatorium](https://github.com/observatorium/observatorium) - This system will allow you to ingest, store and use common observability signals like metrics, logging and tracing.
