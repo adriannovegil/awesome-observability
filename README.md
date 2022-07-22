@@ -359,6 +359,8 @@ Tools for rocessing the system data.
 
 ## 10. Application Performance Monitoring Solutions (APM)
 
+- [Blue Matador](https://www.bluematador.com/) - Easiest and fastest way to monitor your cloud environments on the market.
+Just provide your read-only credentials and start getting insights in minutes.
 - [Aternity](https://www.aternity.com/application-performance-monitoring/) - Simplified high-definition APM visibility leveraging Real User Monitoring, Synthetic Monitoring, and OpenTelemetry, that is scalable, easy to use and deploy, and unifies insights across end users, applications, networks, and the cloud-native ecosystem.
 - [AppOptics](https://www.appoptics.com/) - Continuous monitoring built to scale with your applications for less downtime and lower resource usage.
 - [Pixie](https://docs.px.dev/) - Open source observability tool for Kubernetes applications. Pixie uses eBPF to automatically capture telemetry data without the need for manual instrumentation.
