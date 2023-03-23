@@ -135,7 +135,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [Locust](https://github.com/locustio/locust) - Locust is an easy-to-use, distributed, user load testing tool. It is intended for load-testing web sites (or other systems) and figuring out how many concurrent users a system can handle.
 - [Pandora](https://github.com/yandex/pandora) - Pandora is a high-performance load generator in Go language. It has built-in HTTP(S) and HTTP/2 support and you can write your own load scenarios in Go, compiling them just before your test.
 - [Gatling](https://gatling.io/) - Load test as code.
-- [GoReplay](https://goreplay.org/) - Open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data.
+- [GoReplay](https://github.com/buger/goreplay) - Open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data.
 - [phantom](https://github.com/yandex-load/phantom/tree/master/examples) - Evgeniy Mamchits' phantom is a very fast (100 000+ RPS) shooter written in C++ (default).
 - [BFG](https://github.com/yandex-load/bfg) - A modular tool and framework for load generation that supports HTTP/2.
 - [Bender](https://github.com/pinterest/bender) - Bender makes it easy to build load testing applications for services using protocols like HTTP, Thrift, Protocol Buffers and many more. Bender provides a library of flexible, powerful primitives that can be combined (with plain Go code) to build load testers customized to any use case and that evolve with your service over time.
@@ -214,7 +214,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Netflix Atlas](https://github.com/Netflix/atlas) - Atlas features in-memory data storage, allowing it to gather and report very large numbers of metrics, very quickly.
 - [TimescaleDB](https://www.timescale.com/) - PostgreSQL for time‑series.
 - [QuestDB](https://questdb.io/) - QuestDB is the fastest open source time series database.
-- [Metric Tank](https://grafana.com/oss/metrictank/) - Provides high availability and efficient long-term storage, retrieval, and processing for large-scale environments.
+- [Metric Tank](https://github.com/grafana/metrictank) - Provides high availability and efficient long-term storage, retrieval, and processing for large-scale environments.
 
 ### Time Series Cache
 
@@ -364,6 +364,7 @@ Tools for rocessing the system data.
 
 ## 10. Application Performance Monitoring Solutions (APM)
 
+- [Odigos](https://github.com/keyval-dev/odigos) - Observability Control Plane.
 - [Kloudfuse](https://www.kloudfuse.com/) - Single unified observability platform for metrics, events, logs and traces.
 - [Lightstep](https://lightstep.com/) - Monitoring, observability, and incident response for the world's most reliable systems.
 - [Aspecto](https://www.aspecto.io/) - Troubleshoot performance bottlenecks and errors within your microservices.
