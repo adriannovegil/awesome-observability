@@ -351,6 +351,7 @@ Tools for rocessing the system data.
 ### Triggers
 
 - [Odin](https://github.com/theycallmemac/odin) - A programmable, observable and distributed job orchestration system.
+- [prometheus-am-executor](https://github.com/imgix/prometheus-am-executor) - HTTP server that receives alerts from the Prometheus Alertmanager and executes a given command with alert details set as environment variables.
 
 ### Anomalies Detection
 
