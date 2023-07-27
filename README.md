@@ -418,6 +418,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 
 ## 12. Observability as a Service
 
+- [Instana](https://www.ibm.com/es-es/products/instana) - IBM® Instana® Observability is the gold standard of incident prevention with automated full-stack visibility, 1-second granularity and 3 seconds to notify.
 - [Epsagon](https://github.com/epsagon) - Application Monitoring Built for Containers and Serverless.
 - [Mackerel](https://en.mackerel.io/) - A SaaS server monitoring service with an intuitive UI, optimized for the cloud era, that fosters a culture of team-based system monitoring/operation.
 - [Grafana Cloud](https://grafana.com/products/cloud/?plcmt=nav-products-cta1&cta=cloud) - Composable observability platform, integrating metrics, traces and logs with Grafana.
