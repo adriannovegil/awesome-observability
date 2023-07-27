@@ -365,6 +365,7 @@ Tools for rocessing the system data.
 
 ## 10. Application Performance Monitoring Solutions (APM)
 
+- [coroot](https://coroot.com/) - Open-source eBPF-based observability tool that turns telemetry data into actionable insights, helping you identify and resolve application issues quickly.
 - [robusta](https://home.robusta.dev/) - Unified Kubernetes  monitoring, observability, and operations.
 - [Odigos](https://github.com/keyval-dev/odigos) - Observability Control Plane.
 - [Kloudfuse](https://www.kloudfuse.com/) - Single unified observability platform for metrics, events, logs and traces.
