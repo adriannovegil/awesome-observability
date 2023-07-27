@@ -222,6 +222,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### "Meta Projects" (data storage, multi-tenant, aggregation, high availability, etc)
 
+- [qryn](https://qryn.metrico.in/) - Polyglot monitoring and observability.
 - [Promscale](https://github.com/timescale/promscale) - Unified metric and trace observability backend for Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB.
 - [M3](https://github.com/m3db/m3) - Distributed TSDB and Query Engine, Prometheus Sidecar, Metrics Aggregator, and more such as Graphite storage and query engine.
 - [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities.
