@@ -374,7 +374,7 @@ Tools for rocessing the system data.
 - [Aspecto](https://www.aspecto.io/) - Troubleshoot performance bottlenecks and errors within your microservices.
 - [Zabbix](https://github.com/zabbix/zabbix) - Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.
 - [circonus](https://www.circonus.com/) - Circonus provides a unified platform for monitoring and analyzing all of your metrics, infrastructure, applications.
-- [epsagon](https://epsagon.com/) - Monitor and analyze microservices performance bottlenecks.
+- [epsagon](https://github.com/epsagon) - Application Monitoring Built for Containers and Serverless.
 - [chronosphere](https://chronosphere.io/) - Chronosphere develops a scalable, reliable, and customizable monitoring solution built for cloud-native applications.
 - [Centreon](https://www.centreon.com/en/) - Business-aware and AIOps-ready IT Monitoring.
 - [catchpoint](https://www.catchpoint.com/) - From the edge to the cloud, our proactive observability platform gives you the power to fix problems before your users notice.
@@ -424,7 +424,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Epsagon](https://github.com/epsagon) - Application Monitoring Built for Containers and Serverless.
 - [Mackerel](https://en.mackerel.io/) - A SaaS server monitoring service with an intuitive UI, optimized for the cloud era, that fosters a culture of team-based system monitoring/operation.
 - [Grafana Cloud](https://grafana.com/products/cloud/?plcmt=nav-products-cta1&cta=cloud) - Composable observability platform, integrating metrics, traces and logs with Grafana.
-- [NexClipper](https://www.nexclipper.io/) - NexClipper is Open Source software for Cloud Native monitoring and operation , especailly for Kubernetes, to support enterprise environments and integrate with Prometheus.
+- [NexClipper](https://github.com/NexClipper) - Full stack visibility and intelligence for cloud native applications.
 - [Sysdig Prometheus](https://sysdig.com/products/monitor/) - Cloud scale monitoring solution with full Prometheus compatibility.
 - [WhaTap](https://whatap.io/en/) - Provides an integrated monitoring service for DevOps that analyzes application performance issue running on kubernetes in real time.
 - [CloudWatch](https://aws.amazon.com/es/cloudwatch/) - Observability of your AWS resources and applications on AWS and on-premises.
