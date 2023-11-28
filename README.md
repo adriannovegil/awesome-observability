@@ -442,6 +442,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [sumo logic](https://www.sumologic.com/) - Reduce downtime with real-time alerting, dashboards, and machine-learning-powered analytics for all three types of telemetry — logs, metrics, and traces.
 - [Tencent Cloud Log Service](https://cloud.tencent.com/product/cls) - Tencent is an internet service portal offering value-added internet, mobile, telecom, and online advertising services.
 - [Geneos](https://www.itrsgroup.com/products/geneos) - Real-time monitoring for all your environments in one platform.
+- [Levitate](https://last9.io/levitate-tsdb) - A Time Series Data Warehouse and Cloud Native Monitoring Solution. 
 
 ## 13. Examples and Sandbox's
 
