@@ -374,6 +374,7 @@ Tools for rocessing the system data.
 - [Aspecto](https://www.aspecto.io/) - Troubleshoot performance bottlenecks and errors within your microservices.
 - [Zabbix](https://github.com/zabbix/zabbix) - Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.
 - [circonus](https://www.circonus.com/) - Circonus provides a unified platform for monitoring and analyzing all of your metrics, infrastructure, applications.
+<!--lint ignore double-link-->
 - [Epsagon](https://github.com/epsagon) - Application Monitoring Built for Containers and Serverless.
 - [chronosphere](https://chronosphere.io/) - Chronosphere develops a scalable, reliable, and customizable monitoring solution built for cloud-native applications.
 - [Centreon](https://www.centreon.com/en/) - Business-aware and AIOps-ready IT Monitoring.
@@ -409,6 +410,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Sensu](https://sensu.io/) - The Observability Pipeline that delivers monitoring as code on any cloud.
 - [Kieker](https://kieker-monitoring.net/) - Monitoring, analysis and tool integration.
 - [Soda Sql](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
+<!--lint ignore double-link-->
 - [Sematext Cloud](https://sematext.com/) - Infrastructure, log, and digital experience monitoring with service and log auto-discovery. Basic plan is free.
 
 ## 11. Service Mesh
