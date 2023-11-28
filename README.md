@@ -374,7 +374,7 @@ Tools for rocessing the system data.
 - [Aspecto](https://www.aspecto.io/) - Troubleshoot performance bottlenecks and errors within your microservices.
 - [Zabbix](https://github.com/zabbix/zabbix) - Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.
 - [circonus](https://www.circonus.com/) - Circonus provides a unified platform for monitoring and analyzing all of your metrics, infrastructure, applications.
-- [epsagon](https://github.com/epsagon) - Application Monitoring Built for Containers and Serverless.
+- [Epsagon](https://github.com/epsagon) - Application Monitoring Built for Containers and Serverless.
 - [chronosphere](https://chronosphere.io/) - Chronosphere develops a scalable, reliable, and customizable monitoring solution built for cloud-native applications.
 - [Centreon](https://www.centreon.com/en/) - Business-aware and AIOps-ready IT Monitoring.
 - [catchpoint](https://www.catchpoint.com/) - From the edge to the cloud, our proactive observability platform gives you the power to fix problems before your users notice.
@@ -397,7 +397,6 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Honeycomb](https://www.honeycomb.io/) - Give all software engineering teams the observability they need to eliminate toil and delight their users.
 - [NewRelic](https://newrelic.com/) - Complete view of your applications and operating environment.
 - [AppDynamics](https://www.appdynamics.com/) - Business and application performance monitoring.
-- [sematext](https://sematext.com/spm/) - Solutions for performance monitoring.
 - [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring.
 - [Kamon apm](https://kamon.io/apm/) - Point and click to find the endpoints, database queries, and API calls that affect your user's experience.
 - [Scouter](https://github.com/scouter-project/scouter) - Scouter is an open source APM (Application Performance Management) tool.
@@ -421,6 +420,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 
 - [servicepilot](https://www.servicepilot.com/en/) - Modern monitoring platform.
 - [Instana](https://www.ibm.com/es-es/products/instana) - IBM® Instana® Observability is the gold standard of incident prevention with automated full-stack visibility, 1-second granularity and 3 seconds to notify.
+<!--lint ignore double-link-->
 - [Epsagon](https://github.com/epsagon) - Application Monitoring Built for Containers and Serverless.
 - [Mackerel](https://en.mackerel.io/) - A SaaS server monitoring service with an intuitive UI, optimized for the cloud era, that fosters a culture of team-based system monitoring/operation.
 - [Grafana Cloud](https://grafana.com/products/cloud/?plcmt=nav-products-cta1&cta=cloud) - Composable observability platform, integrating metrics, traces and logs with Grafana.
@@ -444,6 +444,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Tencent Cloud Log Service](https://cloud.tencent.com/product/cls) - Tencent is an internet service portal offering value-added internet, mobile, telecom, and online advertising services.
 - [Geneos](https://www.itrsgroup.com/products/geneos) - Real-time monitoring for all your environments in one platform.
 - [Levitate](https://last9.io/levitate-tsdb) - A Time Series Data Warehouse and Cloud Native Monitoring Solution. 
+<!--lint ignore double-link-->
 - [Sematext Cloud](https://sematext.com/) - Infrastructure and log monitoring with service and log auto-discovery. Basic plan is free. Website uptime, API, and SSL certificate monitoring. Includes status pages and scriptable multi-page user transaction monitoring, etc.
 
 ## 13. Examples and Sandbox's
