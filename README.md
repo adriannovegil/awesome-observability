@@ -410,6 +410,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Sensu](https://sensu.io/) - The Observability Pipeline that delivers monitoring as code on any cloud.
 - [Kieker](https://kieker-monitoring.net/) - Monitoring, analysis and tool integration.
 - [Soda Sql](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
+- [Sematext Cloud](https://sematext.com/) - Infrastructure, log, and digital experience monitoring with service and log auto-discovery. Basic plan is free.
 
 ## 11. Service Mesh
 
@@ -443,6 +444,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Tencent Cloud Log Service](https://cloud.tencent.com/product/cls) - Tencent is an internet service portal offering value-added internet, mobile, telecom, and online advertising services.
 - [Geneos](https://www.itrsgroup.com/products/geneos) - Real-time monitoring for all your environments in one platform.
 - [Levitate](https://last9.io/levitate-tsdb) - A Time Series Data Warehouse and Cloud Native Monitoring Solution. 
+- [Sematext Cloud](https://sematext.com/) - Infrastructure and log monitoring with service and log auto-discovery. Basic plan is free. Website uptime, API, and SSL certificate monitoring. Includes status pages and scriptable multi-page user transaction monitoring, etc.
 
 ## 13. Examples and Sandbox's
 
