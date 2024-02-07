@@ -18,7 +18,7 @@ It can be said to  consist of three parts:
 
 > __Metrics__, __Logs__ and __Traces__: The Golden Triangle of Observability in Monitoring
 
-This repo is not only for monitoring. As said Adrian Cole's in the talk about "[Observability 3 Ways](https://www.dotconferences.com/2017/04/adrian-cole-observability-3-ways-logging-metrics-tracing)" we are going to focus on the three types of systems necessaries to understand how your applications behave: Logging, Metrics & Tracing.
+This repo is not only for monitoring. As said Adrian Cole's in the talk about "[Observability 3 Ways](https://www.youtube.com/watch?v=juP9VApKy_I)" we are going to focus on the three types of systems necessaries to understand how your applications behave: Logging, Metrics & Tracing.
 
 ## Contents
 
