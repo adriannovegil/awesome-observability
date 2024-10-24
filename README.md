@@ -456,6 +456,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Levitate](https://last9.io/levitate-tsdb) - A Time Series Data Warehouse and Cloud Native Monitoring Solution. 
 <!--lint ignore double-link-->
 - [Sematext Cloud](https://sematext.com/) - Infrastructure and log monitoring with service and log auto-discovery. Basic plan is free. Website uptime, API, and SSL certificate monitoring. Includes status pages and scriptable multi-page user transaction monitoring, etc.
+- [Dash0](https://wwww.dash0.com/) - Dash0 is modern OpenTelemetry Native Observability, built on CNCF Open Standards such as PromQL, Perses and OLTP with full cost control. Supports monitoring metrics, logs and traces. With dashboarding and alerting capabilities.
 
 ## 13. Examples and Sandbox's
 
