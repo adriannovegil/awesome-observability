@@ -311,6 +311,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Uptime
 
+- [BlueWave Uptime](https://github.com/bluewave-labs/bluewave-uptime) - Open-source, self-hosted monitoring tool built with React.js, Node.js, and MongoDB, designed to track server uptime, response times, and incidents in real-time with beautiful visualizations.
 - [Monitive](http://monitive.com) - Free for 1 service, checked every 10 minutes with unlimited email & twitter alerts.
 - [UptimeRobot](https://uptimerobot.com) - Free for 50 monitors, checked every 5 minutes.
 - [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
