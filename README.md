@@ -421,6 +421,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Soda Sql](https://github.com/sodadata/soda-sql) - Data profiling, testing, and monitoring for SQL accessible data.
 <!--lint ignore double-link-->
 - [Sematext Cloud](https://sematext.com/) - Infrastructure, log, and digital experience monitoring with service and log auto-discovery. Basic plan is free.
+- [CICube](https://cicube.io/) - AI DevOps productivity platform by monitoring your CI workflows, detect anomalies, and provide actionable fixes.
 
 ## 11. Service Mesh
 
