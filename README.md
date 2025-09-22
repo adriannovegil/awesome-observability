@@ -199,6 +199,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [GoAccess](https://goaccess.io/) - GoAccess is an open source real-time web log analyzer and interactive viewer that runs in a terminal in \*nix systems or through your browser. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly.
 - [Logbook](https://github.com/zalando/logbook) - Extensible Java library to enable complete request and response logging for different client- and server-side technologies.
 - [logdy](https://github.com/logdyhq/logdy-core) - Supercharge terminal logs with web browser UI and low-code. It's like jq, tail, less, grep and awk merged together and available in a clean UI. Self-hosted, single binary.
+- [Last9](https://last9.io/docs/logs/) - Unified Logs Explorer with search, filters, SQL query support, and OpenTelemetry-native ingestion.
 
 ### Events
 
@@ -303,6 +304,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Grafana Tempo](https://github.com/grafana/tempo) - Open source, easy-to-use and high-scale distributed tracing backend.
 <!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
+- [Last9](https://last9.io/docs/traces/) — Traces Explorer with filtering, span attributes, waterfall visualizations, and SQL ad-hoc querying; fully OpenTelemetry-native.
 
 ### Graph of Nodes
 
@@ -341,6 +343,7 @@ Tools for rocessing the system data.
 - [Sloth](https://github.com/slok/sloth) - Easy and simple Prometheus SLO (service level objectives) generator.
 <!--lint ignore double-link-->
 - [Bosun](https://bosun.org/) - Is an open-source, MIT licensed, monitoring and alerting system.
+- - [Last9](https://last9.io/docs/alert-group/) - Alert Studio for managing alerts with flexible grouping, routing, and correlation, built on top of OpenTelemetry signals.
 - [ElastAlert](https://github.com/Yelp/elastalert) - Easy & Flexible Alerting With Elasticsearch.
 <!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
@@ -397,6 +400,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Cloudprober](https://github.com/google/cloudprober) - An active monitoring software to detect failures before your customers do.
 - [Hubble](https://github.com/cilium/hubble) - Network, Service & Security Observability for Kubernetes.
 - [Datav](https://github.com/datav-io/datav) - A modern apm solution for enterprise, an open-source alternative to DataDog, New Relic, etc.
+- [Last9](https://last9.io/) - OpenTelemetry-native observability platform for APM, metrics, logs, and traces, built to handle high-cardinality telemetry at scale.
 - [SigNoz](https://github.com/SigNoz/signoz) - Monitor your applications and troubleshoot problems in your deployed applications, an open-source alternative to DataDog, New Relic, etc.
 - [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.
 - [Pinpoint](https://github.com/pinpoint-apm/pinpoint) - Pinpoint is an APM (Application Performance Management) tool for large-scale distributed systems written in Java / PHP/PYTHON.
