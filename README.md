@@ -189,6 +189,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 <!--lint ignore double-link-->
 - [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
 - [statsd](https://github.com/statsd/statsd) - A network daemon that runs on the Node.js platform and listens for statistics, like counters and timers, sent over UDP or TCP and sends aggregates to one or more pluggable backend services.
+- [Grafana Mimir](https://grafana.com/oss/mimir/) - Mimir is an open source, horizontally scalable, highly available, multi-tenant TSDB for long-term storage for Prometheus.
 
 ### Logging
 
