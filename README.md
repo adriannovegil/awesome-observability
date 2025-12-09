@@ -81,6 +81,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for your LLM application, based on OpenTelemetry.
 - [OpenLLMetry for Javascript](https://github.com/traceloop/openllmetry-js) - Sister project to OpenLLMetry, but in Typescript. Open-source observability for your LLM application, based on OpenTelemetry.
 - [OpenLLMetry for Go](https://github.com/traceloop/go-openllmetry) - Sister project to OpenLLMetry, but in Go. Open-source observability for your LLM application, based on OpenTelemetry.
+- [promptfoo](https://github.com/promptfoo/promptfoo) - Evaluation, tracing, and red teaming for LLM applications. Captures traces across LLM calls, monitors for prompt injection and jailbreaks, and tests agent workflows.
 - [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy) - Kubernetes operator for synthetic monitoring and continuous process verification.
 - [ingraind](https://github.com/foniod/foniod) - Security monitoring agent built around RedBPF for complex containerized environments and endpoints.
 - [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
