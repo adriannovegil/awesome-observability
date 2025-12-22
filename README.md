@@ -355,6 +355,7 @@ Tools for rocessing the system data.
 - [Flapjack](http://flapjack.io/) - Monitoring notification routing & event processing system.
 - [Seyren](https://github.com/scobal/seyren) - An alerting dashboard for Graphite.
 - [Cabot](https://cabotapp.com/) - Get alerted when services go down or metrics go crazy.
+- [NthLayer](https://github.com/rsionnach/nthlayer) - Reliability requirements as code. Generates Grafana dashboards, Prometheus alerts, SLOs, and PagerDuty configs from service.yaml. Includes deployment gates that block deploys when error budget is exhausted.
 
 ### Triggers
 
