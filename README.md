@@ -94,6 +94,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [Micrometer](https://micrometer.io/) - Micrometer provides a simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.
 - [cAdvisor](https://github.com/google/cadvisor) - cAdvisor (Container Advisor) provides container users an understanding of the resource usage and performance characteristics of their running containers.
 - [Node-exporter](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
+- [duplicacy-exporter](https://github.com/GeiserX/duplicacy-exporter) - Prometheus exporter for Duplicacy backup operations providing real-time metrics during backups and post-run summaries.
 <!--lint ignore double-link-->
 - [Elastic Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack.
 - [Collectd](http://collectd.org/) - The system statistics collection daemon.
