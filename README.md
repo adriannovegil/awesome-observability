@@ -397,6 +397,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [swagger-stats](https://swaggerstats.io/) - API Telemetry and APM.
 - [Cloudprober](https://github.com/google/cloudprober) - An active monitoring software to detect failures before your customers do.
 - [Hubble](https://github.com/cilium/hubble) - Network, Service & Security Observability for Kubernetes.
+- [Ingero](https://github.com/ingero-io/ingero) - eBPF-based GPU causal observability agent. Traces CUDA Runtime/Driver APIs and host kernel events to build causal chains explaining GPU latency in production.
 - [Datav](https://github.com/datav-io/datav) - A modern apm solution for enterprise, an open-source alternative to DataDog, New Relic, etc.
 - [SigNoz](https://github.com/SigNoz/signoz) - Monitor your applications and troubleshoot problems in your deployed applications, an open-source alternative to DataDog, New Relic, etc.
 - [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.
