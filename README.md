@@ -373,6 +373,7 @@ Tools for rocessing the system data.
 
 ## 10. Application Performance Monitoring Solutions (APM)
 
+- [AgentWatch](https://github.com/nicofains1/agentwatch) - Multi-agent fleet observability with cascade failure detection, heartbeat monitoring, and forensic replay.
 - [OpenLIT](https://github.com/openlit/openlit) - OTel-native Observability and Evals for LLMs & GPUs.
 - [Langtrace](https://github.com/Scale3-Labs/langtrace) - Open Source & Open Telemetry(OTEL) Observability for LLM applications.
 - [servicenow - Cloud Observability](https://www.servicenow.com/products/observability.html) - Gain AI-powered insights to detect and quickly respond to changes in cloud-native and monolithic applications. 
