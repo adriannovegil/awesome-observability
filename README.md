@@ -103,7 +103,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [Tcollector](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB.
 - [Performance Co-Pilot](https://pcp.io/) - Performance Co-Pilot is a system performance analysis toolkit.
 <!--lint ignore double-link-->
-- [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
+- [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot) - Java agent for collecting performance, tracing and business data.
 - [Kamon](https://kamon.io/) - Monitoring applications running on the JVM.
 - [Netflix Vector](https://github.com/Netflix/vector) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer's browser.
 - [Express State Metrics](https://github.com/RafalWilinski/express-status-monitor) - Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers.
@@ -117,7 +117,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 
 - [Sleuth](https://spring.io/projects/spring-cloud-sleuth) - Spring Cloud Sleuth implements a distributed tracing solution for Spring Cloud, borrowing heavily from Dapper, Zipkin and HTrace.
 <!--lint ignore double-link-->
-- [inspectIT Ocelot](https://inspectit.rocks/) - Java agent for collecting performance, tracing and business data.
+- [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot) - Java agent for collecting performance, tracing and business data.
 
 ### Logging
 
@@ -268,7 +268,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [MariaDB](https://mariadb.org/) - Open source relational database.
 - [PostgreSQL](https://www.postgresql.org/) - Open source relational database.
 - [CockroachDB](https://www.cockroachlabs.com/) - CockroachDB delivers Distributed SQL, combining the familiarity of relational data with limitless, elastic cloud scale, bulletproof resilience… and more.
-- [ClickHouse](https://clickhouse.tech/) - ClickHouse is a fast open-source OLAP database management system.
+- [ClickHouse](https://clickhouse.com/) - ClickHouse is a fast open-source OLAP database management system.
 
 ### NoSQL Database (The Others :-P)
 
@@ -398,7 +398,7 @@ Tools for rocessing the system data.
 <!--lint ignore double-link-->
 - [Epsagon](https://github.com/epsagon) - Application Monitoring Built for Containers and Serverless.
 - [chronosphere](https://chronosphere.io/) - Chronosphere develops a scalable, reliable, and customizable monitoring solution built for cloud-native applications.
-- [Centreon](https://www.centreon.com/en/) - Business-aware and AIOps-ready IT Monitoring.
+- [Centreon](https://www.centreon.com/) - Business-aware and AIOps-ready IT Monitoring.
 - [catchpoint](https://www.catchpoint.com/) - From the edge to the cloud, our proactive observability platform gives you the power to fix problems before your users notice.
 - [Blue Matador](https://www.bluematador.com/) - Easiest and fastest way to monitor your cloud environments on the market.
 Just provide your read-only credentials and start getting insights in minutes.
@@ -463,7 +463,6 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [humio](https://www.humio.com/) - Modern log management with streaming observability and affordable Unlimited Plans.
 - [logdna](https://www.logdna.com/) - A comprehensive log solution to control all of your log data.
 - [loggly](https://www.loggly.com/) - See it all in one place. Dozens of log sources, no proprietary agents.
-- [logiq.ai](https://www.logiq.ai/) - Platform to connect observability data from any source to any destination.
 - [SCALYR](https://www.scalyr.com/) - Log analytics - blazing fast at petabyte scale, feature rich at surprisingly low cost.
 - [splunk](https://www.splunk.com/) - Extensible data platform powers unified security, full-stack observability and limitless custom applications.
 - [sumo logic](https://www.sumologic.com/) - Reduce downtime with real-time alerting, dashboards, and machine-learning-powered analytics for all three types of telemetry — logs, metrics, and traces.
@@ -472,7 +471,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Levitate](https://last9.io/levitate-tsdb) - A Time Series Data Warehouse and Cloud Native Monitoring Solution. 
 <!--lint ignore double-link-->
 - [Sematext Cloud](https://sematext.com/) - Infrastructure and log monitoring with service and log auto-discovery. Basic plan is free. Website uptime, API, and SSL certificate monitoring. Includes status pages and scriptable multi-page user transaction monitoring, etc.
-- [Dash0](https://wwww.dash0.com/) - Dash0 is modern OpenTelemetry Native Observability, built on CNCF Open Standards such as PromQL, Perses and OLTP with full cost control. Supports monitoring metrics, logs and traces. With dashboarding and alerting capabilities.
+- [Dash0](https://www.dash0.com/) - Dash0 is modern OpenTelemetry Native Observability, built on CNCF Open Standards such as PromQL, Perses and OLTP with full cost control. Supports monitoring metrics, logs and traces. With dashboarding and alerting capabilities.
 
 ## 13. Examples and Sandbox's
 
@@ -484,10 +483,8 @@ Just provide your read-only credentials and start getting insights in minutes.
 
 ## 14. References
 
-- https://openapm.io/landscape
 - https://github.com/crazy-canux/awesome-monitoring
 - https://github.com/Enapiuz/awesome-monitoring
-- http://www.devopsbookmarks.com/
 - https://speakerdeck.com/adriancole/observability-3-ways-logging-metrics-and-tracing
 - https://landscape.cncf.io/
 - https://www.influxdata.com/products/
