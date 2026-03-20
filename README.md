@@ -35,7 +35,7 @@ This repo is not only for monitoring. As said Adrian Cole's in the talk about "[
 - [11. Application Performance Monitoring Solutions (APM)](#11-application-performance-monitoring-solutions-apm)
 - [12. Service Mesh](#12-service-mesh)
 - [13. Observability as a Service](#13-observability-as-a-service)
-- [14. Examples and Sandbox's](#14-examples-and-sandboxs)
+- [14. Examples and Sandboxes](#14-examples-and-sandboxes)
 - [15. References](#15-references)
 - [16. License](#16-license)
 - [17. Contributing](#17-contributing)
@@ -82,22 +82,22 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [DNS Propagation Checker](https://github.com/brancogao/dns-propagation-checker) - Open-source DNS propagation monitoring tool with global DNS server coverage for DNS observability.
 - [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy) - Kubernetes operator for synthetic monitoring and continuous process verification.
 - [ingraind](https://github.com/foniod/foniod) - Security monitoring agent built around RedBPF for complex containerized environments and endpoints.
-- [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
+- [Opentelemetry](https://opentelemetry.io/) - Integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
 - [top](https://www.booleanworld.com/guide-linux-top-command/) - Allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin's toolbox, and it comes pre-installed on every distribution.
 - [htop](https://support.cloudways.com/system-monitoring-using-htop-command/) - Command line utility that allows you to interactively monitor your system's vital resources or server's processes in real time.
 - [ctop](https://github.com/bcicen/ctop) - Top-like interface for container metrics.
 - [sls-dev-tools](https://github.com/Theodo-UK/sls-dev-tools) - The Developer Tools for the Serverless World - think Chrome Dev Tools but for Serverless.
-- [OpenCensus](https://opencensus.io/) - OpenCensus is a set of libraries for various languages that allow you to collect application metrics and distributed traces, then transfer the data to a backend of your choice in real time.
+- [OpenCensus](https://opencensus.io/) - Set of libraries for various languages that allow you to collect application metrics and distributed traces, then transfer the data to a backend of your choice in real time.
 - [Opentracing](https://opentracing.io/) - Vendor-neutral APIs and instrumentation for distributed tracing.
 - [Openmetrics](https://openmetrics.io/) - An effort to create an open standard for transmitting metrics at scale, with support for both text representation and Protocol Buffers.
-- [Micrometer](https://micrometer.io/) - Micrometer provides a simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.
-- [cAdvisor](https://github.com/google/cadvisor) - cAdvisor (Container Advisor) provides container users an understanding of the resource usage and performance characteristics of their running containers.
+- [Micrometer](https://micrometer.io/) - Simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.
+- [cAdvisor](https://github.com/google/cadvisor) - Container Advisor that provides container users an understanding of the resource usage and performance characteristics of their running containers.
 - [Node-exporter](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
 <!--lint ignore double-link-->
 - [Elastic Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack.
 - [Collectd](http://collectd.org/) - The system statistics collection daemon.
 - [Tcollector](https://github.com/OpenTSDB/tcollector) - Data collection framework for OpenTSDB.
-- [Performance Co-Pilot](https://pcp.io/) - Performance Co-Pilot is a system performance analysis toolkit.
+- [Performance Co-Pilot](https://pcp.io/) - System performance analysis toolkit.
 <!--lint ignore double-link-->
 - [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot) - Java agent for collecting performance, tracing and business data.
 - [Kamon](https://kamon.io/) - Monitoring applications running on the JVM.
@@ -105,7 +105,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [Express State Metrics](https://github.com/RafalWilinski/express-status-monitor) - Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers.
 - [Kube State Metrics](https://github.com/kubernetes/kube-state-metrics) - The kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.
 - [MyPerf4J](https://github.com/LinShunKang/MyPerf4J) - High performance Java APM. Powered by ASM. Try it. Test it. If you feel its better, use it.
-- [SkyAPM-dotnet](https://github.com/SkyAPM/SkyAPM-dotnet) - SkyAPM-dotnet provides the native support agent in C# and .NETStandard platform, with the helps from Apache SkyWalking committer team.
+- [SkyAPM-dotnet](https://github.com/SkyAPM/SkyAPM-dotnet) - Native support agent in C# and .NETStandard platform, with the helps from Apache SkyWalking committer team.
 - [pktvisor](https://github.com/ns1labs/pktvisor) - Observability agent for summarizing high volume, information dense data streams down to lightweight, immediately actionable observability data directly at the edge.
 - [duplicacy-exporter](https://github.com/GeiserX/duplicacy-exporter) - Real-time Prometheus exporter for Duplicacy backups with live speed, progress, and completion metrics.
 
@@ -125,24 +125,24 @@ There are many more commands and methodologies you can apply to drill deeper.
 
 - [kubernetes-event-exporter](https://github.com/opsgenie/kubernetes-event-exporter) - This tool allows exporting the often missed Kubernetes events to various outputs so that they can be used for observability or alerting purposes.
 - [kspan](https://github.com/weaveworks-experiments/kspan) - Turning Kubernetes Events into spans.
-- [KubeEye](https://github.com/kubesphere/kubeeye) - KubeEye aims to find various problems on Kubernetes, such as application misconfiguration(using Polaris), cluster components unhealthy and node problems(using Node-Problem-Detector).
+- [KubeEye](https://github.com/kubesphere/kubeeye) - Aims to find various problems on Kubernetes, such as application misconfiguration (using Polaris), cluster components unhealthy and node problems (using Node-Problem-Detector).
 
 ## 4. Load Generators and Synthetic Traffic
 
 - [JMeter](https://jmeter.apache.org/) - Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
-- [Taurus](https://github.com/Blazemeter/taurus) - Taurus relies on JMeter, Gatling, Locust.io, Grinder and Selenium WebDriver as its underlying tools. Free and open source under Apache 2.0 License.
-- [K6](https://k6.io/) - k6 is a developer-centric, free and open-source load testing tool built for making performance testing a productive and enjoyable experience.
+- [Taurus](https://github.com/Blazemeter/taurus) - Relies on JMeter, Gatling, Locust.io, Grinder and Selenium WebDriver as its underlying tools. Free and open source under Apache 2.0 License.
+- [K6](https://k6.io/) - Developer-centric, free and open-source load testing tool built for making performance testing a productive and enjoyable experience.
 - [Vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool built out of a need to drill HTTP services with a constant request rate. It can be used both as a command line utility and a library.
-- [Trunks](https://github.com/straightdave/trunks) - Trunks, like every son, is derived from the father Vegeta with some enhanced skills.
-- [Yandex Tank](https://github.com/yandex/yandex-tank) - Yandex.Tank is an extensible open source load testing tool for advanced linux users which is especially good as a part of an automated load testing suite.
+- [Trunks](https://github.com/straightdave/trunks) - Like every son, is derived from the father Vegeta with some enhanced skills.
+- [Yandex Tank](https://github.com/yandex/yandex-tank) - Yandex.Tank is an extensible open source load testing tool for advanced Linux users which is especially good as a part of an automated load testing suite.
 - [ghz](https://github.com/bojand/ghz) - Simple gRPC benchmarking and load testing tool inspired by hey and grpcurl.
-- [Locust](https://github.com/locustio/locust) - Locust is an easy-to-use, distributed, user load testing tool. It is intended for load-testing web sites (or other systems) and figuring out how many concurrent users a system can handle.
-- [Pandora](https://github.com/yandex/pandora) - Pandora is a high-performance load generator in Go language. It has built-in HTTP(S) and HTTP/2 support and you can write your own load scenarios in Go, compiling them just before your test.
+- [Locust](https://github.com/locustio/locust) - Easy-to-use, distributed, user load testing tool. It is intended for load-testing web sites (or other systems) and figuring out how many concurrent users a system can handle.
+- [Pandora](https://github.com/yandex/pandora) - High-performance load generator in Go language. It has built-in HTTP(S) and HTTP/2 support and you can write your own load scenarios in Go, compiling them just before your test.
 - [Gatling](https://gatling.io/) - Load test as code.
 - [GoReplay](https://github.com/buger/goreplay) - Open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data.
 - [phantom](https://github.com/yandex-load/phantom/tree/master/examples) - Evgeniy Mamchits' phantom is a very fast (100 000+ RPS) shooter written in C++ (default).
 - [BFG](https://github.com/yandex-load/bfg) - A modular tool and framework for load generation that supports HTTP/2.
-- [Bender](https://github.com/pinterest/bender) - Bender makes it easy to build load testing applications for services using protocols like HTTP, Thrift, Protocol Buffers and many more. Bender provides a library of flexible, powerful primitives that can be combined (with plain Go code) to build load testers customized to any use case and that evolve with your service over time.
+- [Bender](https://github.com/pinterest/bender) - Makes it easy to build load testing applications for services using protocols like HTTP, Thrift, Protocol Buffers and many more. Bender provides a library of flexible, powerful primitives that can be combined (with plain Go code) to build load testers customized to any use case and that evolve with your service over time.
 
 ## 5. Transport
 
@@ -151,8 +151,8 @@ The transport tools simply serve as transport pipelines for data. This includes 
 - [Apache Kafka](http://kafka.apache.org/) - Publish-subscribe messaging rethought as a distributed commit log.
 - [Vector](https://vector.dev/) - Collect, transform, and route all your logs and metrics with one simple tool.
 - [Stanza](https://github.com/observIQ/stanza) - Fast and lightweight log transport and processing agent. It's designed as a modern replacement for Fluentd, Fluent Bit, and Logstash.
-- [Redis](https://redis.io/) - Redis is an open source, in-memory data structure store, used as a database, cache and message broker. It supports many different data structures such as stringes, hashes, list, etc.
-- [Rsyslog](https://www.rsyslog.com/) - RSYSLOG is the rocket-fast system for log processing.
+- [Redis](https://redis.io/) - Open source, in-memory data structure store, used as a database, cache and message broker. It supports many different data structures such as stringes, hashes, list, etc.
+- [Rsyslog](https://www.rsyslog.com/) - The rocket-fast system for log processing.
 - [ØMQ](http://zeromq.org/) - Brokerless intelligent transport layer.
 - [ActiveMQ](http://activemq.apache.org/) - Powerful open source messaging and integration patterns server.
 - [Aeron](https://github.com/real-logic/Aeron) - Efficient reliable UDP unicast, UDP multicast, and IPC message transport.
@@ -197,7 +197,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Graylog](https://www.graylog.org/) - Simply great centralized log management.
 - [Loki](https://github.com/grafana/loki) - Horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
 - [Brubeck](https://github.com/github/brubeck) - Statsd-compatible stats aggregator written in C.
-- [GoAccess](https://goaccess.io/) - GoAccess is an open source real-time web log analyzer and interactive viewer that runs in a terminal in \*nix systems or through your browser. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly.
+- [GoAccess](https://goaccess.io/) - Open source real-time web log analyzer and interactive viewer that runs in a terminal in \*nix systems or through your browser. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly.
 - [Logbook](https://github.com/zalando/logbook) - Extensible Java library to enable complete request and response logging for different client- and server-side technologies.
 - [logdy](https://github.com/logdyhq/logdy-core) - Supercharge terminal logs with web browser UI and low-code. It's like jq, tail, less, grep and awk merged together and available in a clean UI. Self-hosted, single binary.
 - [Last9](https://last9.io/docs/logs/) - Unified Logs Explorer with search, filters, SQL query support, and OpenTelemetry-native ingestion.
@@ -212,15 +212,15 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 <!--lint ignore double-link-->
 - [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
-- [VictoriaMetrics](https://victoriametrics.com/) - VictoriaMetrics is a fast, cost-effective and scalable monitoring solution and time series database.
-- [InfluxDB](https://influxdata.com) - InfluxDB is an open-source time series database developed by InfluxData.
-- [OpenTSDB](http://opentsdb.net/) - OpenTSDB, written in java.
+- [VictoriaMetrics](https://victoriametrics.com/) - Fast, cost-effective and scalable monitoring solution and time series database.
+- [InfluxDB](https://influxdata.com) - Open-source time series database developed by InfluxData.
+- [OpenTSDB](http://opentsdb.net/) - Distributed, scalable time series database, written in Java.
 - [kairosDB](http://kairosdb.github.io/) - Fast Time Series Database on Cassandra.
 - [Graphite](https://graphiteapp.org/) - Store numeric time-series data and render graphs of this data on demand.
 - [M3DB](https://www.m3db.io/) - Fully open source metrics platform built on M3DB, a distributed timeseries database.
 - [Netflix Atlas](https://github.com/Netflix/atlas) - Atlas features in-memory data storage, allowing it to gather and report very large numbers of metrics, very quickly.
 - [TimescaleDB](https://www.timescale.com/) - PostgreSQL for time‑series.
-- [QuestDB](https://questdb.io/) - QuestDB is the fastest open source time series database.
+- [QuestDB](https://questdb.io/) - The fastest open source time series database.
 - [Metric Tank](https://github.com/grafana/metrictank) - Provides high availability and efficient long-term storage, retrieval, and processing for large-scale environments.
 
 ### Time Series Cache
@@ -236,7 +236,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Cortex](https://github.com/cortexproject/cortex) - Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus.
 - [Observatorium](https://github.com/observatorium/observatorium) - This system will allow you to ingest, store and use common observability signals like metrics, logging and tracing.
 - [Opstrace](https://opstrace.com/) - The Opstrace Distribution is a secure, horizontally-scalable, open source observability platform that you can install in your cloud account.
-- [Apache HBase](https://hbase.apache.org/) - Apache HBase is the Hadoop database, a distributed, scalable, big data store.
+- [Apache HBase](https://hbase.apache.org/) - The Hadoop database, a distributed, scalable, big data store.
 
 ### Tracing
 
@@ -255,7 +255,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Graph Database
 
-- [neo4j](https://github.com/neo4j/neo4j) - Graphs for Everyone.
+- [Neo4j](https://github.com/neo4j/neo4j) - Graphs for Everyone.
 - [ArangoDB](https://www.arangodb.com/) - Natively store data for graph, document and search needs.
 
 ### SQL Database
@@ -263,15 +263,15 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [MySQL](https://www.mysql.com/) - Relational database management system.
 - [MariaDB](https://mariadb.org/) - Open source relational database.
 - [PostgreSQL](https://www.postgresql.org/) - Open source relational database.
-- [CockroachDB](https://www.cockroachlabs.com/) - CockroachDB delivers Distributed SQL, combining the familiarity of relational data with limitless, elastic cloud scale, bulletproof resilience… and more.
-- [ClickHouse](https://clickhouse.com/) - ClickHouse is a fast open-source OLAP database management system.
+- [CockroachDB](https://www.cockroachlabs.com/) - Delivers Distributed SQL, combining the familiarity of relational data with limitless, elastic cloud scale, bulletproof resilience, and more.
+- [ClickHouse](https://clickhouse.com/) - Fast open-source OLAP database management system.
 
 ### NoSQL Database (The Others :-P)
 
 - [Apache Cassandra](https://cassandra.apache.org/) - Scalability and high availability with linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure.
-- [MongoDB](https://www.mongodb.com/) - MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
+- [MongoDB](https://www.mongodb.com/) - Document database with the scalability and flexibility that you want with the querying and indexing that you need.
 - [Redis](https://redislabs.com/) - Multi-model NoSQL database server enables search, messaging, streaming, graph, and other capabilities.
-- [RethinkDB](https://rethinkdb.com/) - RethinkDB pushes JSON to your apps in realtime.
+- [RethinkDB](https://rethinkdb.com/) - Pushes JSON to your apps in realtime.
 - [SQLite](https://www.sqlite.org/index.html) - C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
 - [CouchDB](https://couchdb.apache.org/) - Seamless multi-master sync, that scales from Big Data to Mobile, with an Intuitive HTTP/JSON API and designed for Reliability.
 
@@ -288,12 +288,12 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Grafana](https://grafana.com/oss/grafana/) - The first really good dashboard for displaying metrics.
 - [Skooner](https://github.com/skooner-k8s/skooner) - Simple Kubernetes real-time dashboard and management.
 - [SLO-Tracker](https://github.com/roshan8/slo-tracker) - A simple but effective way to track SLO's and Error budgets. SLO-tracker can be integrated with few alerting tools via webhook integration to receive SLO voilating incidents.
-- [Chronograf](https://github.com/influxdata/chronograf) - Chronograf is the user interface and administrative component of the InfluxDB platform.
+- [Chronograf](https://github.com/influxdata/chronograf) - User interface and administrative component of the InfluxDB platform.
 - [Kibana](https://github.com/elastic/kibana) - Elastic stack.
 <!--lint ignore double-link-->
 - [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
-- [PromViz](https://github.com/nghialv/promviz) - Promviz is an application that helps you visualize the traffic of your cluster from Prometheus data.
-- [Uchiwa](https://uchiwa.io/#/) - Uchiwa is a simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.
+- [PromViz](https://github.com/nghialv/promviz) - Application that helps you visualize the traffic of your cluster from Prometheus data.
+- [Uchiwa](https://uchiwa.io/#/) - Simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.
 - [Grafterm](https://github.com/slok/grafterm) - Visualize metrics dashboards on the terminal, like a simplified and minimalist version of Grafana for terminal.
 - [Grizzly](https://github.com/grafana/grizzly) - A utility for managing various observability resources with Jsonnet.
 
@@ -309,7 +309,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Graph of Nodes
 
-- [Vizceral](https://github.com/netflix/vizceral) - Vizceral is a component for displaying traffic data on a webgl canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes.
+- [Vizceral](https://github.com/netflix/vizceral) - Component for displaying traffic data on a WebGL canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes.
 - [Novatec Service Dependency Graph Panel](https://github.com/NovatecConsulting/novatec-service-dependency-graph-panel) - A Grafana panel for visualizing a Service Dependency Graph.
 
 ### Uptime
@@ -318,7 +318,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [BlueWave Uptime](https://github.com/bluewave-labs/bluewave-uptime) - Open-source, self-hosted monitoring tool built with React.js, Node.js, and MongoDB, designed to track server uptime, response times, and incidents in real-time with beautiful visualizations.
 - [Monitive](http://monitive.com) - Free for 1 service, checked every 10 minutes with unlimited email & twitter alerts.
 - [UptimeRobot](https://uptimerobot.com) - Free for 50 monitors, checked every 5 minutes.
-- [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
+- [OverOps](https://www.overops.com) - Provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
 - [Freshping](https://freshping.io) - Free for 50 monitors, checked every 1 minutes. Status pages, monitoring of HTTP (and DNS, ICMP, TCP/UDP), select region of monitoring.
 - [FlareWarden](https://flarewarden.com) - Uptime, content, dependency, and SSL monitoring with multi-region verification and status pages. Free plan includes 15 monitors, 5-minute checks, and 90 days of history.
 
@@ -334,12 +334,12 @@ Tools for rocessing the system data.
 
 ### Processing
 
-- [Logstash](https://www.elastic.co/es/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash".
-- [Fluentd](https://www.fluentd.org/) - Fluentd is an open source data collector for unified logging layer.
-- [Vector](https://github.com/timberio/vector) - Vector is a high-performance observability data router. It makes collecting, transforming, and sending logs, metrics, and events easy. It decouples data collection & routing from your services, giving you control and data ownership, among many other benefits.
+- [Logstash](https://www.elastic.co/es/products/logstash) - Open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash".
+- [Fluentd](https://www.fluentd.org/) - Open source data collector for unified logging layer.
+- [Vector](https://github.com/timberio/vector) - High-performance observability data router. It makes collecting, transforming, and sending logs, metrics, and events easy. It decouples data collection & routing from your services, giving you control and data ownership, among many other benefits.
 <!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
-- [Kapacitor](https://www.influxdata.com/time-series-platform/kapacitor/) - Kapacitor is a real-time streaming data processing engine.
+- [Kapacitor](https://www.influxdata.com/time-series-platform/kapacitor/) - Real-time streaming data processing engine.
 
 ### Alerts
 
@@ -356,7 +356,7 @@ Tools for rocessing the system data.
 <!--lint ignore double-link-->
 - [Bosun](https://bosun.org/) - Time Series Alerting Framework.
 - [Moira](https://github.com/moira-alert) - Most powerful alerting system, backed by Graphite.
-- [Alerta](https://alerta.io/) - Tool used to consolidate and de-duplicate alerts from multiple sources for quick ‘at-a-glance’ visualisation.
+- [Alerta](https://alerta.io/) - Tool used to consolidate and de-duplicate alerts from multiple sources for quick "at-a-glance" visualisation.
 - [Flapjack](http://flapjack.io/) - Monitoring notification routing & event processing system.
 - [Seyren](https://github.com/scobal/seyren) - An alerting dashboard for Graphite.
 - [Cabot](https://cabotapp.com/) - Get alerted when services go down or metrics go crazy.
@@ -373,7 +373,7 @@ Tools for rocessing the system data.
 - [Banshee](https://github.com/bbotte/banshee-detection_system) - Real-time anomalies(outliers) detection system for periodic metrics.
 - [Project Scorpio](https://github.com/AICoE/log-anomaly-detector) - Log Anomaly Detector.
 - [Anomaly Detection in Prometheus Metrics](https://github.com/AICoE/prometheus-anomaly-detector) - Prototype for a Prometheus Anomaly Detector (PAD) which can be deployed on OpenShift. The PAD is a framework to deploy a metric prediction model to detect anomalies in prometheus metrics.
-- [Prophet](https://facebook.github.io/prophet/) - Prophet is a forecasting procedure implemented in  R and Python.  It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts.
+- [Prophet](https://facebook.github.io/prophet/) - Forecasting procedure implemented in R and Python. It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts.
 - [Anomaly Detection Toolkit (ADTK)](https://adtk.readthedocs.io/en/stable/) - Python package for unsupervised / rule-based time series anomaly detection.
 - [Chaos Genius](https://github.com/chaos-genius/chaos_genius) - ML powered analytics engine for anomaly/outlier detection and root cause analysis.
 
@@ -396,8 +396,6 @@ As LLMs and AI agents become core to modern applications, observability for thes
 ### Instrumentation & SDKs
 
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for LLM applications, based on OpenTelemetry.
-- [OpenLLMetry for JavaScript](https://github.com/traceloop/openllmetry-js) - Sister project to OpenLLMetry, but in TypeScript. Open-source observability for LLM applications, based on OpenTelemetry.
-- [OpenLLMetry for Go](https://github.com/traceloop/go-openllmetry) - Sister project to OpenLLMetry, but in Go. Open-source observability for LLM applications, based on OpenTelemetry.
 - [MyScale Telemetry](https://github.com/myscale/myscale-telemetry) - Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.
 
 ### Cost & Usage Tracking
@@ -415,10 +413,10 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Kloudfuse](https://www.kloudfuse.com/) - Single unified observability platform for metrics, events, logs and traces.
 - [Aspecto](https://www.aspecto.io/) - Troubleshoot performance bottlenecks and errors within your microservices.
 - [Zabbix](https://github.com/zabbix/zabbix) - Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.
-- [circonus](https://www.circonus.com/) - Circonus provides a unified platform for monitoring and analyzing all of your metrics, infrastructure, applications.
+- [Circonus](https://www.circonus.com/) - Unified platform for monitoring and analyzing all of your metrics, infrastructure, and applications.
 <!--lint ignore double-link-->
 - [Epsagon](https://github.com/epsagon) - Application Monitoring Built for Containers and Serverless.
-- [chronosphere](https://chronosphere.io/) - Chronosphere develops a scalable, reliable, and customizable monitoring solution built for cloud-native applications.
+- [Chronosphere](https://chronosphere.io/) - Scalable, reliable, and customizable monitoring solution built for cloud-native applications.
 - [Centreon](https://www.centreon.com/) - Business-aware and AIOps-ready IT Monitoring.
 - [catchpoint](https://www.catchpoint.com/) - From the edge to the cloud, our proactive observability platform gives you the power to fix problems before your users notice.
 - [Blue Matador](https://www.bluematador.com/) - Easiest and fastest way to monitor your cloud environments on the market.
@@ -433,8 +431,8 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Datav](https://github.com/datav-io/datav) - A modern apm solution for enterprise, an open-source alternative to DataDog, New Relic, etc.
 - [Last9](https://last9.io/) - OpenTelemetry-native observability platform for APM, metrics, logs, and traces, built to handle high-cardinality telemetry at scale.
 - [SigNoz](https://github.com/SigNoz/signoz) - Monitor your applications and troubleshoot problems in your deployed applications, an open-source alternative to DataDog, New Relic, etc.
-- [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos) architectures.
-- [Pinpoint](https://github.com/pinpoint-apm/pinpoint) - Pinpoint is an APM (Application Performance Management) tool for large-scale distributed systems written in Java / PHP/PYTHON.
+- [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, Kubernetes, Mesos) architectures.
+- [Pinpoint](https://github.com/pinpoint-apm/pinpoint) - APM (Application Performance Management) tool for large-scale distributed systems written in Java / PHP/PYTHON.
 - [Falcon Plus](https://github.com/open-falcon/falcon-plus) - An open-source and enterprise-level monitoring system.
 - [dynatrace APM](https://www.dynatrace.com/platform/application-performance-monitoring/) - Best-in-class APM from the category leader. Ensure application performance, innovate faster, collaborate efficiently, and deliver more value with dramatically less effort.
 - [Elastic APM](https://www.elastic.co/es/apm) - Application performance monitoring system built on the Elastic Stack.
@@ -444,7 +442,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [AppDynamics](https://www.appdynamics.com/) - Business and application performance monitoring.
 - [Instrumental](https://instrumentalapp.com) - Real-time application and server monitoring.
 - [Kamon apm](https://kamon.io/apm/) - Point and click to find the endpoints, database queries, and API calls that affect your user's experience.
-- [Scouter](https://github.com/scouter-project/scouter) - Scouter is an open source APM (Application Performance Management) tool.
+- [Scouter](https://github.com/scouter-project/scouter) - Open source APM (Application Performance Management) tool.
 - [Netdata](https://www.netdata.cloud/) - Troubleshoot slowdowns and anomalies in your infrastructure with thousands of per-second metrics, meaningful visualizations, and insightful health alarms with zero configuration.
 - [Stagemonitor](https://www.stagemonitor.org/) - An open source solution to application performance monitoring for java server applications.
 - [Checkmk Server](https://checkmk.com/) - Monitor your entire hybrid IT infrastructure.
@@ -460,7 +458,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 
 ## 12. Service Mesh
 
-- [Istio](https://istio.io/latest/docs/concepts/observability/) - Istio generates detailed telemetry for all service communications within a mesh.
+- [Istio](https://istio.io/latest/docs/concepts/observability/) - Generates detailed telemetry for all service communications within a mesh.
 - [Kiali](https://www.kiali.io/) - Observability console for Istio with service mesh configuration capabilities. It helps you to understand the structure of your service mesh by inferring the topology, and also provides the health of your mesh.
 
 ## 13. Observability as a Service
@@ -473,7 +471,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Grafana Cloud](https://grafana.com/products/cloud/?plcmt=nav-products-cta1&cta=cloud) - Composable observability platform, integrating metrics, traces and logs with Grafana.
 - [NexClipper](https://github.com/NexClipper) - Full stack visibility and intelligence for cloud native applications.
 - [Sysdig Prometheus](https://sysdig.com/products/monitor/) - Cloud scale monitoring solution with full Prometheus compatibility.
-- [WhaTap](https://whatap.io/en/) - Provides an integrated monitoring service for DevOps that analyzes application performance issue running on kubernetes in real time.
+- [WhaTap](https://whatap.io/en/) - Provides an integrated monitoring service for DevOps that analyzes application performance issue running on Kubernetes in real time.
 - [CloudWatch](https://aws.amazon.com/es/cloudwatch/) - Observability of your AWS resources and applications on AWS and on-premises.
 - [Google Cloud Monitoring](https://cloud.google.com/monitoring) - Gain visibility into the performance, availability, and health of your applications and infrastructure.
 - [Azure Monitor](https://azure.microsoft.com/en-us/services/monitor/#overview) - Full observability into your applications, infrastructure, and network.
@@ -492,9 +490,9 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Levitate](https://last9.io/levitate-tsdb) - A Time Series Data Warehouse and Cloud Native Monitoring Solution.
 <!--lint ignore double-link-->
 - [Sematext Cloud](https://sematext.com/) - Infrastructure and log monitoring with service and log auto-discovery. Basic plan is free. Website uptime, API, and SSL certificate monitoring. Includes status pages and scriptable multi-page user transaction monitoring, etc.
-- [Dash0](https://www.dash0.com/) - Dash0 is modern OpenTelemetry Native Observability, built on CNCF Open Standards such as PromQL, Perses and OLTP with full cost control. Supports monitoring metrics, logs and traces. With dashboarding and alerting capabilities.
+- [Dash0](https://www.dash0.com/) - Modern OpenTelemetry Native Observability, built on CNCF Open Standards such as PromQL, Perses and OLTP with full cost control. Supports monitoring metrics, logs and traces. With dashboarding and alerting capabilities.
 
-## 14. Examples and Sandbox's
+## 14. Examples and Sandboxes
 
 - [Node.js boilerplate app (JavaScript)](https://github.com/Olivr/app-node-js) - Docker and Kubernetes ready. Observability (logs, metrics, traces) included.
 - [Observability Sandbox](https://github.com/adriannovegil/observability-sandbox) - Get up and running with Prometheus, Thanos, Grafana, and more using Docker and Docker Compose.
