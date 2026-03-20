@@ -382,6 +382,7 @@ Tools for rocessing the system data.
 
 - [OpenLIT](https://github.com/openlit/openlit) - OTel-native Observability and Evals for LLMs & GPUs.
 - [Langtrace](https://github.com/Scale3-Labs/langtrace) - Open Source & Open Telemetry(OTEL) Observability for LLM applications.
+- [Manifest](https://github.com/mnfst/manifest) - Open-source real-time cost observability for AI agents. Tracks tokens, costs, messages, and model usage. Self-hostable, privacy-focused, and OTLP-native.
 - [servicenow - Cloud Observability](https://www.servicenow.com/products/observability.html) - Gain AI-powered insights to detect and quickly respond to changes in cloud-native and monolithic applications. 
 - [DeepFlow](https://github.com/deepflowio/deepflow) - Implemented Zero Code data collection with eBPF for metrics, distributed tracing, request logs and function profiling, and is further integrated with SmartEncoding to achieve Full Stack correlation and efficient access to all observability data.
 - [coroot](https://coroot.com/) - Open-source eBPF-based observability tool that turns telemetry data into actionable insights, helping you identify and resolve application issues quickly.
