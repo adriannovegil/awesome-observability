@@ -7,3 +7,6 @@ https://netflixtechblog.com/.*
 # Enterprise sites with aggressive bot protection
 https://www.servicenow.com/.*
 https://www.centreon.com/.*
+
+# Transient connection resets in CI
+https://openmetrics.io/.*
