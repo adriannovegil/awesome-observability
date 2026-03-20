@@ -81,7 +81,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [SSL Certificate Monitor](https://github.com/brancogao/ssl-certificate-monitor) - Open-source SSL/TLS certificate expiry monitoring tool with email alerts for observability of certificate health.
 - [DNS Propagation Checker](https://github.com/brancogao/dns-propagation-checker) - Open-source DNS propagation monitoring tool with global DNS server coverage for DNS observability.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for your LLM application, based on OpenTelemetry.
-- [OpenLLMetry for Javascript](https://github.com/traceloop/openllmetry-js) - Sister project to OpenLLMetry, but in Typescript. Open-source observability for your LLM application, based on OpenTelemetry.
+- [OpenLLMetry for JavaScript](https://github.com/traceloop/openllmetry-js) - Sister project to OpenLLMetry, but in TypeScript. Open-source observability for your LLM application, based on OpenTelemetry.
 - [OpenLLMetry for Go](https://github.com/traceloop/go-openllmetry) - Sister project to OpenLLMetry, but in Go. Open-source observability for your LLM application, based on OpenTelemetry.
 - [onWatch](https://github.com/onllm-dev/onwatch) - Open-source Go CLI that tracks AI API quota usage across 7 providers (Anthropic, Codex, Synthetic, Z.ai, GitHub Copilot, MiniMax, Antigravity). Background daemon with <50MB RAM, SQLite storage, Material Design 3 web dashboard, and zero telemetry.
 - [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy) - Kubernetes operator for synthetic monitoring and continuous process verification.
@@ -309,7 +309,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Grafana Tempo](https://github.com/grafana/tempo) - Open source, easy-to-use and high-scale distributed tracing backend.
 <!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
-- [Last9](https://last9.io/docs/traces/) — Traces Explorer with filtering, span attributes, waterfall visualizations, and SQL ad-hoc querying; fully OpenTelemetry-native.
+- [Last9](https://last9.io/docs/traces/) - Traces Explorer with filtering, span attributes, waterfall visualizations, and SQL ad-hoc querying; fully OpenTelemetry-native.
 
 ### Graph of Nodes
 
@@ -324,7 +324,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [UptimeRobot](https://uptimerobot.com) - Free for 50 monitors, checked every 5 minutes.
 - [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
 - [Freshping](https://freshping.io) - Free for 50 monitors, checked every 1 minutes. Status pages, monitoring of HTTP (and DNS, ICMP, TCP/UDP), select region of monitoring.
-- [FlareWarden](https://flarewarden.com) — Uptime, content, dependency, and SSL monitoring with multi-region verification and status pages. Free plan includes 15 monitors, 5-minute checks, and 90 days of history.
+- [FlareWarden](https://flarewarden.com) - Uptime, content, dependency, and SSL monitoring with multi-region verification and status pages. Free plan includes 15 monitors, 5-minute checks, and 90 days of history.
 
 ## 9. Processing and Analyze and Act
 
@@ -350,7 +350,7 @@ Tools for rocessing the system data.
 - [Sloth](https://github.com/slok/sloth) - Easy and simple Prometheus SLO (service level objectives) generator.
 <!--lint ignore double-link-->
 - [Bosun](https://bosun.org/) - Is an open-source, MIT licensed, monitoring and alerting system.
-- - [Last9](https://last9.io/docs/alert-group/) - Alert Studio for managing alerts with flexible grouping, routing, and correlation, built on top of OpenTelemetry signals.
+- [Last9](https://last9.io/docs/alert-group/) - Alert Studio for managing alerts with flexible grouping, routing, and correlation, built on top of OpenTelemetry signals.
 - [ElastAlert](https://github.com/Yelp/elastalert) - Easy & Flexible Alerting With Elasticsearch.
 <!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
