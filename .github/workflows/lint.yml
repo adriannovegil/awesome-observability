@@ -5,19 +5,26 @@ on:
     branches: [master]
   pull_request:
     types: [opened, synchronize]
+  schedule:
+    # Run weekly on Mondays at 9:00 UTC to detect link rot early
+    - cron: '0 9 * * 1'
 
 jobs:
-  awesome_bot:
+  link_check:
+    name: Check links
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 2.6
-    - name: Install awesome_bot
-      run: gem install awesome_bot
-    - name: Run awesome_bot
-      run: awesome_bot README.md --allow-redirect --allow-dupe --allow-timeout --set-timeout 60 --skip-save-results --allow 403,429
+      - uses: actions/checkout@v4
+      - name: Lychee link check
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --timeout 60
+            --max-retries 3
+            --accept 100..=399,403,429
+            README.md
+          fail: true
 
   awesome_lint:
     name: Run awesome linter
