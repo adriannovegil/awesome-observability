@@ -1,0 +1,9 @@
+# Sites that aggressively block automated link checkers (false positives)
+# These have been manually verified as working in a browser
+
+# Medium/Substack-hosted blogs block non-browser user agents
+https://netflixtechblog.com/.*
+
+# Enterprise sites with aggressive bot protection
+https://www.servicenow.com/.*
+https://www.centreon.com/.*
