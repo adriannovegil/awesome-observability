@@ -78,6 +78,8 @@ There are many more commands and methodologies you can apply to drill deeper.
 ### Metrics
 
 - [MyScale Telemetry](https://github.com/myscale/myscale-telemetry) - Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.
+- [SSL Certificate Monitor](https://github.com/brancogao/ssl-certificate-monitor) - Open-source SSL/TLS certificate expiry monitoring tool with email alerts for observability of certificate health.
+- [DNS Propagation Checker](https://github.com/brancogao/dns-propagation-checker) - Open-source DNS propagation monitoring tool with global DNS server coverage for DNS observability.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for your LLM application, based on OpenTelemetry.
 - [OpenLLMetry for Javascript](https://github.com/traceloop/openllmetry-js) - Sister project to OpenLLMetry, but in Typescript. Open-source observability for your LLM application, based on OpenTelemetry.
 - [OpenLLMetry for Go](https://github.com/traceloop/go-openllmetry) - Sister project to OpenLLMetry, but in Go. Open-source observability for your LLM application, based on OpenTelemetry.
