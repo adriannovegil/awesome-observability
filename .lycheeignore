@@ -10,3 +10,4 @@ https://www.centreon.com/.*
 
 # Transient connection resets in CI
 https://openmetrics.io/.*
+https://www.kiali.io/.*

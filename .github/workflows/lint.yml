@@ -20,7 +20,7 @@ jobs:
         with:
           args: >-
             --no-progress
-            --timeout 60
+            --timeout 120
             --max-retries 3
             --accept 100..=399,403,429
             README.md
