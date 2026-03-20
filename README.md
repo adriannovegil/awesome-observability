@@ -31,13 +31,14 @@ This repo is not only for monitoring. As said Adrian Cole's in the talk about "[
 - [7. Storage](#7-storage)
 - [8. Visualization](#8-visualization)
 - [9. Processing and Analyze and Act](#9-processing-and-analyze-and-act)
-- [10. Application Performance Monitoring Solutions (APM)](#10-application-performance-monitoring-solutions-apm)
-- [11. Service Mesh](#11-service-mesh)
-- [12. Observability as a Service](#12-observability-as-a-service)
-- [13. Examples and Sandbox's](#13-examples-and-sandboxs)
-- [14. References](#14-references)
-- [15. License](#15-license)
-- [16. Contributing](#16-contributing)
+- [10. LLM & AI Observability](#10-llm--ai-observability)
+- [11. Application Performance Monitoring Solutions (APM)](#11-application-performance-monitoring-solutions-apm)
+- [12. Service Mesh](#12-service-mesh)
+- [13. Observability as a Service](#13-observability-as-a-service)
+- [14. Examples and Sandbox's](#14-examples-and-sandboxs)
+- [15. References](#15-references)
+- [16. License](#16-license)
+- [17. Contributing](#17-contributing)
 
 ## 1. Best Practices
 
@@ -77,13 +78,8 @@ There are many more commands and methodologies you can apply to drill deeper.
 
 ### Metrics
 
-- [MyScale Telemetry](https://github.com/myscale/myscale-telemetry) - Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.
 - [SSL Certificate Monitor](https://github.com/brancogao/ssl-certificate-monitor) - Open-source SSL/TLS certificate expiry monitoring tool with email alerts for observability of certificate health.
 - [DNS Propagation Checker](https://github.com/brancogao/dns-propagation-checker) - Open-source DNS propagation monitoring tool with global DNS server coverage for DNS observability.
-- [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for your LLM application, based on OpenTelemetry.
-- [OpenLLMetry for JavaScript](https://github.com/traceloop/openllmetry-js) - Sister project to OpenLLMetry, but in TypeScript. Open-source observability for your LLM application, based on OpenTelemetry.
-- [OpenLLMetry for Go](https://github.com/traceloop/go-openllmetry) - Sister project to OpenLLMetry, but in Go. Open-source observability for your LLM application, based on OpenTelemetry.
-- [onWatch](https://github.com/onllm-dev/onwatch) - Open-source Go CLI that tracks AI API quota usage across 7 providers (Anthropic, Codex, Synthetic, Z.ai, GitHub Copilot, MiniMax, Antigravity). Background daemon with <50MB RAM, SQLite storage, Material Design 3 web dashboard, and zero telemetry.
 - [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy) - Kubernetes operator for synthetic monitoring and continuous process verification.
 - [ingraind](https://github.com/foniod/foniod) - Security monitoring agent built around RedBPF for complex containerized environments and endpoints.
 - [Opentelemetry](https://opentelemetry.io/) - OpenTelemetry is made up of an integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
@@ -381,12 +377,37 @@ Tools for rocessing the system data.
 - [Anomaly Detection Toolkit (ADTK)](https://adtk.readthedocs.io/en/stable/) - Python package for unsupervised / rule-based time series anomaly detection.
 - [Chaos Genius](https://github.com/chaos-genius/chaos_genius) - ML powered analytics engine for anomaly/outlier detection and root cause analysis.
 
-## 10. Application Performance Monitoring Solutions (APM)
+## 10. LLM & AI Observability
 
-- [OpenLIT](https://github.com/openlit/openlit) - OTel-native Observability and Evals for LLMs & GPUs.
-- [Langtrace](https://github.com/Scale3-Labs/langtrace) - Open Source & Open Telemetry(OTEL) Observability for LLM applications.
+As LLMs and AI agents become core to modern applications, observability for these systems has emerged as a discipline of its own. Unlike traditional APM, LLM observability focuses on __prompt tracing__, __token & cost tracking__, __evaluation & quality metrics__, and __agent workflow debugging__.
+
+### Platforms
+
+- [Langfuse](https://github.com/langfuse/langfuse) - Open source LLM engineering platform for observability, metrics, evals, prompt management and datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more.
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) - Open-source AI observability platform for tracing, evaluation, datasets, experiments, prompt management and playground. Built on OpenTelemetry with Python and TypeScript support.
+- [Helicone](https://github.com/Helicone/helicone) - Open source LLM observability platform and AI Gateway. One line of code to monitor, evaluate, and experiment across 100+ providers.
+- [OpenLIT](https://github.com/openlit/openlit) - OTel-native observability and evals for LLMs and GPUs.
+- [Langtrace](https://github.com/Scale3-Labs/langtrace) - Open source OpenTelemetry-based observability for LLM applications.
+- [Opik](https://github.com/comet-ml/opik) - Debug, evaluate, and monitor LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
+- [Laminar](https://github.com/lmnr-ai/lmnr) - Open-source observability and analytics platform purpose-built for AI agents. Built in Rust for performance.
+- [Agenta](https://github.com/Agenta-AI/agenta) - Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.
+- [Pydantic Logfire](https://github.com/pydantic/logfire) - AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.
+
+### Instrumentation & SDKs
+
+- [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for LLM applications, based on OpenTelemetry.
+- [OpenLLMetry for JavaScript](https://github.com/traceloop/openllmetry-js) - Sister project to OpenLLMetry, but in TypeScript. Open-source observability for LLM applications, based on OpenTelemetry.
+- [OpenLLMetry for Go](https://github.com/traceloop/go-openllmetry) - Sister project to OpenLLMetry, but in Go. Open-source observability for LLM applications, based on OpenTelemetry.
+- [MyScale Telemetry](https://github.com/myscale/myscale-telemetry) - Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.
+
+### Cost & Usage Tracking
+
 - [Manifest](https://github.com/mnfst/manifest) - Open-source real-time cost observability for AI agents. Tracks tokens, costs, messages, and model usage. Self-hostable, privacy-focused, and OTLP-native.
-- [servicenow - Cloud Observability](https://www.servicenow.com/products/observability.html) - Gain AI-powered insights to detect and quickly respond to changes in cloud-native and monolithic applications. 
+- [onWatch](https://github.com/onllm-dev/onwatch) - Open-source Go CLI that tracks AI API quota usage across 7 providers. Background daemon with SQLite storage, Material Design 3 web dashboard, and zero telemetry.
+
+## 11. Application Performance Monitoring Solutions (APM)
+
+- [servicenow - Cloud Observability](https://www.servicenow.com/products/observability.html) - Gain AI-powered insights to detect and quickly respond to changes in cloud-native and monolithic applications.
 - [DeepFlow](https://github.com/deepflowio/deepflow) - Implemented Zero Code data collection with eBPF for metrics, distributed tracing, request logs and function profiling, and is further integrated with SmartEncoding to achieve Full Stack correlation and efficient access to all observability data.
 - [coroot](https://coroot.com/) - Open-source eBPF-based observability tool that turns telemetry data into actionable insights, helping you identify and resolve application issues quickly.
 - [robusta](https://home.robusta.dev/) - Unified Kubernetes  monitoring, observability, and operations.
@@ -437,12 +458,12 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Sematext Cloud](https://sematext.com/) - Infrastructure, log, and digital experience monitoring with service and log auto-discovery. Basic plan is free.
 - [TraceKit](https://tracekit.dev) - Lightweight APM combining distributed tracing, live breakpoints, and session replay. Built on OpenTelemetry with SDKs for 13+ languages (frontend to backend).
 
-## 11. Service Mesh
+## 12. Service Mesh
 
 - [Istio](https://istio.io/latest/docs/concepts/observability/) - Istio generates detailed telemetry for all service communications within a mesh.
 - [Kiali](https://www.kiali.io/) - Observability console for Istio with service mesh configuration capabilities. It helps you to understand the structure of your service mesh by inferring the topology, and also provides the health of your mesh.
 
-## 12. Observability as a Service
+## 13. Observability as a Service
 
 - [servicepilot](https://www.servicepilot.com/en/) - Modern monitoring platform.
 - [Instana](https://www.ibm.com/es-es/products/instana) - IBM® Instana® Observability is the gold standard of incident prevention with automated full-stack visibility, 1-second granularity and 3 seconds to notify.
@@ -468,12 +489,12 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [sumo logic](https://www.sumologic.com/) - Reduce downtime with real-time alerting, dashboards, and machine-learning-powered analytics for all three types of telemetry — logs, metrics, and traces.
 - [Tencent Cloud Log Service](https://cloud.tencent.com/product/cls) - Tencent is an internet service portal offering value-added internet, mobile, telecom, and online advertising services.
 - [Geneos](https://www.itrsgroup.com/products/geneos) - Real-time monitoring for all your environments in one platform.
-- [Levitate](https://last9.io/levitate-tsdb) - A Time Series Data Warehouse and Cloud Native Monitoring Solution. 
+- [Levitate](https://last9.io/levitate-tsdb) - A Time Series Data Warehouse and Cloud Native Monitoring Solution.
 <!--lint ignore double-link-->
 - [Sematext Cloud](https://sematext.com/) - Infrastructure and log monitoring with service and log auto-discovery. Basic plan is free. Website uptime, API, and SSL certificate monitoring. Includes status pages and scriptable multi-page user transaction monitoring, etc.
 - [Dash0](https://www.dash0.com/) - Dash0 is modern OpenTelemetry Native Observability, built on CNCF Open Standards such as PromQL, Perses and OLTP with full cost control. Supports monitoring metrics, logs and traces. With dashboarding and alerting capabilities.
 
-## 13. Examples and Sandbox's
+## 14. Examples and Sandbox's
 
 - [Node.js boilerplate app (JavaScript)](https://github.com/Olivr/app-node-js) - Docker and Kubernetes ready. Observability (logs, metrics, traces) included.
 - [Observability Sandbox](https://github.com/adriannovegil/observability-sandbox) - Get up and running with Prometheus, Thanos, Grafana, and more using Docker and Docker Compose.
@@ -481,7 +502,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [My Spring PetClinic Sample Application](https://github.com/adriannovegil/spring-petclinic-microservices-sre) - My fork of the official repository.
 - [FastAPI with Observability](https://github.com/Blueswen/fastapi-observability) - Docker ready. Telemetry FastAPI application with three pillars of observability: Traces (Tempo), Metrics (Prometheus), Logs (Loki) on Grafana through OpenTelemetry and OpenMetrics. Using examplar for cross querying between traces, metrics and logs.
 
-## 14. References
+## 15. References
 
 - https://github.com/crazy-canux/awesome-monitoring
 - https://github.com/Enapiuz/awesome-monitoring
@@ -489,11 +510,11 @@ Just provide your read-only credentials and start getting insights in minutes.
 - https://landscape.cncf.io/
 - https://www.influxdata.com/products/
 
-## 15. License
+## 16. License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
-## 16. Contributing
+## 17. Contributing
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
 
