@@ -392,6 +392,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Laminar](https://github.com/lmnr-ai/lmnr) - Open-source observability and analytics platform purpose-built for AI agents. Built in Rust for performance.
 - [Agenta](https://github.com/Agenta-AI/agenta) - Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.
+- [Weco Observe](https://weco.ai) - Observability and debugging tool for AI research agents — trace multi-step LLM agent runs, visualize decision trees, identify failure modes.
 
 ### Instrumentation & SDKs
 
