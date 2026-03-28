@@ -72,6 +72,7 @@ In the article you can see how with a few tools and in a short time, you can get
 
 There are many more commands and methodologies you can apply to drill deeper.
 
+- [ReleaseRun](releaserun.com) — ReleaseRun — release monitoring and dependency EOL tracking — free tools for K8s API deprecation checking, Helm chart compatibility, and dependency health
 ## 3. Collect
 
  Get any data – metrics, events, logs, traces – from everywhere – systems, sensors, queues, databases and networks.
