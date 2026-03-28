@@ -376,6 +376,7 @@ Tools for rocessing the system data.
 - [Prophet](https://facebook.github.io/prophet/) - Forecasting procedure implemented in R and Python. It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts.
 - [Anomaly Detection Toolkit (ADTK)](https://adtk.readthedocs.io/en/stable/) - Python package for unsupervised / rule-based time series anomaly detection.
 - [Chaos Genius](https://github.com/chaos-genius/chaos_genius) - ML powered analytics engine for anomaly/outlier detection and root cause analysis.
+- [BillingWatch](https://github.com/rmbell09-lang/BillingWatch) - Self-hosted Stripe billing anomaly detector with 7 real-time detectors for charge failure spikes, duplicate charges, revenue drops, webhook lag monitoring, and silent billing lapses.
 
 ## 10. LLM & AI Observability
 
