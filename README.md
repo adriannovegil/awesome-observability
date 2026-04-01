@@ -371,6 +371,7 @@ Tools for rocessing the system data.
 
 - [Failure Mode and Effects Analysis (FMEA)](https://asq.org/quality-resources/fmea) - Documents current knowledge and actions about the risks of failures, for use in continuous improvement.
 - [Banshee](https://github.com/bbotte/banshee-detection_system) - Real-time anomalies(outliers) detection system for periodic metrics.
+- [DataScreenIQ](https://datascreeniq.com) – Real-time anomaly and drift detection API for pipelines and ML systems. Detect schema drift, null spikes, type changes, cardinality anomalies, and outliers in milliseconds. Returns PASS / WARN / BLOCK decisions.
 - [Project Scorpio](https://github.com/AICoE/log-anomaly-detector) - Log Anomaly Detector.
 - [Anomaly Detection in Prometheus Metrics](https://github.com/AICoE/prometheus-anomaly-detector) - Prototype for a Prometheus Anomaly Detector (PAD) which can be deployed on OpenShift. The PAD is a framework to deploy a metric prediction model to detect anomalies in prometheus metrics.
 - [Prophet](https://facebook.github.io/prophet/) - Forecasting procedure implemented in R and Python. It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts.
