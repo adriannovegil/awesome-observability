@@ -397,6 +397,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for LLM applications, based on OpenTelemetry.
 - [MyScale Telemetry](https://github.com/myscale/myscale-telemetry) - Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.
+- [AgentWatch](https://github.com/nicofains1/agentwatch) - TypeScript SDK for monitoring multi-agent AI systems. Heartbeat-based fleet monitoring that generates 14x fewer events than traditional per-span APM approaches, with cross-agent failure correlation, cascade detection, and forensic replay.
 
 ### Cost & Usage Tracking
 
