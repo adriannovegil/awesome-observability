@@ -206,6 +206,10 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 - Nothing for the moment :-P
 
+### Configuration & Linters
+
+- [Augur](https://github.com/starkross/augur) - Static analysis linter for OpenTelemetry Collector configurations. Detects misconfigurations, hardcoded credentials, and missing critical components (memory limiters, batch processors) before deployment. Built on OPA/Rego with customizable policies and CI/CD integration.
+
 ## 7. Storage
 
 ### Time Series Database
