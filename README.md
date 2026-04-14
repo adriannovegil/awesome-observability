@@ -32,13 +32,14 @@ This repo is not only for monitoring. As said Adrian Cole's in the talk about "[
 - [8. Visualization](#8-visualization)
 - [9. Processing and Analyze and Act](#9-processing-and-analyze-and-act)
 - [10. LLM & AI Observability](#10-llm--ai-observability)
-- [11. Application Performance Monitoring Solutions (APM)](#11-application-performance-monitoring-solutions-apm)
-- [12. Service Mesh](#12-service-mesh)
-- [13. Observability as a Service](#13-observability-as-a-service)
-- [14. Examples and Sandboxes](#14-examples-and-sandboxes)
-- [15. References](#15-references)
-- [16. License](#16-license)
-- [17. Contributing](#17-contributing)
+- [11. GPU Observability](#11-gpu-observability)
+- [12. Application Performance Monitoring Solutions (APM)](#12-application-performance-monitoring-solutions-apm)
+- [13. Service Mesh](#13-service-mesh)
+- [14. Observability as a Service](#14-observability-as-a-service)
+- [15. Examples and Sandboxes](#15-examples-and-sandboxes)
+- [16. References](#16-references)
+- [17. License](#17-license)
+- [18. Contributing](#18-contributing)
 
 ## 1. Best Practices
 
@@ -403,7 +404,6 @@ As LLMs and AI agents become core to modern applications, observability for thes
 
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for LLM applications, based on OpenTelemetry.
 - [MyScale Telemetry](https://github.com/myscale/myscale-telemetry) - Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.
-- [AgentWatch](https://github.com/nicofains1/agentwatch) - TypeScript SDK for monitoring multi-agent AI systems. Heartbeat-based fleet monitoring that generates 14x fewer events than traditional per-span APM approaches, with cross-agent failure correlation, cascade detection, and forensic replay.
 
 ### Cost & Usage Tracking
 
@@ -411,7 +411,17 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [onWatch](https://github.com/onllm-dev/onwatch) - Open-source Go CLI that tracks AI API quota usage across 7 providers. Background daemon with SQLite storage, Material Design 3 web dashboard, and zero telemetry.
 - [burn0](https://github.com/burn0-dev/burn0) - Open-source Node.js cost observability with one import. Auto-detects and tracks per-request costs for 50+ services (LLMs, SaaS, databases) via HTTP interception. Sub-millisecond overhead, local-first with optional cloud dashboard.
 
-## 11. Application Performance Monitoring Solutions (APM)
+## 11. GPU Observability
+
+As GPU workloads become central to AI/ML production systems, observability at the GPU level has emerged as a discipline of its own. Unlike traditional APM, GPU observability focuses on __CUDA tracing__, __causal chain analysis__ linking host kernel events to GPU latency, and __zero-config eBPF instrumentation__ for always-on production use.
+
+- [Ingero](https://github.com/ingero-io/ingero) - eBPF-based GPU causal observability agent. Traces CUDA Runtime/Driver APIs via uprobes and host kernel events via tracepoints to build 4-layer causal chains explaining GPU latency in production. Zero-config, <2% overhead, OTLP/Prometheus export, Kubernetes-native.
+- [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter) - Official NVIDIA Prometheus exporter for GPU metrics via DCGM. Kubernetes-native with Helm support, Grafana dashboards, per-process GPU metrics, MIG support, and TLS/auth.
+- [nvidia_gpu_exporter](https://github.com/utkuozdemir/nvidia_gpu_exporter) - Lightweight Prometheus exporter for NVIDIA GPUs using nvidia-smi. No DCGM or C bindings required. Works on Linux and Windows with auto-discovered metric fields and Grafana dashboard.
+- [nvitop](https://github.com/XuehaiPan/nvitop) - Interactive NVIDIA GPU process viewer with rich Python API. Ships nvitop-exporter for Prometheus metrics and Grafana dashboards, plus ResourceMetricCollector API for custom monitoring and ML framework callbacks.
+- [NVTOP](https://github.com/Syllo/nvtop) - htop-like task monitor for GPUs and accelerators. Multi-vendor support: NVIDIA, AMD, Intel, Apple, Huawei Ascend, Qualcomm Adreno and more.
+
+## 12. Application Performance Monitoring Solutions (APM)
 
 - [servicenow - Cloud Observability](https://www.servicenow.com/products/observability.html) - Gain AI-powered insights to detect and quickly respond to changes in cloud-native and monolithic applications.
 - [DeepFlow](https://github.com/deepflowio/deepflow) - Implemented Zero Code data collection with eBPF for metrics, distributed tracing, request logs and function profiling, and is further integrated with SmartEncoding to achieve Full Stack correlation and efficient access to all observability data.
@@ -435,7 +445,6 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [swagger-stats](https://swaggerstats.io/) - API Telemetry and APM.
 - [Cloudprober](https://github.com/google/cloudprober) - An active monitoring software to detect failures before your customers do.
 - [Hubble](https://github.com/cilium/hubble) - Network, Service & Security Observability for Kubernetes.
-- [Ingero](https://github.com/ingero-io/ingero) - eBPF-based GPU causal observability agent. Traces CUDA Runtime/Driver APIs and host kernel events to build causal chains explaining GPU latency in production.
 - [Datav](https://github.com/datav-io/datav) - A modern apm solution for enterprise, an open-source alternative to DataDog, New Relic, etc.
 - [Last9](https://last9.io/) - OpenTelemetry-native observability platform for APM, metrics, logs, and traces, built to handle high-cardinality telemetry at scale.
 - [SigNoz](https://github.com/SigNoz/signoz) - Monitor your applications and troubleshoot problems in your deployed applications, an open-source alternative to DataDog, New Relic, etc.
@@ -464,12 +473,12 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Sematext Cloud](https://sematext.com/) - Infrastructure, log, and digital experience monitoring with service and log auto-discovery. Basic plan is free.
 - [TraceKit](https://tracekit.dev) - Lightweight APM combining distributed tracing, live breakpoints, and session replay. Built on OpenTelemetry with SDKs for 13+ languages (frontend to backend).
 
-## 12. Service Mesh
+## 13. Service Mesh
 
 - [Istio](https://istio.io/latest/docs/concepts/observability/) - Generates detailed telemetry for all service communications within a mesh.
 - [Kiali](https://www.kiali.io/) - Observability console for Istio with service mesh configuration capabilities. It helps you to understand the structure of your service mesh by inferring the topology, and also provides the health of your mesh.
 
-## 13. Observability as a Service
+## 14. Observability as a Service
 
 - [servicepilot](https://www.servicepilot.com/en/) - Modern monitoring platform.
 - [Instana](https://www.ibm.com/es-es/products/instana) - IBM® Instana® Observability is the gold standard of incident prevention with automated full-stack visibility, 1-second granularity and 3 seconds to notify.
@@ -500,7 +509,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Sematext Cloud](https://sematext.com/) - Infrastructure and log monitoring with service and log auto-discovery. Basic plan is free. Website uptime, API, and SSL certificate monitoring. Includes status pages and scriptable multi-page user transaction monitoring, etc.
 - [Dash0](https://www.dash0.com/) - Modern OpenTelemetry Native Observability, built on CNCF Open Standards such as PromQL, Perses and OLTP with full cost control. Supports monitoring metrics, logs and traces. With dashboarding and alerting capabilities.
 
-## 14. Examples and Sandboxes
+## 15. Examples and Sandboxes
 
 - [Node.js boilerplate app (JavaScript)](https://github.com/Olivr/app-node-js) - Docker and Kubernetes ready. Observability (logs, metrics, traces) included.
 - [Observability Sandbox](https://github.com/adriannovegil/observability-sandbox) - Get up and running with Prometheus, Thanos, Grafana, and more using Docker and Docker Compose.
@@ -508,7 +517,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [My Spring PetClinic Sample Application](https://github.com/adriannovegil/spring-petclinic-microservices-sre) - My fork of the official repository.
 - [FastAPI with Observability](https://github.com/Blueswen/fastapi-observability) - Docker ready. Telemetry FastAPI application with three pillars of observability: Traces (Tempo), Metrics (Prometheus), Logs (Loki) on Grafana through OpenTelemetry and OpenMetrics. Using examplar for cross querying between traces, metrics and logs.
 
-## 15. References
+## 16. References
 
 - https://github.com/crazy-canux/awesome-monitoring
 - https://github.com/Enapiuz/awesome-monitoring
@@ -516,11 +525,11 @@ Just provide your read-only credentials and start getting insights in minutes.
 - https://landscape.cncf.io/
 - https://www.influxdata.com/products/
 
-## 16. License
+## 17. License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
-## 17. Contributing
+## 18. Contributing
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
 
