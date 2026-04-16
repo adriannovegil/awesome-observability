@@ -22,7 +22,7 @@ jobs:
     name: Check links
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Lychee link check
         uses: lycheeverse/lychee-action@v2
         with:
@@ -38,10 +38,10 @@ jobs:
     name: Run awesome linter
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: lts/*
       - run: npx awesome-lint
