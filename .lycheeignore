@@ -11,3 +11,7 @@ https://www.centreon.com/.*
 # Transient connection resets in CI
 https://openmetrics.io/.*
 https://www.kiali.io/.*
+
+# linkedin.com blocks bots and returns 999 (not covered by --accept)
+https://www.linkedin.com/*
+https://linkedin.com/*
