@@ -419,7 +419,7 @@ As GPU workloads become central to AI/ML production systems, observability at th
 - [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter) - Official NVIDIA Prometheus exporter for GPU metrics via DCGM. Kubernetes-native with Helm support, Grafana dashboards, per-process GPU metrics, MIG support, and TLS/auth.
 - [nvidia_gpu_exporter](https://github.com/utkuozdemir/nvidia_gpu_exporter) - Lightweight Prometheus exporter for NVIDIA GPUs using nvidia-smi. No DCGM or C bindings required. Works on Linux and Windows with auto-discovered metric fields and Grafana dashboard.
 - [nvitop](https://github.com/XuehaiPan/nvitop) - Interactive NVIDIA GPU process viewer with rich Python API. Ships nvitop-exporter for Prometheus metrics and Grafana dashboards, plus ResourceMetricCollector API for custom monitoring and ML framework callbacks.
-- [NVTOP](https://github.com/Syllo/nvtop) - htop-like task monitor for GPUs and accelerators. Multi-vendor support: NVIDIA, AMD, Intel, Apple, Huawei Ascend, Qualcomm Adreno and more.
+- [NVTOP](https://github.com/Syllo/nvtop) - Task monitor for GPUs and accelerators, similar to htop. Multi-vendor support: NVIDIA, AMD, Intel, Apple, Huawei Ascend, Qualcomm Adreno and more.
 
 ## 12. Application Performance Monitoring Solutions (APM)
 
