@@ -235,6 +235,8 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### "Meta Projects" (data storage, multi-tenant, aggregation, high availability, etc)
 
+- [Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain) - Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm self-evolution, predictive bug detection, PageRank knowledge graphs, swarm intelligence, and adversarial defense.
+- [Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge) - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline with visual dashboard, one-click install, and auto-update.
 - [qryn](https://qryn.metrico.in/) - Polyglot monitoring and observability.
 - [Promscale](https://github.com/timescale/promscale) - Unified metric and trace observability backend for Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB.
 - [M3](https://github.com/m3db/m3) - Distributed TSDB and Query Engine, Prometheus Sidecar, Metrics Aggregator, and more such as Graphite storage and query engine.
