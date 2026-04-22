@@ -399,6 +399,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Laminar](https://github.com/lmnr-ai/lmnr) - Open-source observability and analytics platform purpose-built for AI agents. Built in Rust for performance.
 - [Agenta](https://github.com/Agenta-AI/agenta) - Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.
+- [Scoreflow](https://github.com/8infinitelabs/scoreflow) - Craftsmanship Score for AI coding. Ingests OpenTelemetry from Claude Code + Copilot + Cursor, scores developers on banded components (anti-Goodhart), delivers via MCP + weekly email + dashboard. Team-aggregate first, EU-hosted.
 
 ### Instrumentation & SDKs
 
