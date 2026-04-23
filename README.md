@@ -412,6 +412,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Manifest](https://github.com/mnfst/manifest) - Open-source real-time cost observability for AI agents. Tracks tokens, costs, messages, and model usage. Self-hostable, privacy-focused, and OTLP-native.
 - [onWatch](https://github.com/onllm-dev/onwatch) - Open-source Go CLI that tracks AI API quota usage across 7 providers. Background daemon with SQLite storage, Material Design 3 web dashboard, and zero telemetry.
 - [burn0](https://github.com/burn0-dev/burn0) - Open-source Node.js cost observability with one import. Auto-detects and tracks per-request costs for 50+ services (LLMs, SaaS, databases) via HTTP interception. Sub-millisecond overhead, local-first with optional cloud dashboard.
+- [Burnd](https://github.com/garvitsurana/burnd) - Local-first CLI that reads Claude Code JSONL session files and surfaces cost leaks via pattern detectors (retry storms, tool overuse, repeated reads, thrash, etc.). npx-installable, MIT, zero telemetry; findings export to a shareable report URL.
 
 ## 11. GPU Observability
 
