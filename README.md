@@ -457,6 +457,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [dynatrace APM](https://www.dynatrace.com/platform/application-performance-monitoring/) - Best-in-class APM from the category leader. Ensure application performance, innovate faster, collaborate efficiently, and deliver more value with dramatically less effort.
 - [Elastic APM](https://www.elastic.co/es/apm) - Application performance monitoring system built on the Elastic Stack.
 - [DataDog](https://www.datadoghq.com/) - Unified Monitoring For Metrics, Traces, & Logs.
+- [Middleware](https://middleware.io/) - Full stack observability solution with real-time monitoring and diagnostics.
 - [Honeycomb](https://www.honeycomb.io/) - Give all software engineering teams the observability they need to eliminate toil and delight their users.
 - [NewRelic](https://newrelic.com/) - Complete view of your applications and operating environment.
 - [AppDynamics](https://www.appdynamics.com/) - Business and application performance monitoring.
