@@ -202,6 +202,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Logbook](https://github.com/zalando/logbook) - Extensible Java library to enable complete request and response logging for different client- and server-side technologies.
 - [logdy](https://github.com/logdyhq/logdy-core) - Supercharge terminal logs with web browser UI and low-code. It's like jq, tail, less, grep and awk merged together and available in a clean UI. Self-hosted, single binary.
 - [Last9](https://last9.io/docs/logs/) - Unified Logs Explorer with search, filters, SQL query support, and OpenTelemetry-native ingestion.
+- [PFC-JSONL](https://github.com/ImpossibleForge/pfc-jsonl) - Specialized JSONL log compressor with block-level timestamp indexing for efficient log storage. ~9% compression ratio with Fluent Bit integration and DuckDB queryable archives.
 
 ### Events
 
