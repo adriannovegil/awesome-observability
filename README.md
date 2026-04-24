@@ -202,6 +202,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Logbook](https://github.com/zalando/logbook) - Extensible Java library to enable complete request and response logging for different client- and server-side technologies.
 - [logdy](https://github.com/logdyhq/logdy-core) - Supercharge terminal logs with web browser UI and low-code. It's like jq, tail, less, grep and awk merged together and available in a clean UI. Self-hosted, single binary.
 - [Last9](https://last9.io/docs/logs/) - Unified Logs Explorer with search, filters, SQL query support, and OpenTelemetry-native ingestion.
+- [Middleware](https://docs.middleware.io/workflow/log-monitoring/overview) - Collects and analyzes logs in real time, enabling teams to detect anomalies, correlate events, and trigger alerts for faster troubleshooting and visibility across systems.
 - [PFC-JSONL](https://github.com/ImpossibleForge/pfc-jsonl) - Specialized JSONL log compressor with block-level timestamp indexing for efficient log storage. ~9% compression ratio with Fluent Bit integration and DuckDB queryable archives.
 
 ### Events
@@ -313,6 +314,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 <!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
 - [Last9](https://last9.io/docs/traces/) - Traces Explorer with filtering, span attributes, waterfall visualizations, and SQL ad-hoc querying; fully OpenTelemetry-native.
+- [Middleware](https://docs.middleware.io/apm-configuration/apm_overview) - Provides end-to-end monitoring with distributed tracing, enabling visibility into request flows, latency, and errors across services.
 
 ### Graph of Nodes
 
@@ -354,6 +356,7 @@ Tools for rocessing the system data.
 <!--lint ignore double-link-->
 - [Bosun](https://bosun.org/) - Is an open-source, MIT licensed, monitoring and alerting system.
 - [Last9](https://last9.io/docs/alert-group/) - Alert Studio for managing alerts with flexible grouping, routing, and correlation, built on top of OpenTelemetry signals.
+- [Middleware](https://docs.middleware.io/workflow/alerting/setup-alert) - Monitors time-series data and triggers alerts on defined conditions like spikes, latency, or anomalies using customizable queries.
 - [ElastAlert](https://github.com/Yelp/elastalert) - Easy & Flexible Alerting With Elasticsearch.
 <!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
@@ -401,6 +404,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Agenta](https://github.com/Agenta-AI/agenta) - Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.
 - [CueAPI](https://github.com/cueapi/cueapi-core) - Open-source observability for AI agent execution outcomes. Tracks verified vs. reported success rates, outcome timeouts, and verification-pending backlogs across scheduled agent work. Self-hosted, Apache-2.0.
+- [Middleware](https://middleware.io/product/ops-ai/) - Provides AI-powered observability that detects anomalies, correlates signals across the stack, identifies root causes, and suggests or automates fixes to accelerate incident resolution.
 
 ### Instrumentation & SDKs
 
