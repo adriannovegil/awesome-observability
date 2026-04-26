@@ -489,6 +489,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 <!--lint ignore double-link-->
 - [Epsagon](https://github.com/epsagon) - Application Monitoring Built for Containers and Serverless.
 - [Mackerel](https://en.mackerel.io/) - A SaaS server monitoring service with an intuitive UI, optimized for the cloud era, that fosters a culture of team-based system monitoring/operation.
+- [France Nuage Managed Grafana](https://france-nuage.fr) - Managed Grafana monitoring and observability hosted in France. GDPR-compliant sovereign hosting.
 - [Grafana Cloud](https://grafana.com/products/cloud/?plcmt=nav-products-cta1&cta=cloud) - Composable observability platform, integrating metrics, traces and logs with Grafana.
 - [NexClipper](https://github.com/NexClipper) - Full stack visibility and intelligence for cloud native applications.
 - [Sysdig Prometheus](https://sysdig.com/products/monitor/) - Cloud scale monitoring solution with full Prometheus compatibility.
