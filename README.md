@@ -303,6 +303,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Uchiwa](https://uchiwa.io/#/) - Simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.
 - [Grafterm](https://github.com/slok/grafterm) - Visualize metrics dashboards on the terminal, like a simplified and minimalist version of Grafana for terminal.
 - [Grizzly](https://github.com/grafana/grizzly) - A utility for managing various observability resources with Jsonnet.
+- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with real-time observability, AI-powered operations, and CNCF project integrations across edge and cloud clusters.
 
 ### Tracing
 
