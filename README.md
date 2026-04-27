@@ -229,6 +229,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [QuestDB](https://questdb.io/) - The fastest open source time series database.
 - [Metric Tank](https://github.com/grafana/metrictank) - Provides high availability and efficient long-term storage, retrieval, and processing for large-scale environments.
 - [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) - Open-source, cloud-native observability database with unified SQL and PromQL support for metrics, logs, and traces.
+- [LynxDB](https://github.com/lynxbase/lynxdb) - Lightweight columnar log analytics database with a pipe-style query language inspired by SPL.
 
 ### Time Series Cache
 
