@@ -13,7 +13,8 @@ Furthermore, the concept of __observability__ can be seen a superset of monitori
 It can be said to  consist of three parts:
 
 - The __event logs__ (can be in different forms, plain text, structured or binary and is in general about having a log about what happened at a certain time),
-- The __metrics__ (measurement over time, for example number of failed requests) and
+- The __metrics__ (measurement over time, for example number of failed requests)
+- [APIWatch](https://github.com/155143783/apiwatch) - Open-source API health monitoring with x402 payment support. and
 - The __tracing__ (represent related and distributed events together as a request flows through a system)
 
 > __Metrics__, __Logs__ and __Traces__: The Golden Triangle of Observability in Monitoring
