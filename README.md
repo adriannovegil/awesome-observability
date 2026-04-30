@@ -539,3 +539,4 @@ Just provide your read-only credentials and start getting insights in minutes.
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
 
 Thank you!
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor-frontend) - AI monitoring dashboard for AI agents and LLMs. [Demo](https://flik2002.github.io/openclaw-monitor-frontend)
