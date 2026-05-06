@@ -1,5 +1,13 @@
 # Awesome Observability [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+
+## OpenClaw Monitor
+
+⭐ **[OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)** — Real-time AI agent monitoring for OpenClaw. Tracks Gateway status, session metrics, token usage trends, and message volume with live WebSocket updates.
+
+![Dashboard](https://raw.githubusercontent.com/flik2002/openclaw-monitor/main/Openclaw%20Monitor.jpg)
+
+
 Monitoring as defined by the Oxford dictionary is to "Observe and check the progress or quality of (something) over a period of time; keep under systematic review".
 
 For systems monitoring that means being able to give an overview over the state of a system by exposing key metrics about the systems. The monitoring can be implemented in different ways:
