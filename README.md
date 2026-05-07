@@ -82,7 +82,6 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [SSL Certificate Monitor](https://github.com/brancogao/ssl-certificate-monitor) - Open-source SSL/TLS certificate expiry monitoring tool with email alerts for observability of certificate health.
 - [DNS Propagation Checker](https://github.com/brancogao/dns-propagation-checker) - Open-source DNS propagation monitoring tool with global DNS server coverage for DNS observability.
 - [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy) - Kubernetes operator for synthetic monitoring and continuous process verification.
-- [KubeStellar Console](https://github.com/kubestellar/console) - AI-powered multi-cluster Kubernetes dashboard with real-time observability across edge and cloud clusters, CNCF project integrations (Prometheus, Grafana, Istio, Falco, OPA), and 160+ monitoring cards.
 - [ingraind](https://github.com/foniod/foniod) - Security monitoring agent built around RedBPF for complex containerized environments and endpoints.
 - [Opentelemetry](https://opentelemetry.io/) - Integrated set of APIs and libraries as well as a collection mechanism via an agent and collector.
 - [top](https://www.booleanworld.com/guide-linux-top-command/) - Allows users to monitor processes and system resource usage on Linux. It is one of the most useful tools in a sysadmin's toolbox, and it comes pre-installed on every distribution.
@@ -295,6 +294,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 ### Dashboarding
 
 - [Grafana](https://grafana.com/oss/grafana/) - The first really good dashboard for displaying metrics.
+- [KubeStellar Console](https://github.com/kubestellar/console) - AI-powered multi-cluster Kubernetes dashboard with real-time observability across edge and cloud clusters, CNCF project integrations (Prometheus, Grafana, Istio, Falco, OPA), and 160+ monitoring cards.
 - [Skooner](https://github.com/skooner-k8s/skooner) - Simple Kubernetes real-time dashboard and management.
 - [SLO-Tracker](https://github.com/roshan8/slo-tracker) - A simple but effective way to track SLO's and Error budgets. SLO-tracker can be integrated with few alerting tools via webhook integration to receive SLO voilating incidents.
 - [Chronograf](https://github.com/influxdata/chronograf) - User interface and administrative component of the InfluxDB platform.
@@ -529,6 +529,9 @@ Just provide your read-only credentials and start getting insights in minutes.
 
 ## 16. References
 
+- [My Awesome SRE Repo ;-)](https://github.com/adriannovegil/awesome-sre)
+- [My Awesome Chaos Engineering Repo ;-)](https://github.com/adriannovegil/awesome-chaos-engineering)
+- [My Awesome Profiling Repo ;-)](https://github.com/adriannovegil/awesome-profiling)
 - https://github.com/crazy-canux/awesome-monitoring
 - https://github.com/Enapiuz/awesome-monitoring
 - https://speakerdeck.com/adriancole/observability-3-ways-logging-metrics-and-tracing
