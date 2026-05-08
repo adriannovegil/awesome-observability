@@ -110,7 +110,6 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [pktvisor](https://github.com/ns1labs/pktvisor) - Observability agent for summarizing high volume, information dense data streams down to lightweight, immediately actionable observability data directly at the edge.
 - [duplicacy-exporter](https://github.com/GeiserX/duplicacy-exporter) - Real-time Prometheus exporter for Duplicacy backups with live speed, progress, and completion metrics.
 
-- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Real-time AI agent monitoring dashboard for OpenClaw, featuring token usage tracking, session management, and 7-day trend visualization.
 
 ### Tracing
 
@@ -416,6 +415,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [burn0](https://github.com/burn0-dev/burn0) - Open-source Node.js cost observability with one import. Auto-detects and tracks per-request costs for 50+ services (LLMs, SaaS, databases) via HTTP interception. Sub-millisecond overhead, local-first with optional cloud dashboard.
 - [Burnd](https://github.com/garvitsurana/burnd) - Local-first CLI that reads Claude Code JSONL session files and surfaces cost leaks via pattern detectors (retry storms, tool overuse, repeated reads, thrash, etc.). npx-installable, MIT, zero telemetry; findings export to a shareable report URL.
 
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Real-time AI agent monitoring dashboard for OpenClaw, featuring token usage tracking, session management, and 7-day trend visualization.
 ## 11. GPU Observability
 
 As GPU workloads become central to AI/ML production systems, observability at the GPU level has emerged as a discipline of its own. Unlike traditional APM, GPU observability focuses on __CUDA tracing__, __causal chain analysis__ linking host kernel events to GPU latency, and __zero-config eBPF instrumentation__ for always-on production use.
