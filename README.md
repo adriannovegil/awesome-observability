@@ -112,6 +112,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 
 ### Tracing
 
+- [FutureAGI traceAI](https://github.com/future-agi/traceAI) - Open-source OTel-native tracing for LLM and agent apps; 50+ framework integrations across Python, TypeScript, Java, and C#.
 - [Sleuth](https://spring.io/projects/spring-cloud-sleuth) - Spring Cloud Sleuth implements a distributed tracing solution for Spring Cloud, borrowing heavily from Dapper, Zipkin and HTrace.
 <!--lint ignore double-link-->
 - [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot) - Java agent for collecting performance, tracing and business data.
