@@ -409,6 +409,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for LLM applications, based on OpenTelemetry.
 - [MyScale Telemetry](https://github.com/myscale/myscale-telemetry) - Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.
+- [BrowserTrace](https://github.com/aaronlab/browsertrace) - Local-first trace viewer for AI browser-agent failures, capturing screenshots, URLs, actions, model I/O, status, errors, and public-safe HTML exports.
 
 ### Cost & Usage Tracking
 
