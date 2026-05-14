@@ -144,6 +144,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [phantom](https://github.com/yandex-load/phantom/tree/master/examples) - Evgeniy Mamchits' phantom is a very fast (100 000+ RPS) shooter written in C++ (default).
 - [BFG](https://github.com/yandex-load/bfg) - A modular tool and framework for load generation that supports HTTP/2.
 - [Bender](https://github.com/pinterest/bender) - Makes it easy to build load testing applications for services using protocols like HTTP, Thrift, Protocol Buffers and many more. Bender provides a library of flexible, powerful primitives that can be combined (with plain Go code) to build load testers customized to any use case and that evolve with your service over time.
+- [Eventum](https://github.com/eventum-generator/eventum) - Data generation platform for producing synthetic event streams based on templates, scripts or log samples.
 
 ## 5. Transport
 
