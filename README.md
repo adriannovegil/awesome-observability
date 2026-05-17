@@ -351,6 +351,7 @@ Tools for rocessing the system data.
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
 - [Kapacitor](https://www.influxdata.com/time-series-platform/kapacitor/) - Real-time streaming data processing engine.
 
+- [ConfigDrift](https://github.com/Coding-Dev-Tools/configdrift) - CLI tool to detect and track configuration drift across infrastructure environments, maintaining consistency and compliance before incidents occur.
 ### Alerts
 
 - [Sloth](https://github.com/slok/sloth) - Easy and simple Prometheus SLO (service level objectives) generator.
