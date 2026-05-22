@@ -440,6 +440,7 @@ As GPU workloads become central to AI/ML production systems, observability at th
 - [nvidia_gpu_exporter](https://github.com/utkuozdemir/nvidia_gpu_exporter) - Lightweight Prometheus exporter for NVIDIA GPUs using nvidia-smi. No DCGM or C bindings required. Works on Linux and Windows with auto-discovered metric fields and Grafana dashboard.
 - [nvitop](https://github.com/XuehaiPan/nvitop) - Interactive NVIDIA GPU process viewer with rich Python API. Ships nvitop-exporter for Prometheus metrics and Grafana dashboards, plus ResourceMetricCollector API for custom monitoring and ML framework callbacks.
 - [NVTOP](https://github.com/Syllo/nvtop) - Task monitor for GPUs and accelerators, similar to htop. Multi-vendor support: NVIDIA, AMD, Intel, Apple, Huawei Ascend, Qualcomm Adreno and more.
+- [piqc](https://github.com/paralleliq/piqc) - Model-aware GPU waste scanner for Kubernetes inference clusters. Detects tier misplacement, idle capacity, OOM risk, and CPU:GPU imbalance, each quantified in dollars. Read-only, deploys as a Kubernetes Job.
 
 ## 12. Application Performance Monitoring Solutions (APM)
 
