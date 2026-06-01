@@ -404,6 +404,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Agenta](https://github.com/Agenta-AI/agenta) - Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.
 - [CueAPI](https://github.com/cueapi/cueapi-core) - Open-source observability for AI agent execution outcomes. Tracks verified vs. reported success rates, outcome timeouts, and verification-pending backlogs across scheduled agent work. Self-hosted, Apache-2.0.
+- [Heron](https://github.com/Netis/heron) - Passive, SDK-free observability for LLM and agent traffic. Reconstructs agent turns and service topology from post-TLS HTTP on the wire — no SDK and no proxy in the request path. Decodes OpenAI/Anthropic/Gemini, folds multi-leg proxy hops, auto-classifies vLLM/SGLang/Ollama backends. Single static binary with embedded console, Apache-2.0.
 
 ### Instrumentation & SDKs
 
