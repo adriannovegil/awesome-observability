@@ -410,6 +410,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Laminar](https://github.com/lmnr-ai/lmnr) - Open-source observability and analytics platform purpose-built for AI agents. Built in Rust for performance.
 - [Agenta](https://github.com/Agenta-AI/agenta) - Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.
+- [Tuning Engines](https://www.tuningengines.com/) - AI control and observability layer for model, MCP, skill, workflow, policy, approval, state-reference, and outcome traces, with cost analytics and governed OpenAI-compatible routing.
 - [Traccia](https://traccia.ai) - Open-source observability and governance platform for AI agents. Integrates with OpenAI Agents SDK, CrewAI, LangChain, Claude Code, and more.
 - [Respan](https://www.respan.ai/) - Full-stack AI engineering platform for tracing agent workflows, evals with custom graders, prompt management, and an AI gateway routing 250+ models. Supports OTLP ingestion and framework integrations (OpenAI Agents SDK, Vercel AI, LangGraph, Mastra).
 - [Seerlens](https://github.com/eladser/seerlens) - Local-first, .NET-first observability and evals for LLM apps. Live tracing, cost in dollars against a budget, CI-gateable evals, and agent/MCP tool-call scoring. Built on OpenTelemetry with .NET, Python and JS SDKs.
