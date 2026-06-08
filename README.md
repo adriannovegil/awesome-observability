@@ -404,6 +404,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Agenta](https://github.com/Agenta-AI/agenta) - Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.
 - [CueAPI](https://github.com/cueapi/cueapi-core) - Open-source observability for AI agent execution outcomes. Tracks verified vs. reported success rates, outcome timeouts, and verification-pending backlogs across scheduled agent work. Self-hosted, Apache-2.0.
+- [Respan](https://www.respan.ai/) - Full-stack AI engineering platform for tracing agent workflows, evals with custom graders, prompt management, and an AI gateway routing 250+ models. Supports OTLP ingestion and framework integrations (OpenAI Agents SDK, Vercel AI, LangGraph, Mastra).
 
 ### Instrumentation & SDKs
 
