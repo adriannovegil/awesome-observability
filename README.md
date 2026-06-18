@@ -120,6 +120,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 
 <!--lint ignore double-link-->
 - [Elastic Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack.
+- [Grafana Alloy](https://github.com/grafana/alloy) - Grafana's OpenTelemetry Collector distribution that unifies logs, metrics, and traces in a single agent; the supported successor to Promtail and Grafana Agent.
 - [mTAIL](http://ophilipp.free.fr/op_tail.htm) - Windows program that extract internal monitoring data from application logs for collection in a timeseries database.
 
 ### Events & Problems
