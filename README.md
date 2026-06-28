@@ -109,6 +109,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [SkyAPM-dotnet](https://github.com/SkyAPM/SkyAPM-dotnet) - Native support agent in C# and .NETStandard platform, with the helps from Apache SkyWalking committer team.
 - [pktvisor](https://github.com/ns1labs/pktvisor) - Observability agent for summarizing high volume, information dense data streams down to lightweight, immediately actionable observability data directly at the edge.
 - [duplicacy-exporter](https://github.com/GeiserX/duplicacy-exporter) - Real-time Prometheus exporter for Duplicacy backups with live speed, progress, and completion metrics.
+- [netwatch](https://github.com/matthart1983/netwatch) - Network diagnostics TUI for operators: real-time per-process connection attribution via an eBPF kprobe (with `lsof`/`ss` fallback), libpcap-based deep packet inspection across 13 protocols (TLS, QUIC, HTTP, DNS, SSH, MQTT, SNMP, ...), full RFC 9001 QUIC Initial decryption with cross-packet ClientHello reassembly, JA4 fingerprinting, TCP retransmit and out-of-order analytics, and an optional Landlock sandbox. Rust, MIT, macOS and Linux.
 
 ### Tracing
 
@@ -144,6 +145,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [phantom](https://github.com/yandex-load/phantom/tree/master/examples) - Evgeniy Mamchits' phantom is a very fast (100 000+ RPS) shooter written in C++ (default).
 - [BFG](https://github.com/yandex-load/bfg) - A modular tool and framework for load generation that supports HTTP/2.
 - [Bender](https://github.com/pinterest/bender) - Makes it easy to build load testing applications for services using protocols like HTTP, Thrift, Protocol Buffers and many more. Bender provides a library of flexible, powerful primitives that can be combined (with plain Go code) to build load testers customized to any use case and that evolve with your service over time.
+- [Eventum](https://github.com/eventum-generator/eventum) - Data generation platform for producing synthetic event streams based on templates, scripts or log samples.
 
 ## 5. Transport
 
@@ -331,6 +333,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [OverOps](https://www.overops.com) - Provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
 - [Freshping](https://freshping.io) - Free for 50 monitors, checked every 1 minutes. Status pages, monitoring of HTTP (and DNS, ICMP, TCP/UDP), select region of monitoring.
 - [FlareWarden](https://flarewarden.com) - Uptime, content, dependency, and SSL monitoring with multi-region verification and status pages. Free plan includes 15 monitors, 5-minute checks, and 90 days of history.
+- [Oh Dear](https://ohdear.app) - Uptime, performance, SSL certificate, broken link, and DNS monitoring, with hosted status pages.
 
 ## 9. Processing and Analyze and Act
 
@@ -386,6 +389,7 @@ Tools for rocessing the system data.
 - [Prophet](https://facebook.github.io/prophet/) - Forecasting procedure implemented in R and Python. It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts.
 - [Anomaly Detection Toolkit (ADTK)](https://adtk.readthedocs.io/en/stable/) - Python package for unsupervised / rule-based time series anomaly detection.
 - [Chaos Genius](https://github.com/chaos-genius/chaos_genius) - ML powered analytics engine for anomaly/outlier detection and root cause analysis.
+- [observability-mcp](https://github.com/ThoTischner/observability-mcp) - Cross-signal anomaly detection (z-score) over Prometheus metrics and Loki logs, exposed to AI agents through the Model Context Protocol. Pluggable connectors for additional backends, weighted health scoring, Web UI, and an ArtifactHub-listed Helm chart.
 
 ## 10. LLM & AI Observability
 
@@ -399,16 +403,20 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Helicone](https://github.com/Helicone/helicone) - Open source LLM observability platform and AI Gateway. One line of code to monitor, evaluate, and experiment across 100+ providers.
 - [OpenLIT](https://github.com/openlit/openlit) - OTel-native observability and evals for LLMs and GPUs.
 - [Langtrace](https://github.com/Scale3-Labs/langtrace) - Open source OpenTelemetry-based observability for LLM applications.
+- [Lookspan](https://github.com/JoniMartin27/lookspan) - Local-first observability for AI agents. One command (`npx lookspan`) runs a dashboard with traces, a timeline/waterfall view, cost tracking, replay & LLM-as-judge, and datasets. MCP-native, with OpenAI/Anthropic drop-ins and an OpenTelemetry receiver — all data stays on your machine.
 - [Opik](https://github.com/comet-ml/opik) - Debug, evaluate, and monitor LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
 - [Laminar](https://github.com/lmnr-ai/lmnr) - Open-source observability and analytics platform purpose-built for AI agents. Built in Rust for performance.
 - [Agenta](https://github.com/Agenta-AI/agenta) - Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.
 - [CueAPI](https://github.com/cueapi/cueapi-core) - Open-source observability for AI agent execution outcomes. Tracks verified vs. reported success rates, outcome timeouts, and verification-pending backlogs across scheduled agent work. Self-hosted, Apache-2.0.
+- [Heron](https://github.com/Netis/heron) - Passive, SDK-free observability for LLM and agent traffic. Reconstructs agent turns and service topology from post-TLS HTTP on the wire — no SDK and no proxy in the request path. Decodes OpenAI/Anthropic/Gemini, folds multi-leg proxy hops, auto-classifies vLLM/SGLang/Ollama backends. Single static binary with embedded console, Apache-2.0.
+- [Voight](https://voight.xyz) - Real-time LLM observability platform. Drop-in SDK wrappers for OpenAI, Anthropic, Vercel AI SDK + hooks for Claude Code and Cursor capture prompts, tokens, cache reads, tool calls, cost, latency, and errors. OpenTelemetry-compatible via `otel: true` opt-in.
 
 ### Instrumentation & SDKs
 
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for LLM applications, based on OpenTelemetry.
 - [MyScale Telemetry](https://github.com/myscale/myscale-telemetry) - Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.
+- [BrowserTrace](https://github.com/aaronlab/browsertrace) - Local-first trace viewer for AI browser-agent failures, capturing screenshots, URLs, actions, model I/O, status, errors, and public-safe HTML exports.
 
 ### Cost & Usage Tracking
 
@@ -481,6 +489,8 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Sematext Cloud](https://sematext.com/) - Infrastructure, log, and digital experience monitoring with service and log auto-discovery. Basic plan is free.
 - [TraceKit](https://tracekit.dev) - Lightweight APM combining distributed tracing, live breakpoints, and session replay. Built on OpenTelemetry with SDKs for 13+ languages (frontend to backend).
 - [Apitally](https://apitally.io) - API monitoring, analytics, and request logging for REST APIs, with lightweight open-source SDKs for Python, Node.js, Go, .NET, and Java.
+- [groundcover](https://www.groundcover.com/) - eBPF-based observability platform for Kubernetes with logs, metrics, traces, and APM; deployed entirely inside the user's own cloud (BYOC) for data residency.
+- [CoreDash](https://coredash.app) - Real user monitoring for Core Web Vitals (LCP, INP, CLS, TTFB, FCP) with element level attribution, phase breakdowns, LoAF data, and a built in MCP server for AI agents. EU hosted, GDPR compliant.
 
 ## 13. Service Mesh
 
@@ -519,6 +529,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Dash0](https://www.dash0.com/) - Modern OpenTelemetry Native Observability, built on CNCF Open Standards such as PromQL, Perses and OLTP with full cost control. Supports monitoring metrics, logs and traces. With dashboarding and alerting capabilities.
 - [Uptrack](https://uptrack.app) - Uptime monitoring with 30-second checks on the free tier, consecutive-check alert confirmation (multi-region majority vote), hosted status pages, and a built-in MCP server for AI-agent-driven incident triage. HTTP, SSL, TCP, DNS, Ping, Heartbeat, and Cron monitors.
 - [Rivana](https://rivana.io) - Storage-fleet monitoring for enterprise SSD/HDD fleets, tracking 10,000+ devices across thousands of hosts to surface latency and performance issues that generic monitoring and SMART alerts miss.
+- [Yorker](https://yorkermonitoring.com) - OpenTelemetry-native synthetic monitoring. Runs HTTP and Playwright browser checks and forwards each run as enriched OTLP (anomaly scoring, third-party attribution, W3C traceparent) to any OTel backend.
 
 ## 15. Examples and Sandboxes
 
