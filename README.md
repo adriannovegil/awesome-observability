@@ -420,6 +420,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [burn0](https://github.com/burn0-dev/burn0) - Open-source Node.js cost observability with one import. Auto-detects and tracks per-request costs for 50+ services (LLMs, SaaS, databases) via HTTP interception. Sub-millisecond overhead, local-first with optional cloud dashboard.
 - [Burnd](https://github.com/garvitsurana/burnd) - Local-first CLI that reads Claude Code JSONL session files and surfaces cost leaks via pattern detectors (retry storms, tool overuse, repeated reads, thrash, etc.). npx-installable, MIT, zero telemetry; findings export to a shareable report URL.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - TUI observability for AI coding agents. Tracks cost, tokens, tool failures, anomalies, health, and CI gates across Claude Code, Codex, Gemini CLI, Aider, and Cursor exports.
+- [piqc](https://github.com/paralleliq/piqc) - Open-source GPU waste scanner for Kubernetes inference clusters. Surfaces tier misplacement, idle capacity, and OOM risk — each quantified in dollars — for teams optimizing GPU inference spend.
 
 ## 11. GPU Observability
 
@@ -430,6 +431,7 @@ As GPU workloads become central to AI/ML production systems, observability at th
 - [nvidia_gpu_exporter](https://github.com/utkuozdemir/nvidia_gpu_exporter) - Lightweight Prometheus exporter for NVIDIA GPUs using nvidia-smi. No DCGM or C bindings required. Works on Linux and Windows with auto-discovered metric fields and Grafana dashboard.
 - [nvitop](https://github.com/XuehaiPan/nvitop) - Interactive NVIDIA GPU process viewer with rich Python API. Ships nvitop-exporter for Prometheus metrics and Grafana dashboards, plus ResourceMetricCollector API for custom monitoring and ML framework callbacks.
 - [NVTOP](https://github.com/Syllo/nvtop) - Task monitor for GPUs and accelerators, similar to htop. Multi-vendor support: NVIDIA, AMD, Intel, Apple, Huawei Ascend, Qualcomm Adreno and more.
+- [piqc](https://github.com/paralleliq/piqc) - Open-source GPU waste scanner for Kubernetes inference clusters. Detects tier misplacement, idle capacity, OOM risk, and CPU:GPU imbalance — model-aware, read-only, deploys as a Kubernetes Job.
 
 ## 12. Application Performance Monitoring Solutions (APM)
 
