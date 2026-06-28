@@ -109,6 +109,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [SkyAPM-dotnet](https://github.com/SkyAPM/SkyAPM-dotnet) - Native support agent in C# and .NETStandard platform, with the helps from Apache SkyWalking committer team.
 - [pktvisor](https://github.com/ns1labs/pktvisor) - Observability agent for summarizing high volume, information dense data streams down to lightweight, immediately actionable observability data directly at the edge.
 - [duplicacy-exporter](https://github.com/GeiserX/duplicacy-exporter) - Real-time Prometheus exporter for Duplicacy backups with live speed, progress, and completion metrics.
+- [netwatch](https://github.com/matthart1983/netwatch) - Network diagnostics TUI for operators: real-time per-process connection attribution via an eBPF kprobe (with `lsof`/`ss` fallback), libpcap-based deep packet inspection across 13 protocols (TLS, QUIC, HTTP, DNS, SSH, MQTT, SNMP, ...), full RFC 9001 QUIC Initial decryption with cross-packet ClientHello reassembly, JA4 fingerprinting, TCP retransmit and out-of-order analytics, and an optional Landlock sandbox. Rust, MIT, macOS and Linux.
 
 ### Tracing
 
