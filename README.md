@@ -528,6 +528,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Sematext Cloud](https://sematext.com/) - Infrastructure and log monitoring with service and log auto-discovery. Basic plan is free. Website uptime, API, and SSL certificate monitoring. Includes status pages and scriptable multi-page user transaction monitoring, etc.
 - [Dash0](https://www.dash0.com/) - Modern OpenTelemetry Native Observability, built on CNCF Open Standards such as PromQL, Perses and OLTP with full cost control. Supports monitoring metrics, logs and traces. With dashboarding and alerting capabilities.
 - [Uptrack](https://uptrack.app) - Uptime monitoring with 30-second checks on the free tier, consecutive-check alert confirmation (multi-region majority vote), hosted status pages, and a built-in MCP server for AI-agent-driven incident triage. HTTP, SSL, TCP, DNS, Ping, Heartbeat, and Cron monitors.
+- [Rivana](https://rivana.io) - Storage-fleet monitoring for enterprise SSD/HDD fleets, tracking 10,000+ devices across thousands of hosts to surface latency and performance issues that generic monitoring and SMART alerts miss.
 - [Yorker](https://yorkermonitoring.com) - OpenTelemetry-native synthetic monitoring. Runs HTTP and Playwright browser checks and forwards each run as enriched OTLP (anomaly scoring, third-party attribution, W3C traceparent) to any OTel backend.
 
 ## 15. Examples and Sandboxes
