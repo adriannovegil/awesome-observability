@@ -415,6 +415,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Seerlens](https://github.com/eladser/seerlens) - Local-first, .NET-first observability and evals for LLM apps. Live tracing, cost in dollars against a budget, CI-gateable evals, and agent/MCP tool-call scoring. Built on OpenTelemetry with .NET, Python and JS SDKs.
 - [Heron](https://github.com/Netis/heron) - Passive, SDK-free observability for LLM and agent traffic. Reconstructs agent turns and service topology from post-TLS HTTP on the wire — no SDK and no proxy in the request path. Decodes OpenAI/Anthropic/Gemini, folds multi-leg proxy hops, auto-classifies vLLM/SGLang/Ollama backends. Single static binary with embedded console, Apache-2.0.
 - [Voight](https://voight.xyz) - Real-time LLM observability platform. Drop-in SDK wrappers for OpenAI, Anthropic, Vercel AI SDK + hooks for Claude Code and Cursor capture prompts, tokens, cache reads, tool calls, cost, latency, and errors. OpenTelemetry-compatible via `otel: true` opt-in.
+- [Latitude](https://github.com/latitude-dev/latitude-llm) - Open-source LLM observability and evaluation platform. Traces, monitors, and evaluates AI agents in production, clusters failures into issues, and generates evals from real-world failures. Built on OpenTelemetry with OpenInference and OpenLLMetry support.
 
 ### Instrumentation & SDKs
 
