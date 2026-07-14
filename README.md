@@ -301,6 +301,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [KubeStellar Console](https://github.com/kubestellar/console) - AI-powered multi-cluster Kubernetes dashboard with real-time observability across edge and cloud clusters, CNCF project integrations (Prometheus, Grafana, Istio, Falco, OPA), and 160+ monitoring cards.
 - [Skooner](https://github.com/skooner-k8s/skooner) - Simple Kubernetes real-time dashboard and management.
 - [SLO-Tracker](https://github.com/roshan8/slo-tracker) - A simple but effective way to track SLO's and Error budgets. SLO-tracker can be integrated with few alerting tools via webhook integration to receive SLO voilating incidents.
+- [StatLite](https://github.com/PVRLabs/statlite) - Ultra-light self-hosted metrics dashboard for small Spring Boot deployments. Polls Spring Boot Actuator directly, stores samples in SQLite, and runs as a single Go binary.
 - [Chronograf](https://github.com/influxdata/chronograf) - User interface and administrative component of the InfluxDB platform.
 - [Kibana](https://github.com/elastic/kibana) - Elastic stack.
 <!--lint ignore double-link-->
