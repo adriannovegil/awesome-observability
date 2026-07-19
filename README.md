@@ -379,6 +379,7 @@ Tools for rocessing the system data.
 - [Seyren](https://github.com/scobal/seyren) - An alerting dashboard for Graphite.
 - [Cabot](https://cabotapp.com/) - Get alerted when services go down or metrics go crazy.
 - [NthLayer](https://github.com/rsionnach/nthlayer) - Reliability requirements as code. Generates Grafana dashboards, Prometheus alerts, SLOs, and PagerDuty configs from service.yaml. Includes deployment gates that block deploys when error budget is exhausted.
+- [devalerts](https://github.com/sslinNn/devalerts) - Zero-dependency Python library that sends unhandled exceptions straight to Telegram or Slack, with fingerprint-based dedup and rate-limiting.
 
 ### Triggers
 
