@@ -511,6 +511,8 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [CoreDash](https://coredash.app) - Real user monitoring for Core Web Vitals (LCP, INP, CLS, TTFB, FCP) with element level attribution, phase breakdowns, LoAF data, and a built in MCP server for AI agents. EU hosted, GDPR compliant.
 - [rrweb](https://github.com/rrweb-io/rrweb) - Open-source session replay library that records the DOM and user interactions as a typed JSON event stream and replays them. Powers the session replay features of Sentry, PostHog, Amplitude, and Highlight.
 - [App Health](https://github.com/sass-maker/app-health) - Privacy-first endpoint health for Node, Go, and OpenTelemetry services; projects only method, normalized route, status, duration, timestamp, and optional release into aggregate views.
+- [Muscula](https://muscula.com/) - Error tracking, centralized logging, uptime monitoring, and debugging platform with AI agent integration via Model Context Protocol (MCP) and CLI for modern applications and websites.
+
 
 ## 13. Service Mesh
 
