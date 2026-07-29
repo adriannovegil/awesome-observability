@@ -338,6 +338,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [FlareWarden](https://flarewarden.com) - Uptime, content, dependency, and SSL monitoring with multi-region verification and status pages. Free plan includes 15 monitors, 5-minute checks, and 90 days of history.
 - [Oh Dear](https://ohdear.app) - Uptime, performance, SSL certificate, broken link, and DNS monitoring, with hosted status pages.
 - [Drumbeats](https://drumbeats.io) - Cron, heartbeat, and HTTP uptime monitoring for background jobs and services, with duration/hang alerts, concurrent-job correlation, incident management, and hosted status pages. Free for up to 50 monitors, 200K Beats/mo, no credit card. One curl ping instruments a job; no agent or SDK.
+- [Hyperping](https://hyperping.com) - Uptime, API, cron, and server monitoring from 18 locations, with on-call scheduling, escalation policies, and hosted status pages.
 
 ## 9. Processing and Analyze and Act
 
