@@ -509,6 +509,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [groundcover](https://www.groundcover.com/) - eBPF-based observability platform for Kubernetes with logs, metrics, traces, and APM; deployed entirely inside the user's own cloud (BYOC) for data residency.
 - [CoreDash](https://coredash.app) - Real user monitoring for Core Web Vitals (LCP, INP, CLS, TTFB, FCP) with element level attribution, phase breakdowns, LoAF data, and a built in MCP server for AI agents. EU hosted, GDPR compliant.
 - [rrweb](https://github.com/rrweb-io/rrweb) - Open-source session replay library that records the DOM and user interactions as a typed JSON event stream and replays them. Powers the session replay features of Sentry, PostHog, Amplitude, and Highlight.
+- [App Health](https://github.com/sass-maker/app-health) - Privacy-first endpoint health for Node, Go, and OpenTelemetry services; projects only method, normalized route, status, duration, timestamp, and optional release into aggregate views.
 
 ## 13. Service Mesh
 
