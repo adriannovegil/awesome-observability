@@ -335,6 +335,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Freshping](https://freshping.io) - Free for 50 monitors, checked every 1 minutes. Status pages, monitoring of HTTP (and DNS, ICMP, TCP/UDP), select region of monitoring.
 - [FlareWarden](https://flarewarden.com) - Uptime, content, dependency, and SSL monitoring with multi-region verification and status pages. Free plan includes 15 monitors, 5-minute checks, and 90 days of history.
 - [Oh Dear](https://ohdear.app) - Uptime, performance, SSL certificate, broken link, and DNS monitoring, with hosted status pages.
+- [n8n Uptime Ping Alert](https://github.com/DeusAcc/n8n-uptime-ping-alert) - Free, self-hosted n8n workflow: pings a URL every 5 minutes and alerts on Telegram only on status change (up/down).
 
 ## 9. Processing and Analyze and Act
 
