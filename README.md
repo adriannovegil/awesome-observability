@@ -431,6 +431,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - TUI observability for AI coding agents. Tracks cost, tokens, tool failures, anomalies, health, and CI gates across Claude Code, Codex, Gemini CLI, Aider, and Cursor exports.
 - [Preflight](https://github.com/newrelic-experimental/preflight) - Local-first observability for AI coding assistants. Captures every tool call (reads, edits, commands, searches), tracks USD cost per session/day/week and per model, scores efficiency, and detects anti-patterns (re-reads, blind edits, stuck loops) on a live local dashboard. Offline by default, Apache-2.0; optional New Relic backend for team rollups and alerting. Works with Claude Code, Cursor, Windsurf, Copilot, Zed, Continue.dev, and Amazon Q.
 - [ax](https://github.com/Necmttn/ax) - Local telemetry for AI coding agents.
+- [Mydentify AI Model Cost Calculator](https://mydentify.com/tools/ai-model-cost-calculator) - Local-first, no-signup calculator for estimating monthly AI model API costs from token usage, cached input, requests, and fixed per-request charges.
 
 ## 11. GPU Observability
 
