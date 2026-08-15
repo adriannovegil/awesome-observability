@@ -354,6 +354,7 @@ Tools for rocessing the system data.
 <!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
 - [Kapacitor](https://www.influxdata.com/time-series-platform/kapacitor/) - Real-time streaming data processing engine.
+- [secure-log2test](https://github.com/golikovichev/secure-log2test) - Python CLI that turns structured Kibana and Elasticsearch log exports into runnable pytest regression suites. Runs fully on-premises with no external API calls; auth headers and secret-looking body fields are redacted before output.
 
 ### Alerts
 
