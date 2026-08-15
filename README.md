@@ -113,7 +113,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 
 ### Tracing
 
-- [Sleuth](https://spring.io/projects/spring-cloud-sleuth) - Spring Cloud Sleuth implements a distributed tracing solution for Spring Cloud, borrowing heavily from Dapper, Zipkin and HTrace.
+- [Sleuth](https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/) - Spring Cloud Sleuth implements a distributed tracing solution for Spring Cloud, borrowing heavily from Dapper, Zipkin and HTrace.
 <!--lint ignore double-link-->
 - [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot) - Java agent for collecting performance, tracing and business data.
 
@@ -176,7 +176,7 @@ The transport tools simply serve as transport pipelines for data. This includes 
 - [Qpid](https://qpid.apache.org/) - Cross-platform messaging components built on AMQP.
 - [RabbitMQ](https://www.rabbitmq.com/) - Open source Erlang-based message broker that just works.
 - [RocketMQ](https://github.com/apache/incubator-rocketmq) - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.
-- [VerneMQ](https://vernemq.com/) - Open source software, extendable, and enterprise support is available.
+- [VerneMQ](https://github.com/vernemq/vernemq) - Open source software, extendable, and enterprise support is available.
 - [Zenoh](https://zenoh.io/) - A low overhead, low latency, high throughput open-source protocol that blends traditional pub/sub with geo distributed storage, queries and computations for unifying data in motion, data at rest and computations.
 
 ## 6. Collector
@@ -229,7 +229,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [M3DB](https://www.m3db.io/) - Fully open source metrics platform built on M3DB, a distributed timeseries database.
 - [Netflix Atlas](https://github.com/Netflix/atlas) - Atlas features in-memory data storage, allowing it to gather and report very large numbers of metrics, very quickly.
 - [TimescaleDB](https://www.timescale.com/) - PostgreSQL for time‑series.
-- [QuestDB](https://questdb.io/) - The fastest open source time series database.
+- [QuestDB](https://questdb.com/) - The fastest open source time series database.
 - [Metric Tank](https://github.com/grafana/metrictank) - Provides high availability and efficient long-term storage, retrieval, and processing for large-scale environments.
 - [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) - Open-source, cloud-native observability database with unified SQL and PromQL support for metrics, logs, and traces.
 - [LynxDB](https://github.com/lynxbase/lynxdb) - Lightweight columnar log analytics database with a pipe-style query language inspired by SPL.
@@ -273,7 +273,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 - [MySQL](https://www.mysql.com/) - Relational database management system.
 - [MariaDB](https://mariadb.org/) - Open source relational database.
-- [PostgreSQL](https://www.postgresql.org/) - Open source relational database.
+- [PostgreSQL](https://github.com/postgres/postgres) - Open source relational database.
 - [CockroachDB](https://www.cockroachlabs.com/) - Delivers Distributed SQL, combining the familiarity of relational data with limitless, elastic cloud scale, bulletproof resilience, and more.
 - [ClickHouse](https://clickhouse.com/) - Fast open-source OLAP database management system.
 
@@ -410,8 +410,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Laminar](https://github.com/lmnr-ai/lmnr) - Open-source observability and analytics platform purpose-built for AI agents. Built in Rust for performance.
 - [Agenta](https://github.com/Agenta-AI/agenta) - Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.
-- [CueAPI](https://github.com/cueapi/cueapi-core) - Open-source observability for AI agent execution outcomes. Tracks verified vs. reported success rates, outcome timeouts, and verification-pending backlogs across scheduled agent work. Self-hosted, Apache-2.0.
-- [Traccia](https://traccia.ai) - Open-source observability and governance platform for AI agents. Integrates with OpenAI Agents SDK, CrewAI, Langchain, Claude Code, and more.
+- [Traccia](https://traccia.ai) - Open-source observability and governance platform for AI agents. Integrates with OpenAI Agents SDK, CrewAI, LangChain, Claude Code, and more.
 - [Respan](https://www.respan.ai/) - Full-stack AI engineering platform for tracing agent workflows, evals with custom graders, prompt management, and an AI gateway routing 250+ models. Supports OTLP ingestion and framework integrations (OpenAI Agents SDK, Vercel AI, LangGraph, Mastra).
 - [Seerlens](https://github.com/eladser/seerlens) - Local-first, .NET-first observability and evals for LLM apps. Live tracing, cost in dollars against a budget, CI-gateable evals, and agent/MCP tool-call scoring. Built on OpenTelemetry with .NET, Python and JS SDKs.
 - [Heron](https://github.com/Netis/heron) - Passive, SDK-free observability for LLM and agent traffic. Reconstructs agent turns and service topology from post-TLS HTTP on the wire — no SDK and no proxy in the request path. Decodes OpenAI/Anthropic/Gemini, folds multi-leg proxy hops, auto-classifies vLLM/SGLang/Ollama backends. Single static binary with embedded console, Apache-2.0.
@@ -428,7 +427,6 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Manifest](https://github.com/mnfst/manifest) - Open-source real-time cost observability for AI agents. Tracks tokens, costs, messages, and model usage. Self-hostable, privacy-focused, and OTLP-native.
 - [onWatch](https://github.com/onllm-dev/onwatch) - Open-source Go CLI that tracks AI API quota usage across 7 providers. Background daemon with SQLite storage, Material Design 3 web dashboard, and zero telemetry.
 - [burn0](https://github.com/burn0-dev/burn0) - Open-source Node.js cost observability with one import. Auto-detects and tracks per-request costs for 50+ services (LLMs, SaaS, databases) via HTTP interception. Sub-millisecond overhead, local-first with optional cloud dashboard.
-- [Burnd](https://github.com/garvitsurana/burnd) - Local-first CLI that reads Claude Code JSONL session files and surfaces cost leaks via pattern detectors (retry storms, tool overuse, repeated reads, thrash, etc.). npx-installable, MIT, zero telemetry; findings export to a shareable report URL.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - TUI observability for AI coding agents. Tracks cost, tokens, tool failures, anomalies, health, and CI gates across Claude Code, Codex, Gemini CLI, Aider, and Cursor exports.
 - [Preflight](https://github.com/newrelic-experimental/preflight) - Local-first observability for AI coding assistants. Captures every tool call (reads, edits, commands, searches), tracks USD cost per session/day/week and per model, scores efficiency, and detects anti-patterns (re-reads, blind edits, stuck loops) on a live local dashboard. Offline by default, Apache-2.0; optional New Relic backend for team rollups and alerting. Works with Claude Code, Cursor, Windsurf, Copilot, Zed, Continue.dev, and Amazon Q.
 - [ax](https://github.com/Necmttn/ax) - Local telemetry for AI coding agents.
@@ -438,7 +436,6 @@ As LLMs and AI agents become core to modern applications, observability for thes
 As GPU workloads become central to AI/ML production systems, observability at the GPU level has emerged as a discipline of its own. Unlike traditional APM, GPU observability focuses on __CUDA tracing__, __causal chain analysis__ linking host kernel events to GPU latency, and __zero-config eBPF instrumentation__ for always-on production use.
 
 - [HomeLab Monitor](https://github.com/SikamikanikoBG/homelab-monitor) - Self-hosted dashboard that shows which Docker container is actually holding the GPU - per-container VRAM attribution, not just total utilization. Also covers host vitals, Docker health, systemd services, and multiple machines over SSH. MIT license.
-- [Ingero](https://github.com/ingero-io/ingero) - eBPF-based GPU causal observability agent. Traces CUDA Runtime/Driver APIs via uprobes and host kernel events via tracepoints to build 4-layer causal chains explaining GPU latency in production. Zero-config, <2% overhead, OTLP/Prometheus export, Kubernetes-native.
 - [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter) - Official NVIDIA Prometheus exporter for GPU metrics via DCGM. Kubernetes-native with Helm support, Grafana dashboards, per-process GPU metrics, MIG support, and TLS/auth.
 - [nvidia_gpu_exporter](https://github.com/utkuozdemir/nvidia_gpu_exporter) - Lightweight Prometheus exporter for NVIDIA GPUs using nvidia-smi. No DCGM or C bindings required. Works on Linux and Windows with auto-discovered metric fields and Grafana dashboard.
 - [nvitop](https://github.com/XuehaiPan/nvitop) - Interactive NVIDIA GPU process viewer with rich Python API. Ships nvitop-exporter for Prometheus metrics and Grafana dashboards, plus ResourceMetricCollector API for custom monitoring and ML framework callbacks.
@@ -541,12 +538,13 @@ Just provide your read-only credentials and start getting insights in minutes.
 
 ## 15. Examples and Sandboxes
 
-- [Node.js boilerplate app (JavaScript)](https://github.com/Olivr/app-node-js) - Docker and Kubernetes ready. Observability (logs, metrics, traces) included.
-- [Observability Sandbox](https://github.com/adriannovegil/observability-sandbox) - Get up and running with Prometheus, Thanos, Grafana, and more using Docker and Docker Compose.
-- [Spring PetClinic Sample Application](https://github.com/spring-petclinic/spring-petclinic-microservices) - Distributed version of the Spring PetClinic Sample Application built with Spring Cloud.
+- [My Observability Sandbox](https://github.com/adriannovegil/observability-sandbox) - Get up and running with Prometheus, Thanos, Grafana, and more using Docker and Docker Compose.
 - [My Spring PetClinic Sample Application](https://github.com/adriannovegil/spring-petclinic-microservices-sre) - My fork of the official repository.
+- [Grafana tns](https://github.com/grafana/tns) - Observability Demo App.
+- [Node.js boilerplate app (JavaScript)](https://github.com/Olivr/app-node-js) - Docker and Kubernetes ready. Observability (logs, metrics, traces) included.
+- [Spring PetClinic Sample Application](https://github.com/spring-petclinic/spring-petclinic-microservices) - Distributed version of the Spring PetClinic Sample Application built with Spring Cloud.
 - [FastAPI with Observability](https://github.com/Blueswen/fastapi-observability) - Docker ready. Telemetry FastAPI application with three pillars of observability: Traces (Tempo), Metrics (Prometheus), Logs (Loki) on Grafana through OpenTelemetry and OpenMetrics. Using examplar for cross querying between traces, metrics and logs.
-- [OpenChainBench](https://github.com/ChainBench/OpenChainBench) - Open benchmark stack for blockchain RPC providers. Multi-region harnesses scrape live tx-landing, latency and finality metrics; Next.js front-end exposes the dashboards and the raw Prometheus data ([website](https://openchainbench.com)).
+- [OpenChainBench](https://github.com/ChainBench/OpenChainBench) - Open benchmark stack for Blockchain RPC providers. Multi-region harnesses scrape live tx-landing, latency and finality metrics; Next.js front-end exposes the dashboards and the raw Prometheus data ([website](https://openchainbench.com)).
 
 ## 16. References
 
