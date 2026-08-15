@@ -1,25 +1,51 @@
 # Contribution Guidelines
 
+Thank you for helping improve this awesome list. Contributions are welcome,
+especially links to high-quality resources that are useful to practitioners.
+
 Please note that this project is released with a
-[Contributor Code of Conduct](code-of-conduct.md). By participating in this
-project you agree to abide by its terms.
+[Code of Conduct](code-of-conduct.md). By participating in this project you
+agree to follow it.
 
----
+## What Belongs Here
 
-Ensure your pull request adheres to the following guidelines:
+- Open source tools, projects, libraries, frameworks, and standards related to
+  the topic of this list.
+- High-quality articles, talks, books, guides, examples, and reference material.
+- Resources that are actively useful, maintained, or historically important.
+- Links with clear descriptions written in neutral language.
 
-- Make sure you take care of this
-- And this as well
-- And don't forget to check this
+## What Usually Does Not Belong Here
 
-Thank you for your suggestions!
+- Pure marketing pages with little technical or educational value.
+- Broken, unavailable, or private links.
+- Very early projects without enough information for readers to evaluate them.
+- Duplicate entries already present in the list.
+- Affiliate links, referral links, or tracking-heavy URLs.
 
+## Pull Request Checklist
 
-## Updating your PR
+- Add one resource per pull request when possible.
+- Place the resource in the most relevant section.
+- Keep entries in the same style as the rest of the list:
 
-A lot of times, making a PR adhere to the standards above can be difficult.
-If the maintainers notice anything that we'd like changed, we'll ask you to
-edit your PR before we merge it. There's no need to open a new PR, just edit
-the existing one. If you're not sure how to do that,
-[here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md)
-on the different ways you can update your PR so that we can merge it.
+  ```markdown
+  - [Name](https://example.com/) - Short, factual description.
+  ```
+
+- Use the canonical project URL when possible.
+- Prefer HTTPS links.
+- Avoid trailing tracking parameters such as `utm_source`.
+- Check that the link works.
+- Run `make lint` before opening the pull request when possible.
+
+## Updating Existing Entries
+
+Corrections are welcome. If a project moved, was archived, changed license, or
+has a better canonical URL, please update the existing entry instead of adding a
+new duplicate.
+
+If maintainers request changes, update the existing pull request rather than
+opening a new one.
+
+Thank you for your suggestions.
