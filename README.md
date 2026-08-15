@@ -461,6 +461,7 @@ As GPU workloads become central to AI/ML production systems, observability at th
 
 - [servicenow - Cloud Observability](https://www.servicenow.com/products/observability.html) - Gain AI-powered insights to detect and quickly respond to changes in cloud-native and monolithic applications.
 - [DeepFlow](https://github.com/deepflowio/deepflow) - Implemented Zero Code data collection with eBPF for metrics, distributed tracing, request logs and function profiling, and is further integrated with SmartEncoding to achieve Full Stack correlation and efficient access to all observability data.
+- [DataBuff](https://github.com/databufflabs/databuff) - Open-source AI-native OpenTelemetry APM with an LLM-powered multi-agent workspace for querying traces, service topology, RED metrics, and alerts in natural language.
 - [coroot](https://coroot.com/) - Open-source eBPF-based observability tool that turns telemetry data into actionable insights, helping you identify and resolve application issues quickly.
 - [robusta](https://home.robusta.dev/) - Unified Kubernetes  monitoring, observability, and operations.
 - [Odigos](https://github.com/keyval-dev/odigos) - Observability Control Plane.
