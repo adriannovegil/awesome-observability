@@ -26,6 +26,7 @@ jobs:
       - name: Lychee link check
         uses: lycheeverse/lychee-action@v2
         with:
+          lycheeVersion: v0.23.0
           args: >-
             --no-progress
             --timeout 120
@@ -43,5 +44,5 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v6
         with:
-          node-version: lts/*
-      - run: npx awesome-lint
+          node-version: 24.17.0
+      - run: npx --yes awesome-lint@2.3.0
