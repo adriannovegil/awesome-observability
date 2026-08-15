@@ -331,7 +331,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [API Status Check](https://apistatuscheck.com) - Free real-time status monitoring for 285 developer APIs across 29 categories, including AWS, Stripe, GitHub, and OpenAI. Track third-party API availability with alerts and status pages.
 - [BlueWave Uptime](https://github.com/bluewave-labs/bluewave-uptime) - Open-source, self-hosted monitoring tool built with React.js, Node.js, and MongoDB, designed to track server uptime, response times, and incidents in real-time with beautiful visualizations.
 - [Monitive](http://monitive.com) - Free for 1 service, checked every 10 minutes with unlimited email & twitter alerts.
-- [OutageDeck](https://outagedeck.com) - Third-party cloud and SaaS status monitoring for 172 providers, with incident history, dependency stack checks, alerts, and a keyless JSON API.
+- [OutageDeck](https://outagedeck.com) - Third-party cloud and SaaS status monitoring with incident history, dependency stack checks, alerts, and a keyless JSON API.
 - [UptimeRobot](https://uptimerobot.com) - Free for 50 monitors, checked every 5 minutes.
 - [Uptimeify.io](https://uptimeify.io) - Website and API monitoring with global uptime checks, instant alerts, and hosted status pages.
 - [OverOps](https://www.overops.com) - Provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
