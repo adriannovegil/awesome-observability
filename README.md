@@ -531,6 +531,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Sysdig Prometheus](https://sysdig.com/products/monitor/) - Cloud scale monitoring solution with full Prometheus compatibility.
 - [WhaTap](https://whatap.io/en/) - Provides an integrated monitoring service for DevOps that analyzes application performance issue running on Kubernetes in real time.
 - [CloudWatch](https://aws.amazon.com/es/cloudwatch/) - Observability of your AWS resources and applications on AWS and on-premises.
+- [Nuberio](https://www.nuberio.com/audit) - Free AWS CloudWatch alarm audit for small teams. Hygiene score out of 100, missing and noisy alarms across 18 AWS services (RDS, Lambda, ECS, ALB), with alarm classification and top fixes — read-only scan, no credentials required.
 - [Google Cloud Monitoring](https://cloud.google.com/monitoring) - Gain visibility into the performance, availability, and health of your applications and infrastructure.
 - [Azure Monitor](https://azure.microsoft.com/en-us/services/monitor/#overview) - Full observability into your applications, infrastructure, and network.
 - [Guance](https://www.guance.com) - China local "All in one" observability platform, it can integrate any open source collecting method.
