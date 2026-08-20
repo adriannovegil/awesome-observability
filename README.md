@@ -446,6 +446,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [ax](https://github.com/Necmttn/ax) - Local telemetry for AI coding agents.
 - [whatbroke](https://github.com/arthi-arumugam-git/whatbroke) - CLI that diffs an AI agent's behavior between two runs: dropped or added tool calls, changed arguments and outputs, cost and latency. Imports OTLP GenAI span exports, Langfuse and LangSmith dumps. npx-installable, MIT.
 - [grafana-llmops-forge](https://github.com/alebgl77/grafana-llmops-forge) - CLI that generates AI/LLM observability dashboards from an existing Grafana, covering FinOps by provider, agents/RAG, and EU AI Act governance. Zero-dependency.
+- [Weckr](https://github.com/Ghiles3232/weckr-sdks) - Cost and margin attribution per end customer rather than per session. SDK wrappers for OpenAI, Anthropic, Gemini and Kimi tag each call with a user id, feature and plan; cost is recomputed server-side from token counts and compared against that user's plan price, and per-plan caps block or downgrade a call before the provider bills for it. Prompts and responses are never transmitted. MIT SDKs (TypeScript, Python) with a hosted backend.
 
 ## 11. GPU Observability
 
