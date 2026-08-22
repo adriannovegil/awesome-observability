@@ -517,6 +517,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [rrweb](https://github.com/rrweb-io/rrweb) - Open-source session replay library that records the DOM and user interactions as a typed JSON event stream and replays them. Powers the session replay features of Sentry, PostHog, Amplitude, and Highlight.
 - [App Health](https://github.com/sass-maker/app-health) - Privacy-first endpoint health for Node, Go, and OpenTelemetry services; projects only method, normalized route, status, duration, timestamp, and optional release into aggregate views.
 - [Muscula](https://muscula.com/) - Error tracking, centralized logging, uptime monitoring, and debugging platform with AI agent integration via Model Context Protocol (MCP) and CLI for modern applications and websites.
+- [Maple](https://maple.dev/) - OpenTelemetry-native observability platform for traces, logs, and metrics, backed by ClickHouse, with dashboards, alerting, error tracking, service maps, and an MCP server. Source-available under FSL-1.1-ALv2, and runs as a single local binary with an embedded ClickHouse.
 
 
 ## 13. Service Mesh
