@@ -94,6 +94,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [Micrometer](https://micrometer.io/) - Simple facade over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in. Think SLF4J, but for metrics.
 - [cAdvisor](https://github.com/google/cadvisor) - Container Advisor that provides container users an understanding of the resource usage and performance characteristics of their running containers.
 - [Node-exporter](https://github.com/prometheus/node_exporter) - Prometheus stack, Exporter for machine metrics.
+- [otel-budget-check](https://github.com/northstarappstudio-ops/otel-budget-check) - GitHub Action that runs your tests with a local OTLP receiver and fails PRs on telemetry cost/cardinality regressions before merge.
 <!--lint ignore double-link-->
 - [Elastic Beats](https://github.com/elastic/beats) - Lightweight shippers for Elasticsearch & Logstash, Elastic stack.
 - [Collectd](http://collectd.org/) - The system statistics collection daemon.
