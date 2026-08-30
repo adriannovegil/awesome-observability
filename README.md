@@ -342,6 +342,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Hyperping](https://hyperping.com) - Uptime, API, cron, and server monitoring from 18 locations, with on-call scheduling, escalation policies, and hosted status pages.
 - [Prismix](https://prismix.dev) - Real-time status monitoring and incident tracking for 75+ AI services (OpenAI, Anthropic, Cursor, Gemini). Free REST API at /api/v1/statuses, email/webhook alerts, 30-day uptime history.
 - [sunwatch](https://sunwatch.sunfamily.xyz) - Crypto-paid uptime monitoring for side projects. 3 free monitors; extras are $1/monitor/month via USDC on Base. Webhook alerts on down/up state changes. Open source.
+- [Pharos](https://github.com/Solutionmax/pharos) - Self-hosted status page with built-in HTTP, TCP and heartbeat checks, e-mail subscribers and a Cachet 2.x-compatible API.
 
 ## 9. Processing and Analyze and Act
 
