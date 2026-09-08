@@ -428,6 +428,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Latitude](https://github.com/latitude-dev/latitude-llm) - Open-source LLM observability and evaluation platform. Traces, monitors, and evaluates AI agents in production, clusters failures into issues, and generates evals from real-world failures. Built on OpenTelemetry with OpenInference and OpenLLMetry support.
 - [telemetry.dev](https://telemetry.dev) - OpenTelemetry-native observability for LLM and agent apps: per-span tokens, cost, latency, and errors from any OTLP exporter.
 - [SourceryKit](https://github.com/ProvablyAI/sourcerykit) - Observability and governance for AI agent egress. Logs every outbound request and MCP handoff and verifies each against a source of truth with a zero-knowledge proof, blocking anything not on the trusted allow-list. Python SDK (source-available) with a hosted verification backend.
+- [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) - Isolated evaluation layer for agent runs. Normalizes every case into one attempt contract, runs each candidate in a private fresh-repository workspace, and evaluates retained evidence with ordered deterministic and/or LLM profiles; workspace receipts, repository manifests, and terminals stay hash-linked, and records are immutable. Installs via npm as @yylo/benchmark.
 
 ### Instrumentation & SDKs
 
