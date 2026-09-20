@@ -500,6 +500,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Kamon apm](https://kamon.io/apm/) - Point and click to find the endpoints, database queries, and API calls that affect your user's experience.
 - [Scouter](https://github.com/scouter-project/scouter) - Open source APM (Application Performance Management) tool.
 - [Netdata](https://www.netdata.cloud/) - Troubleshoot slowdowns and anomalies in your infrastructure with thousands of per-second metrics, meaningful visualizations, and insightful health alarms with zero configuration.
+- [Rustinion](https://rustinion.com) - Cross-platform (Windows/macOS/Linux/BSD/OpenWRT) device provisioning and monitoring agent written in Rust, with real per-OS package manager integration (apt/dnf/Homebrew/winget) and OS-patch compliance tracking, aimed at MSPs and mixed-OS fleets. Commercial, $5/seat.
 - [Stagemonitor](https://www.stagemonitor.org/) - An open source solution to application performance monitoring for java server applications.
 - [Checkmk Server](https://checkmk.com/) - Monitor your entire hybrid IT infrastructure.
 - [Icinga](https://icinga.com/) - The Icinga stack spans six core strengths that cover all aspects of monitoring.
