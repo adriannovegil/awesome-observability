@@ -400,6 +400,7 @@ Tools for rocessing the system data.
 - [Anomaly Detection Toolkit (ADTK)](https://adtk.readthedocs.io/en/stable/) - Python package for unsupervised / rule-based time series anomaly detection.
 - [Chaos Genius](https://github.com/chaos-genius/chaos_genius) - ML powered analytics engine for anomaly/outlier detection and root cause analysis.
 - [observability-mcp](https://github.com/ThoTischner/observability-mcp) - Cross-signal anomaly detection (z-score) over Prometheus metrics and Loki logs, exposed to AI agents through the Model Context Protocol. Pluggable connectors for additional backends, weighted health scoring, Web UI, and an ArtifactHub-listed Helm chart.
+- [PySAD](https://github.com/selimfirat/pysad) - Python library for anomaly detection on streaming data, with online detectors that update one sample at a time.
 
 ## 10. LLM & AI Observability
 
