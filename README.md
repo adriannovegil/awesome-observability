@@ -388,6 +388,7 @@ Tools for rocessing the system data.
 - [Cabot](https://cabotapp.com/) - Get alerted when services go down or metrics go crazy.
 - [NthLayer](https://github.com/rsionnach/nthlayer) - Reliability requirements as code. Generates Grafana dashboards, Prometheus alerts, SLOs, and PagerDuty configs from service.yaml. Includes deployment gates that block deploys when error budget is exhausted.
 - [devalerts](https://github.com/sslinNn/devalerts) - Zero-dependency Python library that sends unhandled exceptions straight to Telegram or Slack, with fingerprint-based dedup and rate-limiting.
+- [Awesome Prometheus Alerts](https://samber.github.io/awesome-prometheus-alerts/) - Collection of ready-to-use Prometheus alerting rules for databases, message brokers, Kubernetes, runtimes, and network devices.
 
 - [dead-mans-switch](https://github.com/jimy-r/dead-mans-switch) - Sentinel-freshness checker for scheduled jobs that alerts on missing success instead of on errors.
 
