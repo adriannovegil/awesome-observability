@@ -519,6 +519,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Checkmk Server](https://checkmk.com/) - Monitor your entire hybrid IT infrastructure.
 - [Icinga](https://icinga.com/) - The Icinga stack spans six core strengths that cover all aspects of monitoring.
 - [Sentry](https://sentry.io/welcome/) - From error tracking to performance monitoring, developers can see what actually matters, solve quicker, and learn continuously about their applications - from the frontend to the backend.
+- [Epure](https://github.com/epure-sh/epure) - Self-hosted exception-only error tracker. Sentry SDK compatible, Rust + Postgres.
 - [Nagios](https://www.nagios.com/) - Computer system, network and infrastructure monitoring software application.
 - [Sensu](https://sensu.io/) - The Observability Pipeline that delivers monitoring as code on any cloud.
 - [Kieker](https://kieker-monitoring.net/) - Monitoring, analysis and tool integration.
