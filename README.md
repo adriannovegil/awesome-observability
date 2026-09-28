@@ -313,6 +313,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Uchiwa](https://uchiwa.io/#/) - Simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.
 - [Grafterm](https://github.com/slok/grafterm) - Visualize metrics dashboards on the terminal, like a simplified and minimalist version of Grafana for terminal.
 - [Grizzly](https://github.com/grafana/grizzly) - A utility for managing various observability resources with Jsonnet.
+- [PromPilot](https://github.com/ismailperim/prompilot) - Self-hosted assistant that turns natural-language requests into Prometheus dashboards and exports them as Grafana JSON.
 
 ### Tracing
 
@@ -388,6 +389,9 @@ Tools for rocessing the system data.
 - [Cabot](https://cabotapp.com/) - Get alerted when services go down or metrics go crazy.
 - [NthLayer](https://github.com/rsionnach/nthlayer) - Reliability requirements as code. Generates Grafana dashboards, Prometheus alerts, SLOs, and PagerDuty configs from service.yaml. Includes deployment gates that block deploys when error budget is exhausted.
 - [devalerts](https://github.com/sslinNn/devalerts) - Zero-dependency Python library that sends unhandled exceptions straight to Telegram or Slack, with fingerprint-based dedup and rate-limiting.
+- [Awesome Prometheus Alerts](https://samber.github.io/awesome-prometheus-alerts/) - Collection of ready-to-use Prometheus alerting rules for databases, message brokers, Kubernetes, runtimes, and network devices.
+
+- [dead-mans-switch](https://github.com/jimy-r/dead-mans-switch) - Sentinel-freshness checker for scheduled jobs that alerts on missing success instead of on errors.
 
 ### Triggers
 
@@ -404,6 +408,7 @@ Tools for rocessing the system data.
 - [Anomaly Detection Toolkit (ADTK)](https://adtk.readthedocs.io/en/stable/) - Python package for unsupervised / rule-based time series anomaly detection.
 - [Chaos Genius](https://github.com/chaos-genius/chaos_genius) - ML powered analytics engine for anomaly/outlier detection and root cause analysis.
 - [observability-mcp](https://github.com/ThoTischner/observability-mcp) - Cross-signal anomaly detection (z-score) over Prometheus metrics and Loki logs, exposed to AI agents through the Model Context Protocol. Pluggable connectors for additional backends, weighted health scoring, Web UI, and an ArtifactHub-listed Helm chart.
+- [PySAD](https://github.com/selimfirat/pysad) - Python library for anomaly detection on streaming data, with online detectors that update one sample at a time.
 
 ## 10. LLM & AI Observability
 
@@ -414,7 +419,9 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Langfuse](https://github.com/langfuse/langfuse) - Open source LLM engineering platform for observability, metrics, evals, prompt management and datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more.
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) - Open-source AI observability platform for tracing, evaluation, datasets, experiments, prompt management and playground. Built on OpenTelemetry with Python and TypeScript support.
 - [ClevAgent](https://clevagent.io) - Runtime monitoring for AI agents — heartbeat watchdog, loop detection, cost tracking, auto-restart.
+- [agent-watch](https://github.com/soul-sol/agent-watch) - POSIX shell monitor that classifies background Claude Code and Codex jobs from process, exit-code, and log-tail signals, with credential-free transport preflight.
 - [Helicone](https://github.com/Helicone/helicone) - Open source LLM observability platform and AI Gateway. One line of code to monitor, evaluate, and experiment across 100+ providers.
+- [Bifrost](https://github.com/maximhq/bifrost) - Go-native, OpenAI-compatible AI gateway with multi-provider routing, automatic failover, load balancing, and built-in logs, metrics, and tracing for LLM applications.
 - [OpenLIT](https://github.com/openlit/openlit) - OTel-native observability and evals for LLMs and GPUs.
 - [Langtrace](https://github.com/Scale3-Labs/langtrace) - Open source OpenTelemetry-based observability for LLM applications.
 - [Lookspan](https://github.com/JoniMartin27/lookspan) - Local-first observability for AI agents. One command (`npx lookspan`) runs a dashboard with traces, a timeline/waterfall view, cost tracking, replay & LLM-as-judge, and datasets. MCP-native, with OpenAI/Anthropic drop-ins and an OpenTelemetry receiver — all data stays on your machine.
@@ -432,6 +439,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Latitude](https://github.com/latitude-dev/latitude-llm) - Open-source LLM observability and evaluation platform. Traces, monitors, and evaluates AI agents in production, clusters failures into issues, and generates evals from real-world failures. Built on OpenTelemetry with OpenInference and OpenLLMetry support.
 - [telemetry.dev](https://telemetry.dev) - OpenTelemetry-native observability for LLM and agent apps: per-span tokens, cost, latency, and errors from any OTLP exporter.
 - [SourceryKit](https://github.com/ProvablyAI/sourcerykit) - Observability and governance for AI agent egress. Logs every outbound request and MCP handoff and verifies each against a source of truth with a zero-knowledge proof, blocking anything not on the trusted allow-list. Python SDK (source-available) with a hosted verification backend.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Record, replay and fork runs of coding agents (Claude Code, Codex, opencode, Qwen Code, Cursor and others). Captures below the harness at the process and socket boundary, so model traffic, shell exit codes, per-turn file changes and MCP JSON-RPC share one timeline. Replays a recording offline with the network off, or forks it from a checkpoint onto a different model. Node, Apache-2.0.
 
 ### Instrumentation & SDKs
 
