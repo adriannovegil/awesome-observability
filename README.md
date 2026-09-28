@@ -389,6 +389,8 @@ Tools for rocessing the system data.
 - [NthLayer](https://github.com/rsionnach/nthlayer) - Reliability requirements as code. Generates Grafana dashboards, Prometheus alerts, SLOs, and PagerDuty configs from service.yaml. Includes deployment gates that block deploys when error budget is exhausted.
 - [devalerts](https://github.com/sslinNn/devalerts) - Zero-dependency Python library that sends unhandled exceptions straight to Telegram or Slack, with fingerprint-based dedup and rate-limiting.
 
+- [dead-mans-switch](https://github.com/jimy-r/dead-mans-switch) - Sentinel-freshness checker for scheduled jobs that alerts on missing success instead of on errors.
+
 ### Triggers
 
 - [Odin](https://github.com/theycallmemac/odin) - A programmable, observable and distributed job orchestration system.
