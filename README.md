@@ -537,6 +537,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Maple](https://maple.dev/) - OpenTelemetry-native observability platform for traces, logs, and metrics, backed by ClickHouse, with dashboards, alerting, error tracking, service maps, and an MCP server. Source-available under FSL-1.1-ALv2, and runs as a single local binary with an embedded ClickHouse.
 - [Gotcha](https://github.com/OtezVikentiy/gotcha) - Self-hosted error tracking, distributed tracing, metrics, logs, profiling and uptime monitoring in a single Go binary on top of PostgreSQL and ClickHouse; accepts Sentry SDK and OTLP protocols. Apache-2.0.
 - [CronAlive](https://cronalive.com) - Cron job heartbeat monitoring with HTTP uptime checks verified from a second region and TLS expiry alerts. Free plan includes 10 checks, 5-minute intervals and 30 days of history.
+- [Micromegas](https://github.com/madesroches/micromegas) - Unified observability stack for logs, metrics and traces: low-overhead instrumentation, OTLP ingestion to Parquet, SQL analytics via DataFusion and FlightSQL, and Grafana or notebook front ends.
 
 
 ## 13. Service Mesh
