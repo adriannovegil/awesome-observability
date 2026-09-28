@@ -101,6 +101,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [Performance Co-Pilot](https://pcp.io/) - System performance analysis toolkit.
 <!--lint ignore double-link-->
 - [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot) - Java agent for collecting performance, tracing and business data.
+- [PHPRay](https://github.com/stephen1137/phpray) - Always-on request tracing for PHP: records every request with its SQL fingerprints, outbound HTTP calls, errors and N+1 patterns, without a privileged agent.
 - [Kamon](https://kamon.io/) - Monitoring applications running on the JVM.
 - [Netflix Vector](https://github.com/Netflix/vector) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer's browser.
 - [Express State Metrics](https://github.com/RafalWilinski/express-status-monitor) - Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers.
