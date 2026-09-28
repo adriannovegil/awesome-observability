@@ -111,6 +111,8 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [duplicacy-exporter](https://github.com/GeiserX/duplicacy-exporter) - Real-time Prometheus exporter for Duplicacy backups with live speed, progress, and completion metrics.
 - [netwatch](https://github.com/matthart1983/netwatch) - Network diagnostics TUI for operators: real-time per-process connection attribution via an eBPF kprobe (with `lsof`/`ss` fallback), libpcap-based deep packet inspection across 13 protocols (TLS, QUIC, HTTP, DNS, SSH, MQTT, SNMP, ...), full RFC 9001 QUIC Initial decryption with cross-packet ClientHello reassembly, JA4 fingerprinting, TCP retransmit and out-of-order analytics, and an optional Landlock sandbox. Rust, MIT, macOS and Linux.
 
+- [server-spy](https://lennart-rth.github.io/server-spy/) - A monitoring tool for multi-run experiments on shared servers. It tracks congestion (PSI, scheduler wait) and shows how much specific runs got slowed down by other users' jobs, helping researchers identify skewed experiment comparisons.
+
 ### Tracing
 
 - [Sleuth](https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/) - Spring Cloud Sleuth implements a distributed tracing solution for Spring Cloud, borrowing heavily from Dapper, Zipkin and HTrace.
@@ -343,6 +345,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Hyperping](https://hyperping.com) - Uptime, API, cron, and server monitoring from 18 locations, with on-call scheduling, escalation policies, and hosted status pages.
 - [Prismix](https://prismix.dev) - Real-time status monitoring and incident tracking for 75+ AI services (OpenAI, Anthropic, Cursor, Gemini). Free REST API at /api/v1/statuses, email/webhook alerts, 30-day uptime history.
 - [sunwatch](https://sunwatch.sunfamily.xyz) - Crypto-paid uptime monitoring for side projects. 3 free monitors; extras are $1/monitor/month via USDC on Base. Webhook alerts on down/up state changes. Open source.
+- [Merlonix](https://merlonix.com) - Uptime, SSL certificate, and DNS monitoring with white-label hosted status pages and a built-in MCP server for AI-agent access. Free plan includes 3 monitors, no credit card.
 
 ## 9. Processing and Analyze and Act
 
@@ -447,6 +450,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [ax](https://github.com/Necmttn/ax) - Local telemetry for AI coding agents.
 - [whatbroke](https://github.com/arthi-arumugam-git/whatbroke) - CLI that diffs an AI agent's behavior between two runs: dropped or added tool calls, changed arguments and outputs, cost and latency. Imports OTLP GenAI span exports, Langfuse and LangSmith dumps. npx-installable, MIT.
 - [grafana-llmops-forge](https://github.com/alebgl77/grafana-llmops-forge) - CLI that generates AI/LLM observability dashboards from an existing Grafana, covering FinOps by provider, agents/RAG, and EU AI Act governance. Zero-dependency.
+- [Weckr](https://github.com/Ghiles3232/weckr-sdks) - Cost and margin attribution per end customer rather than per session. SDK wrappers for OpenAI, Anthropic, Gemini and Kimi tag each call with a user id, feature and plan; cost is recomputed server-side from token counts and compared against that user's plan price, and per-plan caps block or downgrade a call before the provider bills for it. Prompts and responses are never transmitted. MIT SDKs (TypeScript, Python) with a hosted backend.
 
 ## 11. GPU Observability
 
@@ -518,6 +522,8 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [rrweb](https://github.com/rrweb-io/rrweb) - Open-source session replay library that records the DOM and user interactions as a typed JSON event stream and replays them. Powers the session replay features of Sentry, PostHog, Amplitude, and Highlight.
 - [App Health](https://github.com/sass-maker/app-health) - Privacy-first endpoint health for Node, Go, and OpenTelemetry services; projects only method, normalized route, status, duration, timestamp, and optional release into aggregate views.
 - [Muscula](https://muscula.com/) - Error tracking, centralized logging, uptime monitoring, and debugging platform with AI agent integration via Model Context Protocol (MCP) and CLI for modern applications and websites.
+- [Maple](https://maple.dev/) - OpenTelemetry-native observability platform for traces, logs, and metrics, backed by ClickHouse, with dashboards, alerting, error tracking, service maps, and an MCP server. Source-available under FSL-1.1-ALv2, and runs as a single local binary with an embedded ClickHouse.
+- [Gotcha](https://github.com/OtezVikentiy/gotcha) - Self-hosted error tracking, distributed tracing, metrics, logs, profiling and uptime monitoring in a single Go binary on top of PostgreSQL and ClickHouse; accepts Sentry SDK and OTLP protocols. Apache-2.0.
 
 
 ## 13. Service Mesh
