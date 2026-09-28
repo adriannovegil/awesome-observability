@@ -431,6 +431,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Latitude](https://github.com/latitude-dev/latitude-llm) - Open-source LLM observability and evaluation platform. Traces, monitors, and evaluates AI agents in production, clusters failures into issues, and generates evals from real-world failures. Built on OpenTelemetry with OpenInference and OpenLLMetry support.
 - [telemetry.dev](https://telemetry.dev) - OpenTelemetry-native observability for LLM and agent apps: per-span tokens, cost, latency, and errors from any OTLP exporter.
 - [SourceryKit](https://github.com/ProvablyAI/sourcerykit) - Observability and governance for AI agent egress. Logs every outbound request and MCP handoff and verifies each against a source of truth with a zero-knowledge proof, blocking anything not on the trusted allow-list. Python SDK (source-available) with a hosted verification backend.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Record, replay and fork runs of coding agents (Claude Code, Codex, opencode, Qwen Code, Cursor and others). Captures below the harness at the process and socket boundary, so model traffic, shell exit codes, per-turn file changes and MCP JSON-RPC share one timeline. Replays a recording offline with the network off, or forks it from a checkpoint onto a different model. Node, Apache-2.0.
 
 ### Instrumentation & SDKs
 
