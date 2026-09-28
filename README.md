@@ -217,6 +217,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 ### Configuration & Linters
 
 - [Augur](https://github.com/starkross/augur) - Static analysis linter for OpenTelemetry Collector configurations. Detects misconfigurations, hardcoded credentials, and missing critical components (memory limiters, batch processors) before deployment. Built on OPA/Rego with customizable policies and CI/CD integration.
+- [OpenTelemetry Collector Recipes](https://github.com/Fractal-Techware/opentelemetry-collector-recipes) - OpenTelemetry Collector configurations validated in CI against a pinned otelcol-contrib version, covering a hardened OTLP agent, file logs to Loki via OTLP and basic PII redaction with OTTL.
 
 ## 7. Storage
 
