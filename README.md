@@ -372,6 +372,7 @@ Tools for rocessing the system data.
 - [Kapacitor](https://www.influxdata.com/time-series-platform/kapacitor/) - Real-time streaming data processing engine.
 - [secure-log2test](https://github.com/golikovichev/secure-log2test) - Python CLI that turns structured Kibana and Elasticsearch log exports into runnable pytest regression suites. Runs fully on-premises with no external API calls; auth headers and secret-looking body fields are redacted before output.
 - [MB3R Stack](https://github.com/MB3R-Lab/mb3r-stack) - Model-based resilience toolchain combining telemetry-driven topology discovery with virtual failure simulation for continuous resilience assessment and pre-release analysis.
+- [log10x-mcp](https://github.com/log-10x/log10x-mcp) - MCP server that ranks log patterns by volume and cost and plans compact, tier down or offload per pattern for Splunk, Datadog, Elasticsearch, CloudWatch and ClickHouse. Runs locally; read-only without an API key.
 
 ### Alerts
 
