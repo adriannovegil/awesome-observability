@@ -425,6 +425,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) - Open-source AI observability platform for tracing, evaluation, datasets, experiments, prompt management and playground. Built on OpenTelemetry with Python and TypeScript support.
 - [ClevAgent](https://clevagent.io) - Runtime monitoring for AI agents — heartbeat watchdog, loop detection, cost tracking, auto-restart.
 - [agent-watch](https://github.com/soul-sol/agent-watch) - POSIX shell monitor that classifies background Claude Code and Codex jobs from process, exit-code, and log-tail signals, with credential-free transport preflight.
+- [agent-chain-doctor](https://github.com/elfovo/agent-chain-doctor) - Read-only shell diagnostic that checks launchd, cron and systemd state and logs for the ways a scheduled Claude Code agent chain stops silently, plus a missed-run alarm.
 - [Helicone](https://github.com/Helicone/helicone) - Open source LLM observability platform and AI Gateway. One line of code to monitor, evaluate, and experiment across 100+ providers.
 - [Bifrost](https://github.com/maximhq/bifrost) - Go-native, OpenAI-compatible AI gateway with multi-provider routing, automatic failover, load balancing, and built-in logs, metrics, and tracing for LLM applications.
 - [OpenLIT](https://github.com/openlit/openlit) - OTel-native observability and evals for LLMs and GPUs.
