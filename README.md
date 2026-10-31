@@ -113,6 +113,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [netwatch](https://github.com/matthart1983/netwatch) - Network diagnostics TUI for operators: real-time per-process connection attribution via an eBPF kprobe (with `lsof`/`ss` fallback), libpcap-based deep packet inspection across 13 protocols (TLS, QUIC, HTTP, DNS, SSH, MQTT, SNMP, ...), full RFC 9001 QUIC Initial decryption with cross-packet ClientHello reassembly, JA4 fingerprinting, TCP retransmit and out-of-order analytics, and an optional Landlock sandbox. Rust, MIT, macOS and Linux.
 
 - [server-spy](https://lennart-rth.github.io/server-spy/) - A monitoring tool for multi-run experiments on shared servers. It tracks congestion (PSI, scheduler wait) and shows how much specific runs got slowed down by other users' jobs, helping researchers identify skewed experiment comparisons.
+- [ros2_pulse](https://github.com/TanayK07/ros2_pulse) - LD_PRELOAD library that counts per-topic publish and callback rates inside ROS 2 processes, with a Prometheus and OTLP exporter, alert rules and a Grafana dashboard.
 
 ### Tracing
 
