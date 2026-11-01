@@ -326,6 +326,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 <!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
 - [Last9](https://last9.io/docs/traces/) - Traces Explorer with filtering, span attributes, waterfall visualizations, and SQL ad-hoc querying; fully OpenTelemetry-native.
+- [OtlpDashboard](https://github.com/Adiakys/OtlpDashboard) - Self-hosted OTLP receiver and viewer for traces, logs and metrics, running as a single container with SQLite, PostgreSQL or SQL Server storage.
 
 ### Graph of Nodes
 
