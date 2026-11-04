@@ -451,6 +451,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for LLM applications, based on OpenTelemetry.
 - [MyScale Telemetry](https://github.com/myscale/myscale-telemetry) - Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.
 - [BrowserTrace](https://github.com/aaronlab/browsertrace) - Local-first trace viewer for AI browser-agent failures, capturing screenshots, URLs, actions, model I/O, status, errors, and public-safe HTML exports.
+- [spantruth](https://github.com/Plexito-de/spantruth) - Checks whether LLM instrumentation reports the truth. A local fake provider serves OpenAI and Anthropic responses, including streams, prompt-cache hits, 429s and dropped connections, to OpenLLMetry, OpenInference and the OpenTelemetry GenAI instrumentation, and spantruth compares the token counts, models and errors on their spans, and whether each span ends, with what was sent. Apache-2.0.
 
 ### Cost & Usage Tracking
 
