@@ -317,6 +317,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Grafterm](https://github.com/slok/grafterm) - Visualize metrics dashboards on the terminal, like a simplified and minimalist version of Grafana for terminal.
 - [Grizzly](https://github.com/grafana/grizzly) - A utility for managing various observability resources with Jsonnet.
 - [PromPilot](https://github.com/ismailperim/prompilot) - Self-hosted assistant that turns natural-language requests into Prometheus dashboards and exports them as Grafana JSON.
+- [Oxynote](https://github.com/oxynote/oxynote) - Self-hosted documentation workspace where pages embed live Prometheus charts next to the text explaining them, with draft review for runbooks.
 
 ### Tracing
 
