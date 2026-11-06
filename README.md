@@ -547,6 +547,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [CronAlive](https://cronalive.com) - Cron job heartbeat monitoring with HTTP uptime checks verified from a second region and TLS expiry alerts. Free plan includes 10 checks, 5-minute intervals and 30 days of history.
 - [Micromegas](https://github.com/madesroches/micromegas) - Unified observability stack for logs, metrics and traces: low-overhead instrumentation, OTLP ingestion to Parquet, SQL analytics via DataFusion and FlightSQL, and Grafana or notebook front ends.
 - [Telemetry Tracker](https://github.com/Telemetry-Tracker/telemetry-tracker) - Open-source, self-hostable error tracker for side projects and small teams, with grouped errors, source maps and alerts.
+- [BetterDB Monitor](https://betterdb.com) - Monitoring for Valkey, Redis, and Dragonfly, with Prometheus and OpenTelemetry (OTLP) metrics export and OTLP ingest.
 
 
 ## 13. Service Mesh
