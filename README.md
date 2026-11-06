@@ -222,6 +222,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 - [Augur](https://github.com/starkross/augur) - Static analysis linter for OpenTelemetry Collector configurations. Detects misconfigurations, hardcoded credentials, and missing critical components (memory limiters, batch processors) before deployment. Built on OPA/Rego with customizable policies and CI/CD integration.
 - [OpenTelemetry Collector Recipes](https://github.com/Fractal-Techware/opentelemetry-collector-recipes) - OpenTelemetry Collector configurations validated in CI against a pinned otelcol-contrib version, covering a hardened OTLP agent, file logs to Loki via OTLP and basic PII redaction with OTTL.
+- [amlint](https://github.com/danikdanik2013/amlint) - Linter and routing simulator for Prometheus Alertmanager configurations. Finds routes that never match, inhibit rules that mute too much and notification templates that fail at send time, and runs routing unit tests in CI.
 
 ## 7. Storage
 
