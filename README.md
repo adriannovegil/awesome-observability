@@ -105,6 +105,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [Kamon](https://kamon.io/) - Monitoring applications running on the JVM.
 - [Netflix Vector](https://github.com/Netflix/vector) - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer's browser.
 - [Express State Metrics](https://github.com/RafalWilinski/express-status-monitor) - Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers.
+- [Kepler](https://github.com/sustainable-computing-io/kepler) - Prometheus exporter that reads hardware power sensors and attributes energy use to Kubernetes nodes, containers, pods, and VMs.
 - [Kube State Metrics](https://github.com/kubernetes/kube-state-metrics) - The kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.
 - [MyPerf4J](https://github.com/LinShunKang/MyPerf4J) - High performance Java APM. Powered by ASM. Try it. Test it. If you feel its better, use it.
 - [SkyAPM-dotnet](https://github.com/SkyAPM/SkyAPM-dotnet) - Native support agent in C# and .NETStandard platform, with the helps from Apache SkyWalking committer team.
