@@ -231,6 +231,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [OpenTelemetry Collector Recipes](https://github.com/Fractal-Techware/opentelemetry-collector-recipes) - OpenTelemetry Collector configurations validated in CI against a pinned otelcol-contrib version, covering a hardened OTLP agent, file logs to Loki via OTLP and basic PII redaction with OTTL.
 - [amlint](https://github.com/danikdanik2013/amlint) - Linter and routing simulator for Prometheus Alertmanager configurations. Finds routes that never match, inhibit rules that mute too much and notification templates that fail at send time, and runs routing unit tests in CI.
 - [zeroreads](https://github.com/Bisman-Singh/zeroreads) - Finds the Loki log lines no logged query, alert or dashboard reads, proves it for each rule, and writes OpenTelemetry Collector, Vector or Fluent Bit configuration that aggregates, samples, archives or drops them, with a shadow mode that measures before anything is removed.
+- [logspend](https://github.com/hamarshehmhmd/logspend) - CLI that groups a log sample into patterns, prices each at Datadog, CloudWatch, New Relic or Grafana Cloud rates, and generates OpenTelemetry Collector, Vector or Fluent Bit drop/sample rules, with a simulate step that fails CI if any warn/error line would be dropped.
 
 ## 7. Storage
 
