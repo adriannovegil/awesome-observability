@@ -80,6 +80,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 ### Metrics
 
 - [SSL Certificate Monitor](https://github.com/brancogao/ssl-certificate-monitor) - Open-source SSL/TLS certificate expiry monitoring tool with email alerts for observability of certificate health.
+- [Check Expiry](https://github.com/hal-boring-utils/check-expiry-action) - GitHub Action for TLS certificate and domain-registration expiry checks, with workflow summaries and configurable warning thresholds.
 - [DNS Propagation Checker](https://github.com/brancogao/dns-propagation-checker) - Open-source DNS propagation monitoring tool with global DNS server coverage for DNS observability.
 - [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy) - Kubernetes operator for synthetic monitoring and continuous process verification.
 - [ingraind](https://github.com/foniod/foniod) - Security monitoring agent built around RedBPF for complex containerized environments and endpoints.
