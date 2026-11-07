@@ -365,6 +365,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [LastPing](https://lastping.dev) - Dead man's switch monitoring for cron jobs, CI/CD pipelines and AI agents. A job checks in with one HTTP request after it runs; an incident opens when it goes silent, stalls or fails, with alerts to email, Slack, Discord, Telegram and webhooks. Free for individuals; includes an MCP server and a Terraform provider.
 - [Vivere](https://vivere.dev) - Heartbeat monitoring for cron jobs, scheduled automations and AI agents, with HTTP uptime checks and status pages. Free for up to 25 monitors.
 - [Visual Sentinel](https://visualsentinel.com) - Uptime, SSL, DNS history, performance and pixel-level visual monitoring in a real headless browser, with status pages and 10 alert channels including WhatsApp Business. Paid plans from $15/month.
+- [Fettle](https://fettle.sh) - HTTP, SSL, ping, TCP, DNS and cron heartbeat monitoring from multiple regions, with hosted status pages, a REST API on every plan and an MCP server. Free plan includes 20 monitors with 3-minute checks from a region of your choice.
 - [maintenant](https://maintenant.dev/) - Self-hosted monitoring for Docker, Swarm and Kubernetes covering container discovery, endpoint and TLS checks, cron heartbeats, logs, image updates and a status page, in a single Go binary.
 - [SolidPing](https://solidping.io) - Open-source, self-hostable uptime monitoring with 40 check types, multi-region workers, private agents, status pages, incidents and on-call escalation. Single Go binary (AGPL-3.0).
 
@@ -571,6 +572,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [CronAlive](https://cronalive.com) - Cron job heartbeat monitoring with HTTP uptime checks verified from a second region and TLS expiry alerts. Free plan includes 10 checks, 5-minute intervals and 30 days of history.
 - [Micromegas](https://github.com/madesroches/micromegas) - Unified observability stack for logs, metrics and traces: low-overhead instrumentation, OTLP ingestion to Parquet, SQL analytics via DataFusion and FlightSQL, and Grafana or notebook front ends.
 - [Telemetry Tracker](https://github.com/Telemetry-Tracker/telemetry-tracker) - Open-source, self-hostable error tracker for side projects and small teams, with grouped errors, source maps and alerts.
+- [Replayowl](https://github.com/replayowl/replayowl) - Open-source, self-hosted session replay that records DOM changes, masked input and console errors; the server runs as one Cloudflare Worker or one Node process and keeps recordings in your own S3-compatible bucket.
 - [BetterDB Monitor](https://betterdb.com) - Monitoring for Valkey, Redis, and Dragonfly, with Prometheus and OpenTelemetry (OTLP) metrics export and OTLP ingest.
 
 
@@ -613,6 +615,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Uptrack](https://uptrack.app) - Uptime monitoring with 30-second checks on the free tier, consecutive-check alert confirmation (multi-region majority vote), hosted status pages, and a built-in MCP server for AI-agent-driven incident triage. HTTP, SSL, TCP, DNS, Ping, Heartbeat, and Cron monitors.
 - [Rivana](https://rivana.io) - Storage-fleet monitoring for enterprise SSD/HDD fleets, tracking 10,000+ devices across thousands of hosts to surface latency and performance issues that generic monitoring and SMART alerts miss.
 - [Yorker](https://yorkermonitoring.com) - OpenTelemetry-native synthetic monitoring. Runs HTTP and Playwright browser checks and forwards each run as enriched OTLP (anomaly scoring, third-party attribution, W3C traceparent) to any OTel backend.
+- [Monitorable](https://monitorable.io/) - Hosted Linux server monitoring built on OpenTelemetry. An open-source Collector-based agent sends host, Docker, systemd and SMART disk metrics over OTLP, with alerting in the service.
 - [Measure](https://measure.sh/) - Open-source mobile observability platform for monitoring and debugging crashes, ANRs, and performance issues across Android, iOS, Flutter, React Native, and Kotlin Multiplatform.
 
 ## 15. Examples and Sandboxes
