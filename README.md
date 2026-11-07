@@ -45,6 +45,7 @@ This repo is not only for monitoring. As said Adrian Cole's in the talk about "[
 
 - [Best practices for monitoring cloud applications](https://docs.microsoft.com/en-us/azure/architecture/best-practices/monitoring)
 - [The Three Pillars of Observability](https://learning.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html)
+- [AIOps Platforms and Tools Compared](https://aiagentsearch.ai/aiops-platforms-and-tools.html) - Comparison of eight AIOps platforms on self-hosting, OpenTelemetry support, approval before automated remediation, MCP support, and billing.
 
 ## 2. General Tools
 
