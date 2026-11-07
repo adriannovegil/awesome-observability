@@ -613,6 +613,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Uptrack](https://uptrack.app) - Uptime monitoring with 30-second checks on the free tier, consecutive-check alert confirmation (multi-region majority vote), hosted status pages, and a built-in MCP server for AI-agent-driven incident triage. HTTP, SSL, TCP, DNS, Ping, Heartbeat, and Cron monitors.
 - [Rivana](https://rivana.io) - Storage-fleet monitoring for enterprise SSD/HDD fleets, tracking 10,000+ devices across thousands of hosts to surface latency and performance issues that generic monitoring and SMART alerts miss.
 - [Yorker](https://yorkermonitoring.com) - OpenTelemetry-native synthetic monitoring. Runs HTTP and Playwright browser checks and forwards each run as enriched OTLP (anomaly scoring, third-party attribution, W3C traceparent) to any OTel backend.
+- [Monitorable](https://monitorable.io/) - Hosted Linux server monitoring built on OpenTelemetry. An open-source Collector-based agent sends host, Docker, systemd and SMART disk metrics over OTLP, with alerting in the service.
 - [Measure](https://measure.sh/) - Open-source mobile observability platform for monitoring and debugging crashes, ANRs, and performance issues across Android, iOS, Flutter, React Native, and Kotlin Multiplatform.
 
 ## 15. Examples and Sandboxes
