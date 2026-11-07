@@ -134,6 +134,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 
 ### Events & Problems
 
+- [CrashPilot](https://github.com/CrashPilotX/crashpilot-agent) - Open-source (MIT) Linux crash forensics agent that explains why a machine went down: OOM kills, kernel panics, NVIDIA Xid GPU faults, thermal shutdowns, PCIe and disk errors. `crashpilot classify` works offline on pasted logs, and a Kubernetes DaemonSet is included.
 - [kubernetes-event-exporter](https://github.com/opsgenie/kubernetes-event-exporter) - This tool allows exporting the often missed Kubernetes events to various outputs so that they can be used for observability or alerting purposes.
 - [kspan](https://github.com/weaveworks-experiments/kspan) - Turning Kubernetes Events into spans.
 - [KubeEye](https://github.com/kubesphere/kubeeye) - Aims to find various problems on Kubernetes, such as application misconfiguration (using Polaris), cluster components unhealthy and node problems (using Node-Problem-Detector).
