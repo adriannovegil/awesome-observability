@@ -73,6 +73,9 @@ In the article you can see how with a few tools and in a short time, you can get
 
 There are many more commands and methodologies you can apply to drill deeper.
 
+- [NextReset](https://nextreset.ai/) - Independent AI service status resource with official incident source links and Codex reset history.
+
+
 ## 3. Collect
 
  Get any data – metrics, events, logs, traces – from everywhere – systems, sensors, queues, databases and networks.
