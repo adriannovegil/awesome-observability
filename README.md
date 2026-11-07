@@ -575,6 +575,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Telemetry Tracker](https://github.com/Telemetry-Tracker/telemetry-tracker) - Open-source, self-hostable error tracker for side projects and small teams, with grouped errors, source maps and alerts.
 - [Replayowl](https://github.com/replayowl/replayowl) - Open-source, self-hosted session replay that records DOM changes, masked input and console errors; the server runs as one Cloudflare Worker or one Node process and keeps recordings in your own S3-compatible bucket.
 - [BetterDB Monitor](https://betterdb.com) - Monitoring for Valkey, Redis, and Dragonfly, with Prometheus and OpenTelemetry (OTLP) metrics export and OTLP ingest.
+- [GenClass Runtime](https://github.com/genclass-dev/GenClass) - Open-source browser library that reports race conditions in web apps while they happen (stale responses landing over newer data, duplicate submits, failure storms), each with its evidence, using a small on-device model; report-only by default. Anonymous diagnostics are on by default on public hosts, off on localhost, and turned off with `telemetry: false`.
 
 
 ## 13. Service Mesh
