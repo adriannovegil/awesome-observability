@@ -615,6 +615,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - https://speakerdeck.com/adriancole/observability-3-ways-logging-metrics-and-tracing
 - https://landscape.cncf.io/
 - https://www.influxdata.com/products/
+- [O11y Watch](https://o11y-watch.pages.dev/) - Independent, source-linked tracker of free tiers and pricing changes for 73 observability tools.
 
 ## 17. License
 
