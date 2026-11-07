@@ -321,6 +321,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Grizzly](https://github.com/grafana/grizzly) - A utility for managing various observability resources with Jsonnet.
 - [PromPilot](https://github.com/ismailperim/prompilot) - Self-hosted assistant that turns natural-language requests into Prometheus dashboards and exports them as Grafana JSON.
 - [Oxynote](https://github.com/oxynote/oxynote) - Self-hosted documentation workspace where pages embed live Prometheus charts next to the text explaining them, with draft review for runbooks.
+- [RKE2 observability pack](https://github.com/lbarrosby/rke2-observability-pack) - Grafana dashboards and Prometheus alerts for RKE2 clusters: control plane, embedded etcd and its snapshots, certificates, networking, ingress, and cost per namespace with or without OpenCost.
 
 ### Tracing
 
