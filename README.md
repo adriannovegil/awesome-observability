@@ -153,6 +153,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [Pandora](https://github.com/yandex/pandora) - High-performance load generator in Go language. It has built-in HTTP(S) and HTTP/2 support and you can write your own load scenarios in Go, compiling them just before your test.
 - [Gatling](https://gatling.io/) - Load test as code.
 - [GoReplay](https://github.com/buger/goreplay) - Open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data.
+- [Keploy](https://keploy.io) - Captures real API traffic and replays it as regression tests with dependency mocks in isolated sandboxes. Free and open source under Apache 2.0 License.
 - [phantom](https://github.com/yandex-load/phantom/tree/master/examples) - Evgeniy Mamchits' phantom is a very fast (100 000+ RPS) shooter written in C++ (default).
 - [BFG](https://github.com/yandex-load/bfg) - A modular tool and framework for load generation that supports HTTP/2.
 - [Bender](https://github.com/pinterest/bender) - Makes it easy to build load testing applications for services using protocols like HTTP, Thrift, Protocol Buffers and many more. Bender provides a library of flexible, powerful primitives that can be combined (with plain Go code) to build load testers customized to any use case and that evolve with your service over time.
