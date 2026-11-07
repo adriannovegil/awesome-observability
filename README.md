@@ -459,6 +459,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [telemetry.dev](https://telemetry.dev) - OpenTelemetry-native observability for LLM and agent apps: per-span tokens, cost, latency, and errors from any OTLP exporter.
 - [SourceryKit](https://github.com/ProvablyAI/sourcerykit) - Observability and governance for AI agent egress. Logs every outbound request and MCP handoff and verifies each against a source of truth with a zero-knowledge proof, blocking anything not on the trusted allow-list. Python SDK (source-available) with a hosted verification backend.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Record, replay and fork runs of coding agents (Claude Code, Codex, opencode, Qwen Code, Cursor and others). Captures below the harness at the process and socket boundary, so model traffic, shell exit codes, per-turn file changes and MCP JSON-RPC share one timeline. Replays a recording offline with the network off, or forks it from a checkpoint onto a different model. Node, Apache-2.0.
+- [Rius](https://www.glassflow.ai/rius) - Managed OpenTelemetry-native observability for AI agents from GlassFlow. Traces LLM calls, tool calls and agent steps with cost per call, alerts on recurring errors, swallowed errors and tool loops, and traces Claude Code, Codex and Cursor sessions. Ingests plain OTLP and normalizes OpenTelemetry GenAI, OpenLLMetry, OpenInference and Vercel AI SDK spans. MIT SDKs (Python, TypeScript) with a hosted backend.
 
 ### Instrumentation & SDKs
 
