@@ -364,6 +364,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Merlonix](https://merlonix.com) - Uptime, SSL certificate, and DNS monitoring with white-label hosted status pages and a built-in MCP server for AI-agent access. Free plan includes 3 monitors, no credit card.
 - [LastPing](https://lastping.dev) - Dead man's switch monitoring for cron jobs, CI/CD pipelines and AI agents. A job checks in with one HTTP request after it runs; an incident opens when it goes silent, stalls or fails, with alerts to email, Slack, Discord, Telegram and webhooks. Free for individuals; includes an MCP server and a Terraform provider.
 - [Vivere](https://vivere.dev) - Heartbeat monitoring for cron jobs, scheduled automations and AI agents, with HTTP uptime checks and status pages. Free for up to 25 monitors.
+- [Fettle](https://fettle.sh) - HTTP, SSL, ping, TCP, DNS and cron heartbeat monitoring from multiple regions, with hosted status pages, a REST API on every plan and an MCP server. Free plan includes 20 monitors with 3-minute checks from a region of your choice.
 - [maintenant](https://maintenant.dev/) - Self-hosted monitoring for Docker, Swarm and Kubernetes covering container discovery, endpoint and TLS checks, cron heartbeats, logs, image updates and a status page, in a single Go binary.
 - [SolidPing](https://solidping.io) - Open-source, self-hostable uptime monitoring with 40 check types, multi-region workers, private agents, status pages, incidents and on-call escalation. Single Go binary (AGPL-3.0).
 
