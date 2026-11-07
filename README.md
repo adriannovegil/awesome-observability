@@ -406,6 +406,7 @@ Tools for rocessing the system data.
 - [Awesome Prometheus Alerts](https://samber.github.io/awesome-prometheus-alerts/) - Collection of ready-to-use Prometheus alerting rules for databases, message brokers, Kubernetes, runtimes, and network devices.
 
 - [dead-mans-switch](https://github.com/jimy-r/dead-mans-switch) - Sentinel-freshness checker for scheduled jobs that alerts on missing success instead of on errors.
+- [SLO Error Budget Calculator](https://github.com/kkkevins/slo-error-budget-calculator) - Browser-based SLO error budget and burn-rate calculator that generates multiwindow, multi-burn-rate Prometheus alerting rules.
 
 ### Triggers
 
