@@ -44,6 +44,7 @@ This repo is not only for monitoring. As said Adrian Cole's in the talk about "[
 ## 1. Best Practices
 
 - [Best practices for monitoring cloud applications](https://docs.microsoft.com/en-us/azure/architecture/best-practices/monitoring)
+- [RMM Network Device Monitoring Acceptance Checklist](https://izikipizi.github.io/nizlo-msp-operations-resources/rmm-network-device-monitoring-acceptance-checklist.html) - Vendor-neutral checklist and CSV template for validating discovery, polling, data freshness, alert delivery, failure behavior, recovery, and operational ownership during a monitoring trial.
 - [The Three Pillars of Observability](https://learning.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html)
 
 ## 2. General Tools
