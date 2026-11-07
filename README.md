@@ -493,7 +493,7 @@ As GPU workloads become central to AI/ML production systems, observability at th
 - [DataBuff](https://github.com/databufflabs/databuff) - Open-source AI-native OpenTelemetry APM with an LLM-powered multi-agent workspace for querying traces, service topology, RED metrics, and alerts in natural language.
 - [coroot](https://coroot.com/) - Open-source eBPF-based observability tool that turns telemetry data into actionable insights, helping you identify and resolve application issues quickly.
 - [robusta](https://home.robusta.dev/) - Unified Kubernetes  monitoring, observability, and operations.
-- [Odigos](https://github.com/keyval-dev/odigos) - Observability Control Plane.
+- [Odigos](https://odigos.io/) - Production context platform for observability, security, and coding-agent workflows.
 - [Kloudfuse](https://www.kloudfuse.com/) - Single unified observability platform for metrics, events, logs and traces.
 - [Aspecto](https://www.aspecto.io/) - Troubleshoot performance bottlenecks and errors within your microservices.
 - [Zabbix](https://github.com/zabbix/zabbix) - Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.
@@ -593,7 +593,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Uptrack](https://uptrack.app) - Uptime monitoring with 30-second checks on the free tier, consecutive-check alert confirmation (multi-region majority vote), hosted status pages, and a built-in MCP server for AI-agent-driven incident triage. HTTP, SSL, TCP, DNS, Ping, Heartbeat, and Cron monitors.
 - [Rivana](https://rivana.io) - Storage-fleet monitoring for enterprise SSD/HDD fleets, tracking 10,000+ devices across thousands of hosts to surface latency and performance issues that generic monitoring and SMART alerts miss.
 - [Yorker](https://yorkermonitoring.com) - OpenTelemetry-native synthetic monitoring. Runs HTTP and Playwright browser checks and forwards each run as enriched OTLP (anomaly scoring, third-party attribution, W3C traceparent) to any OTel backend.
-- [Measure](https://measure.sh/) - Measure is an open-source mobile observability platform that helps developers monitor and debug crashes, ANRs, and performance issues across Android, iOS, Flutter, React Native, and Kotlin Multiplatform Platfroms.
+- [Measure](https://measure.sh/) - Open-source mobile observability platform for monitoring and debugging crashes, ANRs, and performance issues across Android, iOS, Flutter, React Native, and Kotlin Multiplatform.
 
 ## 15. Examples and Sandboxes
 
