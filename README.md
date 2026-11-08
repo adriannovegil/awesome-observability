@@ -534,6 +534,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Datav](https://github.com/datav-io/datav) - A modern apm solution for enterprise, an open-source alternative to DataDog, New Relic, etc.
 - [Last9](https://last9.io/) - OpenTelemetry-native observability platform for APM, metrics, logs, and traces, built to handle high-cardinality telemetry at scale.
 - [SigNoz](https://github.com/SigNoz/signoz) - Monitor your applications and troubleshoot problems in your deployed applications, an open-source alternative to DataDog, New Relic, etc.
+- [OpenObserve](https://github.com/openobserve/openobserve) - Open source observability platform for logs, metrics, traces and RUM, shipped as a single binary that stores data as Parquet on object storage.
 - [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, Kubernetes, Mesos) architectures.
 - [Pinpoint](https://github.com/pinpoint-apm/pinpoint) - APM (Application Performance Management) tool for large-scale distributed systems written in Java / PHP/PYTHON.
 - [Falcon Plus](https://github.com/open-falcon/falcon-plus) - An open-source and enterprise-level monitoring system.
