@@ -369,6 +369,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Fettle](https://fettle.sh) - HTTP, SSL, ping, TCP, DNS and cron heartbeat monitoring from multiple regions, with hosted status pages, a REST API on every plan and an MCP server. Free plan includes 20 monitors with 3-minute checks from a region of your choice.
 - [maintenant](https://maintenant.dev/) - Self-hosted monitoring for Docker, Swarm and Kubernetes covering container discovery, endpoint and TLS checks, cron heartbeats, logs, image updates and a status page, in a single Go binary.
 - [SolidPing](https://solidping.io) - Open-source, self-hostable uptime monitoring with 40 check types, multi-region workers, private agents, status pages, incidents and on-call escalation. Single Go binary (AGPL-3.0).
+- [Pingstack](https://pingstack.io) - Heartbeat monitoring for cron jobs and scheduled tasks, plus website, TCP, DNS, SSL certificate and domain expiry checks from multiple regions, with hosted status pages, a REST API and an MCP server. Free plan includes 15 checks at 5-minute intervals and 1 status page.
 
 ## 9. Processing and Analyze and Act
 
