@@ -402,6 +402,7 @@ Tools for rocessing the system data.
 <!--lint ignore double-link-->
 - [Haystack](https://expediadotcom.github.io/haystack/) - A resilient, scalable tracing and analysis system.
 - [Kapacitor](https://github.com/influxdata/kapacitor) - TICK stack, written in go.
+- [NextJSON](https://nextjson.com/) - Free online nested JSON parser and formatter for inspecting and cleaning JSON log payloads.
 - [Prometheus Alertmanager](https://github.com/prometheus/alertmanager) - Prometheus stack, Prometheus Alertmanager, written in go.
 - [X-Pack](https://www.elastic.co/cn/products/x-pack) - Elastic stack.
 <!--lint ignore double-link-->
