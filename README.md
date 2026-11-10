@@ -126,6 +126,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [Sleuth](https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/) - Spring Cloud Sleuth implements a distributed tracing solution for Spring Cloud, borrowing heavily from Dapper, Zipkin and HTrace.
 <!--lint ignore double-link-->
 - [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot) - Java agent for collecting performance, tracing and business data.
+- [OpenTelemetry eBPF Instrumentation](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation) - Zero-code instrumentation that uses eBPF to produce OpenTelemetry trace spans and RED metrics for HTTP/S and gRPC services, without changing the application; the upstream project of Grafana Beyla.
 
 ### Logging
 
