@@ -352,6 +352,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Monitive](http://monitive.com) - Free for 1 service, checked every 10 minutes with unlimited email & twitter alerts.
 - [OutageDeck](https://outagedeck.com) - Third-party cloud and SaaS status monitoring with incident history, dependency stack checks, alerts, and a keyless JSON API.
 - [UptimeRobot](https://uptimerobot.com) - Free for 50 monitors, checked every 5 minutes.
+- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - Self-hosted uptime monitoring for HTTP(s), TCP, ping, DNS, push heartbeats and Docker containers, with status pages and notifications to 90+ services.
 - [Uptimeify.io](https://uptimeify.io) - Website and API monitoring with global uptime checks, instant alerts, and hosted status pages.
 - [OverOps](https://www.overops.com) - Provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
 - [Freshping](https://freshping.io) - Free for 50 monitors, checked every 1 minutes. Status pages, monitoring of HTTP (and DNS, ICMP, TCP/UDP), select region of monitoring.
