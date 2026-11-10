@@ -408,6 +408,7 @@ Tools for rocessing the system data.
 - [Bosun](https://bosun.org/) - Time Series Alerting Framework.
 - [Moira](https://github.com/moira-alert) - Most powerful alerting system, backed by Graphite.
 - [Alerta](https://alerta.io/) - Tool used to consolidate and de-duplicate alerts from multiple sources for quick "at-a-glance" visualisation.
+- [Nightingale](https://github.com/ccfos/nightingale) - Self-hosted alerting engine for metrics, logs, and databases, including Prometheus, VictoriaMetrics, Elasticsearch, and ClickHouse.
 - [Flapjack](http://flapjack.io/) - Monitoring notification routing & event processing system.
 - [Seyren](https://github.com/scobal/seyren) - An alerting dashboard for Graphite.
 - [Cabot](https://cabotapp.com/) - Get alerted when services go down or metrics go crazy.
