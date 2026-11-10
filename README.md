@@ -422,7 +422,7 @@ Tools for rocessing the system data.
 
 - [Odin](https://github.com/theycallmemac/odin) - A programmable, observable and distributed job orchestration system.
 - [prometheus-am-executor](https://github.com/imgix/prometheus-am-executor) - HTTP server that receives alerts from the Prometheus Alertmanager and executes a given command with alert details set as environment variables.
-- [Akmatori](https://github.com/akmatori/akmatori) - Open source (Apache-2.0), self-hosted AIOps platform that receives alerts from Alertmanager, PagerDuty, Grafana, Datadog and Zabbix webhooks, runs an LLM agent investigation through tools such as SSH, Kubernetes and VictoriaMetrics, and executes remediation only after approval in the UI or Slack.
+- [Akmatori](https://github.com/akmatori/akmatori) - Open source (Apache-2.0), self-hosted AIOps platform that receives alerts from Alertmanager, PagerDuty, Grafana, Datadog and Zabbix webhooks, runs an LLM agent investigation through tools such as SSH, Kubernetes and VictoriaMetrics, and puts risky remediation actions behind approval in the UI or Slack.
 
 ### Anomalies Detection
 
