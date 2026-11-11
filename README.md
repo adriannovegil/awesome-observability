@@ -628,6 +628,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Spring PetClinic Sample Application](https://github.com/spring-petclinic/spring-petclinic-microservices) - Distributed version of the Spring PetClinic Sample Application built with Spring Cloud.
 - [FastAPI with Observability](https://github.com/Blueswen/fastapi-observability) - Docker ready. Telemetry FastAPI application with three pillars of observability: Traces (Tempo), Metrics (Prometheus), Logs (Loki) on Grafana through OpenTelemetry and OpenMetrics. Using examplar for cross querying between traces, metrics and logs.
 - [OpenChainBench](https://github.com/ChainBench/OpenChainBench) - Open benchmark stack for Blockchain RPC providers. Multi-region harnesses scrape live tx-landing, latency and finality metrics; Next.js front-end exposes the dashboards and the raw Prometheus data ([website](https://openchainbench.com)).
+- [Forge](https://github.com/reliant-labs/forge) - Open-source Go + React application framework with OpenTelemetry traces, metrics and logs wired in at every RPC, service method and SQL query. `forge env up dev` starts a local OTLP collector, ClickHouse and HyperDX already receiving them.
 
 ## 16. References
 
