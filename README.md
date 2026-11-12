@@ -435,7 +435,7 @@ Tools for rocessing the system data.
 - [observability-mcp](https://github.com/ThoTischner/observability-mcp) - Cross-signal anomaly detection (z-score) over Prometheus metrics and Loki logs, exposed to AI agents through the Model Context Protocol. Pluggable connectors for additional backends, weighted health scoring, Web UI, and an ArtifactHub-listed Helm chart.
 - [PySAD](https://github.com/selimfirat/pysad) - Python library for anomaly detection on streaming data, with online detectors that update one sample at a time.
 - [OpenSRE.in](https://opensre.in/) - Open-source (Apache-2.0), self-hosted AI SRE agent that queries Prometheus, Grafana, Datadog, Elasticsearch, Loki, Jaeger and other backends to investigate incidents and recalls similar past investigations from memory.
--[Ruptura(https://github.com/benfradjselim/ruptura)Open-source Kubernetes and OpenShift operator that predicts workload failures from Prometheus metrics, with a time-left window, evidence and blast radius, and routes them to Alertmanager.
+- [Ruptura](https://github.com/benfradjselim/ruptura) - Open-source Kubernetes and OpenShift operator that predicts workload failures from Prometheus metrics, with a time-left window, evidence and blast radius, and routes them to Alertmanager.
 
 ## 10. LLM & AI Observability
 
