@@ -493,6 +493,8 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Weckr](https://github.com/Ghiles3232/weckr-sdks) - Cost and margin attribution per end customer rather than per session. SDK wrappers for OpenAI, Anthropic, Gemini and Kimi tag each call with a user id, feature and plan; cost is recomputed server-side from token counts and compared against that user's plan price, and per-plan caps block or downgrade a call before the provider bills for it. Prompts and responses are never transmitted. MIT SDKs (TypeScript, Python) with a hosted backend.
 - [Caprock](https://github.com/dspv/caprock) - Local dashboard for Claude Code, Codex, OpenCode and Gemini CLI sessions. Shows live activity, token cost per repository and per model at API list prices, the 5-hour and weekly plan-limit windows, and alerts when a session repeats the same tool call; everything the agent wrote is searchable across sessions. Single Go binary with SQLite, loopback only, no telemetry, Apache-2.0.
 
+- [LLMBrake](https://github.com/llmbrake/llmbrake) - In-process TypeScript library that enforces a monthly USD budget per customer on OpenAI-compatible and Anthropic API calls, downgrades to a cheaper model near the cap, and throws before the provider call at 100%.
+
 ## 11. GPU Observability
 
 As GPU workloads become central to AI/ML production systems, observability at the GPU level has emerged as a discipline of its own. Unlike traditional APM, GPU observability focuses on __CUDA tracing__, __causal chain analysis__ linking host kernel events to GPU latency, and __zero-config eBPF instrumentation__ for always-on production use.
