@@ -191,6 +191,7 @@ The transport tools simply serve as transport pipelines for data. This includes 
 - [RocketMQ](https://github.com/apache/incubator-rocketmq) - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.
 - [VerneMQ](https://github.com/vernemq/vernemq) - Open source software, extendable, and enterprise support is available.
 - [Zenoh](https://zenoh.io/) - A low overhead, low latency, high throughput open-source protocol that blends traditional pub/sub with geo distributed storage, queries and computations for unifying data in motion, data at rest and computations.
+- [Edge Stream Hub](https://hyperi.io/edge-stream-hub/) - Collects, filters and secures data at the source. Sends the filtered data to DFE, a SIEM or S3.
 
 ## 6. Collector
 
