@@ -47,6 +47,7 @@ This repo is not only for monitoring. As said Adrian Cole's in the talk about "[
 - [RMM Network Device Monitoring Acceptance Checklist](https://izikipizi.github.io/nizlo-msp-operations-resources/rmm-network-device-monitoring-acceptance-checklist.html) - Vendor-neutral checklist and CSV template for validating discovery, polling, data freshness, alert delivery, failure behavior, recovery, and operational ownership during a monitoring trial.
 - [The Three Pillars of Observability](https://learning.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html)
 - [AIOps Platforms and Tools Compared](https://aiagentsearch.ai/aiops-platforms-and-tools.html) - Comparison of eight AIOps platforms on self-hosting, OpenTelemetry support, approval before automated remediation, MCP support, and billing.
+- [OpenSearch, Loki, Quickwit and ClickHouse: Which Platform Should You Choose for Logs and Observability in 2026?](https://alexandre-vazquez.com/opensearch-loki-quickwit-clickhouse-observability-2026/) - Comparison of four log backends by storage and index model, full-text search, query latency, cost, Kubernetes and Grafana fit, and main operational risk, with guidance by team profile.
 
 ## 2. General Tools
 
