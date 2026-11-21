@@ -618,6 +618,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Yorker](https://yorkermonitoring.com) - OpenTelemetry-native synthetic monitoring. Runs HTTP and Playwright browser checks and forwards each run as enriched OTLP (anomaly scoring, third-party attribution, W3C traceparent) to any OTel backend.
 - [Monitorable](https://monitorable.io/) - Hosted Linux server monitoring built on OpenTelemetry. An open-source Collector-based agent sends host, Docker, systemd and SMART disk metrics over OTLP, with alerting in the service.
 - [Measure](https://measure.sh/) - Open-source mobile observability platform for monitoring and debugging crashes, ANRs, and performance issues across Android, iOS, Flutter, React Native, and Kotlin Multiplatform.
+- [Sherlocks AI](https://www.sherlocks.ai/) - Hosted AI SRE agent that investigates production alerts to a root cause across AWS, GCP, Azure and Kubernetes through read-only access to cloud and observability APIs, and posts the evidence in Slack. Free plan available.
 
 ## 15. Examples and Sandboxes
 
