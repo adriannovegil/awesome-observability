@@ -575,6 +575,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Telemetry Tracker](https://github.com/Telemetry-Tracker/telemetry-tracker) - Open-source, self-hostable error tracker for side projects and small teams, with grouped errors, source maps and alerts.
 - [Replayowl](https://github.com/replayowl/replayowl) - Open-source, self-hosted session replay that records DOM changes, masked input and console errors; the server runs as one Cloudflare Worker or one Node process and keeps recordings in your own S3-compatible bucket.
 - [BetterDB Monitor](https://betterdb.com) - Monitoring for Valkey, Redis, and Dragonfly, with Prometheus and OpenTelemetry (OTLP) metrics export and OTLP ingest.
+- [KittyTrace](https://kittytrace.com/) - Self-hosted error tracking that takes events from existing Sentry SDKs. Runs on your own Cloudflare account (Workers and D1) or on a Linux server with Docker, and has a CLI that lets coding agents read issues, events and stack traces. One-time license.
 
 
 ## 13. Service Mesh
