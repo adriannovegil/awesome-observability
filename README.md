@@ -224,6 +224,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Last9](https://last9.io/docs/logs/) - Unified Logs Explorer with search, filters, SQL query support, and OpenTelemetry-native ingestion.
 - [PFC-JSONL](https://github.com/ImpossibleForge/pfc-jsonl) - Specialized JSONL log compressor with block-level timestamp indexing for efficient log storage. ~9% compression ratio with Fluent Bit integration and DuckDB queryable archives.
 - [logden](https://github.com/ginkida/logden) - Compact centralized logging gateway that ingests logs over HTTP into a Go stdlib service and stores them in ClickHouse, built to run on a ~1 GB RAM VPS.
+- [kibbr](https://github.com/pratyaydeep/kibbr) - Log store for structured JSON logs that compresses them, often below zstd -19, and keeps them queryable from a CLI or web console. Single static Rust binary.
 
 ### Events
 
