@@ -503,6 +503,8 @@ As LLMs and AI agents become core to modern applications, observability for thes
 
 ### Cost & Usage Tracking
 
+- [OpsHubs LLM API Cost Calculator](https://opshubs.space/tools/llm-api-cost-calculator/) - Free client-side calculator comparing monthly LLM API spend across OpenAI, Claude, Gemini, and DeepSeek with prompt caching discounts.
+
 - [Aether](https://github.com/connectchiragg/aether) - Local observability TUI for Claude Code and Codex. Tracks context, cost, tokens, duration, tools, compactions, agents, code changes, and per-request input attribution from provider-local session files.
 - [Manifest](https://github.com/mnfst/manifest) - Open-source real-time cost observability for AI agents. Tracks tokens, costs, messages, and model usage. Self-hostable, privacy-focused, and OTLP-native.
 - [onWatch](https://github.com/onllm-dev/onwatch) - Open-source Go CLI that tracks AI API quota usage across 7 providers. Background daemon with SQLite storage, Material Design 3 web dashboard, and zero telemetry.
