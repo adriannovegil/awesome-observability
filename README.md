@@ -124,6 +124,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 
 - [server-spy](https://lennart-rth.github.io/server-spy/) - A monitoring tool for multi-run experiments on shared servers. It tracks congestion (PSI, scheduler wait) and shows how much specific runs got slowed down by other users' jobs, helping researchers identify skewed experiment comparisons.
 - [ros2_pulse](https://github.com/TanayK07/ros2_pulse) - LD_PRELOAD library that counts per-topic publish and callback rates inside ROS 2 processes, with a Prometheus and OTLP exporter, alert rules and a Grafana dashboard.
+- [certfan](https://github.com/Blackman99/certfan) - Checks that every A/AAAA address (or listed backend) behind a TLS hostname serves the same valid, unexpired certificate; exit codes, JSON and Prometheus textfile output.
 
 ### Tracing
 
@@ -381,6 +382,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [gha-deadman](https://github.com/GeiserX/gha-deadman) - Dead-man's switch that runs on GitHub Actions, free on a public repository. Probes a URL on a schedule from outside your network and sends Telegram alerts when it goes down, reminders while it stays down, and one on recovery.
 - [Pingstack](https://pingstack.io) - Heartbeat monitoring for cron jobs and scheduled tasks, plus website, TCP, DNS, SSL certificate and domain expiry checks from multiple regions, with hosted status pages, a REST API and an MCP server. Free plan includes 15 checks at 5-minute intervals and 1 status page.
 - [SiteWatcher](https://github.com/NikKurkov/sitewatcher) - Self-hosted website uptime and response-time monitoring with TLS certificate expiry, domain registration expiry, and public status pages.
+- [WatchFor](https://watchfor.io/) - Uptime, API, SSL, DNS and cron heartbeat monitoring from 20 locations, Linux server monitoring through an open-source agent, on-call schedules and hosted status pages, with a REST API and an MCP server. Free plan includes 15 monitors.
 
 ## 9. Processing and Analyze and Act
 
@@ -593,6 +595,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Replayowl](https://github.com/replayowl/replayowl) - Open-source, self-hosted session replay that records DOM changes, masked input and console errors; the server runs as one Cloudflare Worker or one Node process and keeps recordings in your own S3-compatible bucket.
 - [BetterDB Monitor](https://betterdb.com) - Monitoring for Valkey, Redis, and Dragonfly, with Prometheus and OpenTelemetry (OTLP) metrics export and OTLP ingest.
 - [KittyTrace](https://kittytrace.com/) - Self-hosted error tracking that takes events from existing Sentry SDKs. Runs on your own Cloudflare account (Workers and D1) or on a Linux server with Docker, and has a CLI that lets coding agents read issues, events and stack traces. One-time license.
+- [GenClass Runtime](https://github.com/genclass-dev/GenClass) - Open-source browser library that reports race conditions in web apps while they happen (stale responses landing over newer data, duplicate submits, failure storms), each with its evidence, using a small on-device model; report-only by default. Anonymous diagnostics are on by default on public hosts, off on localhost, and turned off with `telemetry: false`.
 
 
 ## 13. Service Mesh
