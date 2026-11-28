@@ -494,6 +494,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Rius](https://www.glassflow.ai/rius) - Managed OpenTelemetry-native observability for AI agents from GlassFlow. Traces LLM calls, tool calls and agent steps with cost per call, alerts on recurring errors, swallowed errors and tool loops, and traces Claude Code, Codex and Cursor sessions. Ingests plain OTLP and normalizes OpenTelemetry GenAI, OpenLLMetry, OpenInference and Vercel AI SDK spans. MIT SDKs (Python, TypeScript) with a hosted backend.
 - [Speakeasy control plane](https://github.com/speakeasy-api/gram) - MCP gateway and agent observability platform with tool-call audit logs, identity-enriched telemetry, and OpenTelemetry ingestion and export.
 - [MCPOp](https://github.com/jangtrinh/mcpop) - Stdio proxy for MCP servers that records JSON-RPC traffic to local SQLite and flags repeated failed tool calls, arguments that break the tool schema, and slow calls, with a localhost dashboard and replay of recorded calls. Single Go binary, source-available (PolyForm Shield 1.0.0).
+- [realornoise](https://github.com/ajaysurya1221/agent-reliability-ci) - Local CLI that compares recent Claude Code and Codex session logs with earlier days on recorded measures such as reasoning tokens per response and failed file edits, reporting REAL DROP, NO DROP or CANNOT TELL. It does not prove a quality loss or identify its cause. Apache-2.0.
 
 ### Instrumentation & SDKs
 
