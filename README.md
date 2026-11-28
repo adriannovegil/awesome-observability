@@ -333,7 +333,6 @@ In addition, collectors can have other responsibilities. For example, some expos
 <!--lint ignore double-link-->
 - [Prometheus](https://prometheus.io/) - The Prometheus monitoring system and time series database.
 - [PromViz](https://github.com/nghialv/promviz) - Application that helps you visualize the traffic of your cluster from Prometheus data.
-- [Uchiwa](https://uchiwa.io/#/) - Simple dashboard for the Sensu monitoring framework, built with Go and AngularJS.
 - [Grafterm](https://github.com/slok/grafterm) - Visualize metrics dashboards on the terminal, like a simplified and minimalist version of Grafana for terminal.
 - [Grizzly](https://github.com/grafana/grizzly) - A utility for managing various observability resources with Jsonnet.
 - [PromPilot](https://github.com/ismailperim/prompilot) - Self-hosted assistant that turns natural-language requests into Prometheus dashboards and exports them as Grafana JSON.
@@ -575,7 +574,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Checkmk Server](https://checkmk.com/) - Monitor your entire hybrid IT infrastructure.
 - [Icinga](https://icinga.com/) - The Icinga stack spans six core strengths that cover all aspects of monitoring.
 - [Sentry](https://sentry.io/welcome/) - From error tracking to performance monitoring, developers can see what actually matters, solve quicker, and learn continuously about their applications - from the frontend to the backend.
-- [Epure](https://github.com/epure-sh/epure) - Error tracking that keeps your Sentry SDK (change the DSN). Errors only, Rust + Postgres, AGPL-3.0.
+- [Epure](https://github.com/epure-sh/epure) - Error tracking that keeps your Sentry SDK (change the DSN). Errors only, Rust + PostgreSQL, AGPL-3.0.
 - [OpenFault](https://github.com/OpenFault/openfault) - Self-hosted, Sentry-compatible error tracker. One container, SQLite, MCP-first.
 - [ForgeOps](https://getforgeops.net/) - Hosted error tracking with issue grouping, request traces, uptime checks and alerting, plus MIT-licensed SDKs for 20 languages and platforms.
 - [Nagios](https://www.nagios.com/) - Computer system, network and infrastructure monitoring software application.
