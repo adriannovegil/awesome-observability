@@ -395,6 +395,7 @@ Tools for rocessing the system data.
 ### Alerts
 
 - [Sloth](https://github.com/slok/sloth) - Easy and simple Prometheus SLO (service level objectives) generator.
+- [Pyrra](https://github.com/pyrra-dev/pyrra) - Kubernetes operator and UI that turns SLO definitions into Prometheus recording rules and multi-window, multi-burn-rate alerts.
 <!--lint ignore double-link-->
 - [Bosun](https://bosun.org/) - Is an open-source, MIT licensed, monitoring and alerting system.
 - [Last9](https://last9.io/docs/alert-group/) - Alert Studio for managing alerts with flexible grouping, routing, and correlation, built on top of OpenTelemetry signals.
