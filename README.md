@@ -75,6 +75,9 @@ In the article you can see how with a few tools and in a short time, you can get
 
 There are many more commands and methodologies you can apply to drill deeper.
 
+- [NextReset](https://nextreset.ai/) - Independent AI service status resource with official incident source links and Codex reset history.
+
+
 ## 3. Collect
 
  Get any data – metrics, events, logs, traces – from everywhere – systems, sensors, queues, databases and networks.
@@ -117,15 +120,18 @@ There are many more commands and methodologies you can apply to drill deeper.
 - [duplicacy-exporter](https://github.com/GeiserX/duplicacy-exporter) - Real-time Prometheus exporter for Duplicacy backups with live speed, progress, and completion metrics.
 - [Kilobat CLI](https://github.com/seifip/kilobat-cli) - GPL-3.0-only macOS command-line network monitoring and diagnostics with JSON output and a local MCP server.
 - [netwatch](https://github.com/matthart1983/netwatch) - Network diagnostics TUI for operators: real-time per-process connection attribution via an eBPF kprobe (with `lsof`/`ss` fallback), libpcap-based deep packet inspection across 13 protocols (TLS, QUIC, HTTP, DNS, SSH, MQTT, SNMP, ...), full RFC 9001 QUIC Initial decryption with cross-packet ClientHello reassembly, JA4 fingerprinting, TCP retransmit and out-of-order analytics, and an optional Landlock sandbox. Rust, MIT, macOS and Linux.
+- [Whilo Trace](https://github.com/Whilo-Labs/whilo-trace) - Desktop app and CLI that watch the network path to several hosts at once: per-hop packet loss and latency over time, local SQLite history and a report for the ISP. Rust, MIT or Apache-2.0.
 
 - [server-spy](https://lennart-rth.github.io/server-spy/) - A monitoring tool for multi-run experiments on shared servers. It tracks congestion (PSI, scheduler wait) and shows how much specific runs got slowed down by other users' jobs, helping researchers identify skewed experiment comparisons.
 - [ros2_pulse](https://github.com/TanayK07/ros2_pulse) - LD_PRELOAD library that counts per-topic publish and callback rates inside ROS 2 processes, with a Prometheus and OTLP exporter, alert rules and a Grafana dashboard.
+- [certfan](https://github.com/Blackman99/certfan) - Checks that every A/AAAA address (or listed backend) behind a TLS hostname serves the same valid, unexpired certificate; exit codes, JSON and Prometheus textfile output.
 
 ### Tracing
 
 - [Sleuth](https://docs.spring.io/spring-cloud-sleuth/docs/current/reference/html/) - Spring Cloud Sleuth implements a distributed tracing solution for Spring Cloud, borrowing heavily from Dapper, Zipkin and HTrace.
 <!--lint ignore double-link-->
 - [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot) - Java agent for collecting performance, tracing and business data.
+- [OpenTelemetry eBPF Instrumentation](https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation) - Zero-code instrumentation that uses eBPF to produce OpenTelemetry trace spans and RED metrics for HTTP/S and gRPC services, without changing the application; the upstream project of Grafana Beyla.
 
 ### Logging
 
@@ -137,6 +143,7 @@ There are many more commands and methodologies you can apply to drill deeper.
 ### Events & Problems
 
 - [CrashPilot](https://github.com/CrashPilotX/crashpilot-agent) - Open-source (MIT) Linux crash forensics agent that explains why a machine went down: OOM kills, kernel panics, NVIDIA Xid GPU faults, thermal shutdowns, PCIe and disk errors. `crashpilot classify` works offline on pasted logs, and a Kubernetes DaemonSet is included.
+- [kausa](https://github.com/fedeam/kausa) - Kubernetes controller that groups the Warning events and failing Pods of a workload into one incident and writes an LLM-generated explanation as an Event on the workload. Read-only, redacts what it sends and works with local models. Pre-alpha.
 - [kubernetes-event-exporter](https://github.com/opsgenie/kubernetes-event-exporter) - This tool allows exporting the often missed Kubernetes events to various outputs so that they can be used for observability or alerting purposes.
 - [kspan](https://github.com/weaveworks-experiments/kspan) - Turning Kubernetes Events into spans.
 - [KubeEye](https://github.com/kubesphere/kubeeye) - Aims to find various problems on Kubernetes, such as application misconfiguration (using Polaris), cluster components unhealthy and node problems (using Node-Problem-Detector).
@@ -191,6 +198,7 @@ The transport tools simply serve as transport pipelines for data. This includes 
 - [RocketMQ](https://github.com/apache/incubator-rocketmq) - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.
 - [VerneMQ](https://github.com/vernemq/vernemq) - Open source software, extendable, and enterprise support is available.
 - [Zenoh](https://zenoh.io/) - A low overhead, low latency, high throughput open-source protocol that blends traditional pub/sub with geo distributed storage, queries and computations for unifying data in motion, data at rest and computations.
+- [Edge Stream Hub](https://hyperi.io/edge-stream-hub/) - Collects, filters and secures data at the source. Sends the filtered data to DFE, a SIEM or S3.
 
 ## 6. Collector
 
@@ -220,6 +228,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Last9](https://last9.io/docs/logs/) - Unified Logs Explorer with search, filters, SQL query support, and OpenTelemetry-native ingestion.
 - [PFC-JSONL](https://github.com/ImpossibleForge/pfc-jsonl) - Specialized JSONL log compressor with block-level timestamp indexing for efficient log storage. ~9% compression ratio with Fluent Bit integration and DuckDB queryable archives.
 - [logden](https://github.com/ginkida/logden) - Compact centralized logging gateway that ingests logs over HTTP into a Go stdlib service and stores them in ClickHouse, built to run on a ~1 GB RAM VPS.
+- [kibbr](https://github.com/pratyaydeep/kibbr) - Log store for structured JSON logs that compresses them, often below zstd -19, and keeps them queryable from a CLI or web console. Single static Rust binary.
 
 ### Events
 
@@ -258,6 +267,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 ### "Meta Projects" (data storage, multi-tenant, aggregation, high availability, etc)
 
 - [qryn](https://qryn.metrico.in/) - Polyglot monitoring and observability.
+- [PulsusDB](https://github.com/digitalis-io/pulsusdb) - Open-source observability backend for metrics, logs and traces, using ClickHouse with OpenTelemetry ingestion and PromQL, LogQL and TraceQL query APIs.
 - [Promscale](https://github.com/timescale/promscale) - Unified metric and trace observability backend for Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB.
 - [M3](https://github.com/m3db/m3) - Distributed TSDB and Query Engine, Prometheus Sidecar, Metrics Aggregator, and more such as Graphite storage and query engine.
 - [Thanos](https://thanos.io/) - Highly available Prometheus setup with long term storage capabilities.
@@ -352,6 +362,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Monitive](http://monitive.com) - Free for 1 service, checked every 10 minutes with unlimited email & twitter alerts.
 - [OutageDeck](https://outagedeck.com) - Third-party cloud and SaaS status monitoring with incident history, dependency stack checks, alerts, and a keyless JSON API.
 - [UptimeRobot](https://uptimerobot.com) - Free for 50 monitors, checked every 5 minutes.
+- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - Self-hosted uptime monitoring for HTTP(s), TCP, ping, DNS, push heartbeats and Docker containers, with status pages and notifications to 90+ services.
 - [Uptimeify.io](https://uptimeify.io) - Website and API monitoring with global uptime checks, instant alerts, and hosted status pages.
 - [OverOps](https://www.overops.com) - Provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
 - [Freshping](https://freshping.io) - Free for 50 monitors, checked every 1 minutes. Status pages, monitoring of HTTP (and DNS, ICMP, TCP/UDP), select region of monitoring.
@@ -369,6 +380,12 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [Fettle](https://fettle.sh) - HTTP, SSL, ping, TCP, DNS and cron heartbeat monitoring from multiple regions, with hosted status pages, a REST API on every plan and an MCP server. Free plan includes 20 monitors with 3-minute checks from a region of your choice.
 - [maintenant](https://maintenant.dev/) - Self-hosted monitoring for Docker, Swarm and Kubernetes covering container discovery, endpoint and TLS checks, cron heartbeats, logs, image updates and a status page, in a single Go binary.
 - [SolidPing](https://solidping.io) - Open-source, self-hostable uptime monitoring with 40 check types, multi-region workers, private agents, status pages, incidents and on-call escalation. Single Go binary (AGPL-3.0).
+- [gha-deadman](https://github.com/GeiserX/gha-deadman) - Dead-man's switch that runs on GitHub Actions, free on a public repository. Probes a URL on a schedule from outside your network and sends Telegram alerts when it goes down, reminders while it stays down, and one on recovery.
+- [Pingstack](https://pingstack.io) - Heartbeat monitoring for cron jobs and scheduled tasks, plus website, TCP, DNS, SSL certificate and domain expiry checks from multiple regions, with hosted status pages, a REST API and an MCP server. Free plan includes 15 checks at 5-minute intervals and 1 status page.
+- [SiteWatcher](https://github.com/NikKurkov/sitewatcher) - Self-hosted website uptime and response-time monitoring with TLS certificate expiry, domain registration expiry, and public status pages.
+- [WatchFor](https://watchfor.io/) - Uptime, API, SSL, DNS and cron heartbeat monitoring from 20 locations, Linux server monitoring through an open-source agent, on-call schedules and hosted status pages, with a REST API and an MCP server. Free plan includes 15 monitors.
+- [Some Systems Operational](https://github.com/thumsl/somesystemsoperational) - Open source, self-hostable aggregator of the official status pages of 250+ cloud and SaaS providers, with 90-day incident history and a keyless JSON API.
+- [12happy](https://www.12hpy.com/) - Hosted uptime monitoring and status pages. Free for 50 monitors, checked every 5 minutes; each failure is confirmed from a second location before alerting.
 
 ## 9. Processing and Analyze and Act
 
@@ -391,10 +408,13 @@ Tools for rocessing the system data.
 - [secure-log2test](https://github.com/golikovichev/secure-log2test) - Python CLI that turns structured Kibana and Elasticsearch log exports into runnable pytest regression suites. Runs fully on-premises with no external API calls; auth headers and secret-looking body fields are redacted before output.
 - [MB3R Stack](https://github.com/MB3R-Lab/mb3r-stack) - Model-based resilience toolchain combining telemetry-driven topology discovery with virtual failure simulation for continuous resilience assessment and pre-release analysis.
 - [log10x-mcp](https://github.com/log-10x/log10x-mcp) - MCP server that ranks log patterns by volume and cost and plans compact, tier down or offload for the excess over each cap on Splunk, Datadog, Elasticsearch, CloudWatch and ClickHouse. Runs locally; read-only without an API key.
+- [LogReducer](https://github.com/hyperi-io/logreducer) - Reduces gigabytes of logs to a small sample. The sample keeps every log pattern and every error. CLI or Python library.
+- [Data Fusion Engine](https://hyperi.io/data-fusion-engine/) - Writes data from every source to ClickHouse with its context joined in. Has ready-to-use schemas, pipelines and dashboards. Runs in your environment.
 
 ### Alerts
 
 - [Sloth](https://github.com/slok/sloth) - Easy and simple Prometheus SLO (service level objectives) generator.
+- [Pyrra](https://github.com/pyrra-dev/pyrra) - Kubernetes operator and UI that turns SLO definitions into Prometheus recording rules and multi-window, multi-burn-rate alerts.
 <!--lint ignore double-link-->
 - [Bosun](https://bosun.org/) - Is an open-source, MIT licensed, monitoring and alerting system.
 - [Last9](https://last9.io/docs/alert-group/) - Alert Studio for managing alerts with flexible grouping, routing, and correlation, built on top of OpenTelemetry signals.
@@ -408,6 +428,7 @@ Tools for rocessing the system data.
 - [Bosun](https://bosun.org/) - Time Series Alerting Framework.
 - [Moira](https://github.com/moira-alert) - Most powerful alerting system, backed by Graphite.
 - [Alerta](https://alerta.io/) - Tool used to consolidate and de-duplicate alerts from multiple sources for quick "at-a-glance" visualisation.
+- [Nightingale](https://github.com/ccfos/nightingale) - Self-hosted alerting engine for metrics, logs, and databases, including Prometheus, VictoriaMetrics, Elasticsearch, and ClickHouse.
 - [Flapjack](http://flapjack.io/) - Monitoring notification routing & event processing system.
 - [Seyren](https://github.com/scobal/seyren) - An alerting dashboard for Graphite.
 - [Cabot](https://cabotapp.com/) - Get alerted when services go down or metrics go crazy.
@@ -422,6 +443,7 @@ Tools for rocessing the system data.
 
 - [Odin](https://github.com/theycallmemac/odin) - A programmable, observable and distributed job orchestration system.
 - [prometheus-am-executor](https://github.com/imgix/prometheus-am-executor) - HTTP server that receives alerts from the Prometheus Alertmanager and executes a given command with alert details set as environment variables.
+- [Akmatori](https://github.com/akmatori/akmatori) - Open source (Apache-2.0), self-hosted AIOps platform that receives alerts from Alertmanager, PagerDuty, Grafana, Datadog and Zabbix webhooks, runs an LLM agent investigation through tools such as SSH, Kubernetes and VictoriaMetrics, and puts risky remediation actions behind approval in the UI or Slack.
 
 ### Anomalies Detection
 
@@ -444,7 +466,6 @@ As LLMs and AI agents become core to modern applications, observability for thes
 
 - [Langfuse](https://github.com/langfuse/langfuse) - Open source LLM engineering platform for observability, metrics, evals, prompt management and datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more.
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) - Open-source AI observability platform for tracing, evaluation, datasets, experiments, prompt management and playground. Built on OpenTelemetry with Python and TypeScript support.
-- [ClevAgent](https://clevagent.io) - Runtime monitoring for AI agents — heartbeat watchdog, loop detection, cost tracking, auto-restart.
 - [agent-watch](https://github.com/soul-sol/agent-watch) - POSIX shell monitor that classifies background Claude Code and Codex jobs from process, exit-code, and log-tail signals, with credential-free transport preflight.
 - [Helicone](https://github.com/Helicone/helicone) - Open source LLM observability platform and AI Gateway. One line of code to monitor, evaluate, and experiment across 100+ providers.
 - [Bifrost](https://github.com/maximhq/bifrost) - Go-native, OpenAI-compatible AI gateway with multi-provider routing, automatic failover, load balancing, and built-in logs, metrics, and tracing for LLM applications.
@@ -470,6 +491,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Record, replay and fork runs of coding agents (Claude Code, Codex, opencode, Qwen Code, Cursor and others). Captures below the harness at the process and socket boundary, so model traffic, shell exit codes, per-turn file changes and MCP JSON-RPC share one timeline. Replays a recording offline with the network off, or forks it from a checkpoint onto a different model. Node, Apache-2.0.
 - [Vessel](https://github.com/spenceclark/Vessel) - Local-first reverse proxy for LLM traffic (Ollama, OpenAI-compatible, Anthropic Messages). Captures requests and responses byte-for-byte to local SQLite with full-text search, TTFT and token metrics, warnings for truncation, cold loads and fumbled tool calls, and replay across models. No SDK; single binary.
 - [Rius](https://www.glassflow.ai/rius) - Managed OpenTelemetry-native observability for AI agents from GlassFlow. Traces LLM calls, tool calls and agent steps with cost per call, alerts on recurring errors, swallowed errors and tool loops, and traces Claude Code, Codex and Cursor sessions. Ingests plain OTLP and normalizes OpenTelemetry GenAI, OpenLLMetry, OpenInference and Vercel AI SDK spans. MIT SDKs (Python, TypeScript) with a hosted backend.
+- [Speakeasy control plane](https://github.com/speakeasy-api/gram) - MCP gateway and agent observability platform with tool-call audit logs, identity-enriched telemetry, and OpenTelemetry ingestion and export.
 
 ### Instrumentation & SDKs
 
@@ -534,6 +556,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Datav](https://github.com/datav-io/datav) - A modern apm solution for enterprise, an open-source alternative to DataDog, New Relic, etc.
 - [Last9](https://last9.io/) - OpenTelemetry-native observability platform for APM, metrics, logs, and traces, built to handle high-cardinality telemetry at scale.
 - [SigNoz](https://github.com/SigNoz/signoz) - Monitor your applications and troubleshoot problems in your deployed applications, an open-source alternative to DataDog, New Relic, etc.
+- [OpenObserve](https://github.com/openobserve/openobserve) - Open source observability platform for logs, metrics, traces and RUM, shipped as a single binary that stores data as Parquet on object storage.
 - [SkyWalking](https://skywalking.apache.org/) - Application performance monitor tool for distributed systems, especially designed for microservices, cloud native and container-based (Docker, Kubernetes, Mesos) architectures.
 - [Pinpoint](https://github.com/pinpoint-apm/pinpoint) - APM (Application Performance Management) tool for large-scale distributed systems written in Java / PHP/PYTHON.
 - [Falcon Plus](https://github.com/open-falcon/falcon-plus) - An open-source and enterprise-level monitoring system.
@@ -552,7 +575,8 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Checkmk Server](https://checkmk.com/) - Monitor your entire hybrid IT infrastructure.
 - [Icinga](https://icinga.com/) - The Icinga stack spans six core strengths that cover all aspects of monitoring.
 - [Sentry](https://sentry.io/welcome/) - From error tracking to performance monitoring, developers can see what actually matters, solve quicker, and learn continuously about their applications - from the frontend to the backend.
-- [Epure](https://github.com/epure-sh/epure) - Self-hosted exception-only error tracker. Sentry SDK compatible, Rust + Postgres.
+- [Epure](https://github.com/epure-sh/epure) - Error tracking that keeps your Sentry SDK (change the DSN). Errors only, Rust + Postgres, AGPL-3.0.
+- [OpenFault](https://github.com/OpenFault/openfault) - Self-hosted, Sentry-compatible error tracker. One container, SQLite, MCP-first.
 - [ForgeOps](https://getforgeops.net/) - Hosted error tracking with issue grouping, request traces, uptime checks and alerting, plus MIT-licensed SDKs for 20 languages and platforms.
 - [Nagios](https://www.nagios.com/) - Computer system, network and infrastructure monitoring software application.
 - [Sensu](https://sensu.io/) - The Observability Pipeline that delivers monitoring as code on any cloud.
@@ -575,6 +599,8 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Telemetry Tracker](https://github.com/Telemetry-Tracker/telemetry-tracker) - Open-source, self-hostable error tracker for side projects and small teams, with grouped errors, source maps and alerts.
 - [Replayowl](https://github.com/replayowl/replayowl) - Open-source, self-hosted session replay that records DOM changes, masked input and console errors; the server runs as one Cloudflare Worker or one Node process and keeps recordings in your own S3-compatible bucket.
 - [BetterDB Monitor](https://betterdb.com) - Monitoring for Valkey, Redis, and Dragonfly, with Prometheus and OpenTelemetry (OTLP) metrics export and OTLP ingest.
+- [KittyTrace](https://kittytrace.com/) - Self-hosted error tracking that takes events from existing Sentry SDKs. Runs on your own Cloudflare account (Workers and D1) or on a Linux server with Docker, and has a CLI that lets coding agents read issues, events and stack traces. One-time license.
+- [GenClass Runtime](https://github.com/genclass-dev/GenClass) - Open-source browser library that reports race conditions in web apps while they happen (stale responses landing over newer data, duplicate submits, failure storms), each with its evidence, using a small on-device model; report-only by default. Anonymous diagnostics are on by default on public hosts, off on localhost, and turned off with `telemetry: false`.
 
 
 ## 13. Service Mesh
@@ -618,6 +644,7 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Yorker](https://yorkermonitoring.com) - OpenTelemetry-native synthetic monitoring. Runs HTTP and Playwright browser checks and forwards each run as enriched OTLP (anomaly scoring, third-party attribution, W3C traceparent) to any OTel backend.
 - [Monitorable](https://monitorable.io/) - Hosted Linux server monitoring built on OpenTelemetry. An open-source Collector-based agent sends host, Docker, systemd and SMART disk metrics over OTLP, with alerting in the service.
 - [Measure](https://measure.sh/) - Open-source mobile observability platform for monitoring and debugging crashes, ANRs, and performance issues across Android, iOS, Flutter, React Native, and Kotlin Multiplatform.
+- [Axiom](https://axiom.co/) - Modern machine data platform for high-volume OpenTelemetry logs, traces, metrics and other event data. Petabyte-scale, schema-less ingest on a fully managed event store.
 
 ## 15. Examples and Sandboxes
 
@@ -628,7 +655,8 @@ Just provide your read-only credentials and start getting insights in minutes.
 - [Spring PetClinic Sample Application](https://github.com/spring-petclinic/spring-petclinic-microservices) - Distributed version of the Spring PetClinic Sample Application built with Spring Cloud.
 - [FastAPI with Observability](https://github.com/Blueswen/fastapi-observability) - Docker ready. Telemetry FastAPI application with three pillars of observability: Traces (Tempo), Metrics (Prometheus), Logs (Loki) on Grafana through OpenTelemetry and OpenMetrics. Using examplar for cross querying between traces, metrics and logs.
 - [OpenChainBench](https://github.com/ChainBench/OpenChainBench) - Open benchmark stack for Blockchain RPC providers. Multi-region harnesses scrape live tx-landing, latency and finality metrics; Next.js front-end exposes the dashboards and the raw Prometheus data ([website](https://openchainbench.com)).
-- [Forge](https://github.com/reliant-labs/forge) - Open-source Go + React application framework with OpenTelemetry traces, metrics and logs wired in at every RPC, service method and SQL query. `forge env up dev` starts a local OTLP collector, ClickHouse and HyperDX already receiving them.
+- [Forge](https://github.com/reliant-labs/forge) - Open-source Go + React framework and CLI with OpenTelemetry built in. `forge env up dev` starts a local OTel Collector, ClickHouse and HyperDX already receiving traces, metrics and logs, and `forge obs check` judges each deploy against its own telemetry.
+- [Prod Forge Backend](https://github.com/prod-forge/backend) - NestJS reference API with a local Prometheus, Loki, Tempo and Grafana stack on Docker Compose, structured logs with trace IDs and a script that verifies the pipeline end to end.
 
 ## 16. References
 
