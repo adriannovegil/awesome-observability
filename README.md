@@ -384,6 +384,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [SiteWatcher](https://github.com/NikKurkov/sitewatcher) - Self-hosted website uptime and response-time monitoring with TLS certificate expiry, domain registration expiry, and public status pages.
 - [WatchFor](https://watchfor.io/) - Uptime, API, SSL, DNS and cron heartbeat monitoring from 20 locations, Linux server monitoring through an open-source agent, on-call schedules and hosted status pages, with a REST API and an MCP server. Free plan includes 15 monitors.
 - [Some Systems Operational](https://github.com/thumsl/somesystemsoperational) - Open source, self-hostable aggregator of the official status pages of 250+ cloud and SaaS providers, with 90-day incident history and a keyless JSON API.
+- [12happy](https://www.12hpy.com/) - Hosted uptime monitoring and status pages. Free for 50 monitors, checked every 5 minutes; each failure is confirmed from a second location before alerting.
 
 ## 9. Processing and Analyze and Act
 
