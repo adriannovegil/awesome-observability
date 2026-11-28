@@ -492,6 +492,7 @@ As LLMs and AI agents become core to modern applications, observability for thes
 - [Vessel](https://github.com/spenceclark/Vessel) - Local-first reverse proxy for LLM traffic (Ollama, OpenAI-compatible, Anthropic Messages). Captures requests and responses byte-for-byte to local SQLite with full-text search, TTFT and token metrics, warnings for truncation, cold loads and fumbled tool calls, and replay across models. No SDK; single binary.
 - [Rius](https://www.glassflow.ai/rius) - Managed OpenTelemetry-native observability for AI agents from GlassFlow. Traces LLM calls, tool calls and agent steps with cost per call, alerts on recurring errors, swallowed errors and tool loops, and traces Claude Code, Codex and Cursor sessions. Ingests plain OTLP and normalizes OpenTelemetry GenAI, OpenLLMetry, OpenInference and Vercel AI SDK spans. MIT SDKs (Python, TypeScript) with a hosted backend.
 - [Speakeasy control plane](https://github.com/speakeasy-api/gram) - MCP gateway and agent observability platform with tool-call audit logs, identity-enriched telemetry, and OpenTelemetry ingestion and export.
+- [MCPOp](https://github.com/jangtrinh/mcpop) - Stdio proxy for MCP servers that records JSON-RPC traffic to local SQLite and flags repeated failed tool calls, arguments that break the tool schema, and slow calls, with a localhost dashboard and replay of recorded calls. Single Go binary, source-available (PolyForm Shield 1.0.0).
 
 ### Instrumentation & SDKs
 
