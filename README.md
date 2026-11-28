@@ -380,6 +380,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 - [SolidPing](https://solidping.io) - Open-source, self-hostable uptime monitoring with 40 check types, multi-region workers, private agents, status pages, incidents and on-call escalation. Single Go binary (AGPL-3.0).
 - [gha-deadman](https://github.com/GeiserX/gha-deadman) - Dead-man's switch that runs on GitHub Actions, free on a public repository. Probes a URL on a schedule from outside your network and sends Telegram alerts when it goes down, reminders while it stays down, and one on recovery.
 - [Pingstack](https://pingstack.io) - Heartbeat monitoring for cron jobs and scheduled tasks, plus website, TCP, DNS, SSL certificate and domain expiry checks from multiple regions, with hosted status pages, a REST API and an MCP server. Free plan includes 15 checks at 5-minute intervals and 1 status page.
+- [SiteWatcher](https://github.com/NikKurkov/sitewatcher) - Self-hosted website uptime and response-time monitoring with TLS certificate expiry, domain registration expiry, and public status pages.
 
 ## 9. Processing and Analyze and Act
 
